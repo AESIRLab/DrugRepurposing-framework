@@ -55,15 +55,15 @@ def hit_monarch_api(node = 'HGNC:4851', rows = 2000):
     """
     
     # api address
-    biolink = 'https://api.monarchinitiative.org/api/association'
+    biolink = 'https://api.monarchinitiative.org/v3/api/association'
     
     # parameters
     parameters = {'fl_excludes_evidence': False, 'rows': rows}
     # out edges: from/
-    r_out = requests.get('{}/from/{}'.format(biolink,node),params=parameters)
+    r_out = requests.get(biolink, params={'subject': node, **parameters})
 
     # in edges: to/
-    r_in = requests.get('{}/to/{}'.format(biolink,node),params=parameters)
+    r_in = requests.get(biolink, params={'object': node, **parameters})
 
     return r_out, r_in
 
@@ -75,17 +75,24 @@ def get_disease_name_id(disease_input_ID = 'OMIM:143100'):
     :param disease_ID: The input ID of the disease
     :return: two strings, name and ID respectively
     """
+
+    search_url = 'https://api.monarchinitiative.org/v3/api/search'
+    params = {'q': disease_input_ID, 'category': 'biolink:Disease', 'rows':1}
+    r_search = requests.get(search_url, params=params)
+    items = r_search.json().get('items',[])
+    mondo_id = items[0].get('id', 'NA')
+
     # api address
-    biolink = 'https://api.monarchinitiative.org/api/association'
+    biolink = f'https://api.monarchinitiative.org/v3/api/entity/{mondo_id}'
     
     # parameters
-    parameters = {'fl_excludes_evidence': False, 'rows': 1}
+    #parameters = {'fl_excludes_evidence': False, 'rows': 1}
     # out edges: from/
-    r_out_disease = requests.get('{}/from/{}'.format(biolink,disease_input_ID),params=parameters)
+    r_disease = requests.get(biolink)
 
-    for association in r_out_disease.json()['associations']:
-        disease_name = association['subject']['label']
-        disease_id = association['subject']['id']
+    json_data = r_disease.json()
+    disease_name = json_data.get('name', 'NA')
+    disease_id = json_data.get('id', 'NA')
     
         
     return disease_name, disease_id
@@ -104,27 +111,36 @@ def get_edges_objects(r_out, r_in):
     """
 
     # variables
-    sub_l = list()
-    rel_l = list()
-    obj_l = list()
-    ref_l = list()
-
+    sub_l = []
+    rel_l = []
+    obj_l = []
+    ref_l = []
+    sub_labels, obj_labels, sub_categories, obj_categories = [], [], [], []
+    out_items = r_out.json().get('items', [])
+    in_items = r_in.json().get('items', [])
+    
     # compose list of dictionaries
-    for associations in [r_out.json()['associations'], r_in.json()['associations']]:
-        for association in associations:
-            pub_l = list()
-            sub_l.append(association['subject'])
-            rel_l.append(association['relation'])
-            obj_l.append(association['object'])
+    for assoc_list in [out_items, in_items]:
+        for association in assoc_list:
+            pub_l = []
+            sub_l.append(association['subject', 'NA'])
+            rel_l.append(association['predicate', 'NA'])
+            obj_l.append(association['object', 'NA'])
+            sub_labels.append(association.get('subject_label', 'NA'))
+            obj_labels.append(association.get('object_label', 'NA'))
+            sub_categories.append(association.get('subject_category', 'NA'))
+            obj_categories.append(association.get('object_category', 'NA'))
             # add references to each association as a list of strings
-            if association['publications']:
-                for publication in association['publications']:
-                    pub_l.append(publication['id'])
+            pubs = association.get('publications', [])
+            if pubs:
+                pub_l = [pub if isinstance(pub,str) else pub.get('id', 'NA') for pub in pubs]
+                #for publication in association['publications']:
+                #    pub_l.append(publication['id'])
             else:
-                pub_l.append('NA')
+                pub_l = ['NA']
             ref_l.append('|'.join(pub_l))
 
-    return sub_l, rel_l, obj_l, ref_l
+    return sub_l, rel_l, obj_l, ref_l, sub_labels, obj_labels, sub_categories, obj_categories
 
 
 def get_edges(sub_l, rel_l, obj_l, ref_l, attribute='id'):
@@ -142,9 +158,9 @@ def get_edges(sub_l, rel_l, obj_l, ref_l, attribute='id'):
     edges = set()
     # compose tuple
     for i in range(len(sub_l)):
-        sub = sub_l[i][attribute]
-        rel = rel_l[i][attribute]
-        obj = obj_l[i][attribute]
+        sub = sub_l[i]#[attribute]
+        rel = rel_l[i]#[attribute]
+        obj = obj_l[i]#[attribute]
         ref = ref_l[i]
         edges.add((sub, rel, obj, ref))
 
@@ -159,8 +175,9 @@ def keep_edges(keep, new):
     :return: updated edges set
     """
 
-    for edge in new:
-        keep.add(edge)
+    #for edge in new:
+    #    keep.add(edge)
+    keep.update(new)
 
     return keep
 
@@ -185,7 +202,7 @@ def keep_nodes(keep, edges, seed):
     for (sub, rel, obj, ref) in edges:
         if 'PMID' in sub or 'PMID' in obj:
             continue
-        if rel == None:
+        if rel == None:# No changes but continue is preferred
             rel = 'None'
         if 'dc:source' in rel:
             continue
@@ -214,11 +231,10 @@ def get_neighbours(seed):
     for node in tqdm(seedNodes):
         try:
             r_out, r_in = hit_monarch_api(node)
-            sub_l, rel_l, obj_l, ref_l = get_edges_objects(r_out, r_in)
+            sub_l, rel_l, obj_l, ref_l, sub_labels, obj_labels, sub_categories, obj_categories = get_edges_objects(r_out, r_in)
             edges = get_edges(sub_l, rel_l, obj_l, ref_l, 'id')
             keepEdges = keep_edges(keepEdges, edges)
             keepNodes = keep_nodes(keepNodes, edges, seedNodes)
-
         except (ValueError, KeyError):
             pass
         except:
@@ -245,7 +261,7 @@ def filter_edges(nodes, edges):
     return keep
 
 
-def add_attributes(sub_l, rel_l, obj_l, edges):
+def add_attributes(sub_l, rel_l, obj_l, ref_l, sub_labels, obj_labels, sub_categories, obj_categories):
     """
     This function adds 'label', 'iri', 'category' attribute to each entity in the edge.
     :param sub_l: subjects (object) list
@@ -256,23 +272,33 @@ def add_attributes(sub_l, rel_l, obj_l, edges):
     """
 
     metaedges = set()
-    for (sub_id, rel_id, obj_id, refs) in edges:
-        for i in range(len(sub_l)):
-            if sub_l[i]['id'] == sub_id and rel_l[i]['id'] == rel_id and obj_l[i]['id'] == obj_id:
-                metaedges.add((sub_l[i]['id'],
-                               sub_l[i]['label'],
-                               sub_l[i]['iri'],
-                               sub_l[i]['category'][0], # add [0] because category is in a list
-                               rel_l[i]['id'],
-                               rel_l[i]['label'],
-                               rel_l[i]['iri'],
-                               obj_l[i]['id'],
-                               obj_l[i]['label'],
-                               obj_l[i]['iri'],
-                               obj_l[i]['category'][0],
-                               refs)
-                              )
-                break
+    for i in range(len(sub_l)):
+        sub_id = sub_l[i]
+        rel_id = rel_l[i]
+        obj_id = obj_l[i]
+        refs = ref_l[i]
+        metaedges.add((
+            sub_id, sub_labels[i], 'NA', sub_categories[i],
+            rel_id, 'NA', 'NA',
+            obj_id, obj_labels[i], 'NA', obj_categories[i], refs
+        ))
+    #for (sub_id, rel_id, obj_id, refs) in edges:
+    #    for i in range(len(sub_l)):
+    #        if sub_l[i]['id'] == sub_id and rel_l[i]['id'] == rel_id and obj_l[i]['id'] == obj_id:
+    #            metaedges.add((sub_l[i]['id'],
+    #                           sub_l[i]['label'],
+    #                           sub_l[i]['iri'],
+    #                           sub_l[i]['category'][0], # add [0] because category is in a list
+    #                           rel_l[i]['id'],
+    #                           rel_l[i]['label'],
+    #                           rel_l[i]['iri'],
+    #                           obj_l[i]['id'],
+    #                           obj_l[i]['label'],
+    #                           obj_l[i]['iri'],
+    #                           obj_l[i]['category'][0],
+    #                           refs)
+    #                          )
+    #            break
     return metaedges
 
 
