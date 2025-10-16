@@ -15,6 +15,7 @@ import datetime
 from pyrdf2vec.rdf2vec import RDF2VecTransformer
 from pyrdf2vec.graphs import KG
 from pyrdf2vec.walkers import RandomWalker
+from pyrdf2vec.embedders import Word2Vec
 import pandas as pd
 import pickle
 import numpy as np
@@ -165,44 +166,57 @@ def rdf_to_vec(nodes_file_str, drug_sim_str, rdf_graph, semantic_group='gene'):
         e for e in entities if isinstance(e, str) and e.strip() != "" and e.lower() not in {"nan", "none"}
     ]
 
+    with open(os.path.join(os.getcwd(), 'extracted_entities.csv'), 'w') as f:
+        for e in entities:
+            f.write(f"{e},\n")
+    
     if len(entities) == 0:
         raise ValueError(f"No valid {semantic_group} URIs found in {nodes_file_str}")
 
     # Initialize the transformer
     transformer = RDF2VecTransformer(
-        walkers=[RandomWalker(max_depth=4, max_walks=10, n_jobs=2)],
+        Word2Vec(),
+        walkers=[RandomWalker(max_depth=4, max_walks=10, n_jobs=2, random_state=22)],
         verbose=1,
     )
 
     # Build knowledge graph
     kg = KG(rdf_graph, fmt='turtle')
 
+    print(f"[rdf2vec.py] [ref_to_vec] number of entities in KG: {len(kg._entities)}")
+    with open(os.path.join(os.getcwd(), 'kg_entities.csv'), 'w') as f:
+        for e in kg._entities:
+            f.write(f"{e.name},\n")
+    
     # 🔹 NEW STEP: filter out entities not in the RDF graph (isolated URIs)
-    valid_entities = entities
-    print(f"{len(valid_entities)} entities after filtering disconnected ones (from {len(entities)})")
+    # valid_entities = entities
+    # print(f"{len(valid_entities)} entities after filtering disconnected ones (from {len(entities)})")
 
-    if len(valid_entities) == 0:
-        raise ValueError(f"No valid {semantic_group} URIs remain after filtering disconnected ones.")
+    # if len(valid_entities) == 0:
+    #     raise ValueError(f"No valid {semantic_group} URIs remain after filtering disconnected ones.")
 
     # 🔹 NEW: defensive retry to catch internal PyRDF2Vec indexing issues
-    try:
-        embeddings, literals = transformer.fit_transform(kg, valid_entities)
-    except IndexError as e:
-        print("⚠️ PyRDF2Vec walk alignment issue detected; attempting recovery...")
-        # Second attempt: filter entities that have at least one triple in the RDF
-        from rdflib import Graph, URIRef
-        rdf_g = Graph()
-        rdf_g.parse(rdf_graph, format="turtle")
+    # try:
+    valid_entities = list(set(entities))
+    print(f"[rdf2vec.py] [ref_to_vec] unique entities: {len(valid_entities)}")
+    embeddings, literals = transformer.fit_transform(kg, valid_entities)
+    # except IndexError as e:
+    #     print(e)
+    #     print("⚠️ PyRDF2Vec walk alignment issue detected; attempting recovery...")
+    #     # Second attempt: filter entities that have at least one triple in the RDF
+    #     from rdflib import Graph, URIRef
+    #     rdf_g = Graph()
+    #     rdf_g.parse(rdf_graph, format="turtle")
 
-        connected_entities = []
-        for e in valid_entities:
-            uri = URIRef(e)
-            if (uri, None, None) in rdf_g or (None, None, uri) in rdf_g:
-                connected_entities.append(e)
+    #     connected_entities = []
+    #     for e in valid_entities:
+    #         uri = URIRef(e)
+    #         if (uri, None, None) in rdf_g or (None, None, uri) in rdf_g:
+    #             connected_entities.append(e)
 
-        print(f"Retrying with {len(connected_entities)} connected entities out of {len(valid_entities)}.")
-        embeddings, literals = transformer.fit_transform(kg, connected_entities)
-        valid_entities = connected_entities
+    #     print(f"Retrying with {len(connected_entities)} connected entities out of {len(valid_entities)}.")
+    #     embeddings, literals = transformer.fit_transform(kg, connected_entities)
+    #     valid_entities = connected_entities
 
     disconnected = len(valid_entities) - len(connected_entities)
     print(f"Removed {disconnected} disconnected entities (no triples in RDF).")
@@ -473,7 +487,8 @@ def rdf2vec_general(symptom_user_input, date, disease_name_date):
     today = datetime.date.today()
 
     # Base path for this disease
-    base_path = f'./drugapp/data/{disease_name_date}/monarch'
+    print(f'[rdf2vec.py] [rdf2vec_general] os.getcwd(): ${os.getcwd()}')
+    base_path = os.path.join(os.getcwd(), 'monarch')# f'./drugapp/data/{disease_name_date}/monarch'
     
     monarch_edges_dis_file = '{}/monarch_edges_disease_v{}.csv'.format(base_path, date) 
     monarch_edges_symp_file = '{}/monarch_edges_symptom_v{}.csv'.format(base_path, today)    

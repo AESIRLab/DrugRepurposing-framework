@@ -784,7 +784,7 @@ def run_monarch_symptom(input_symptom, date, disease_folder):
     """
     # Change to disease folder
     base_path = os.getcwd()
-    folder_path = os.path.join(base_path, 'drugapp', 'data', disease_folder)
+    folder_path = os.path.join(base_path, )# 'drugapp', 'data', disease_folder)
     if not os.path.exists(folder_path):
         raise FileNotFoundError(f"Folder {folder_path} does not exist")
     os.chdir(folder_path)

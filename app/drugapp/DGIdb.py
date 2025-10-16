@@ -506,8 +506,8 @@ def run_dgidb(date=None, disease_folder=None):
     
     # Adjust paths if disease_folder provided
     base_path = os.getcwd()
-    if disease_folder:
-        base_path = os.path.join(base_path, 'drugapp', 'data', disease_folder)
+    # if disease_folder:
+    #     base_path = os.path.join(base_path, 'drugapp', 'data', disease_folder)
     
     monarch_nodes_dis_file = os.path.join(base_path, 'monarch', f'monarch_nodes_disease_v{date}.csv')
     monarch_nodes_symp_file = os.path.join(base_path, 'monarch', f'monarch_nodes_symptom_v{date}.csv')

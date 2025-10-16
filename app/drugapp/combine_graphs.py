@@ -26,7 +26,7 @@ def build_edges(dgidb, monarch_disease, monarch_symptom, drugsim, input_from_fil
     :return: edges dataframe
     """
     print('\nThe function "build_edges()" is running...')
-    
+    print(f'dgidb file is : {dgidb}')
     edges_l = []
     
     if input_from_file:
@@ -249,8 +249,8 @@ def run_combine_graphs(date, disease_folder=None):
     """
     # Adjust base path for disease-specific folder
     base_path = os.getcwd()
-    if disease_folder:
-        base_path = os.path.join(base_path, 'drugapp', 'data', disease_folder)
+    # if disease_folder:
+    #     base_path = os.path.join(base_path, 'drugapp', 'data', disease_folder)
     
     # File paths
     drugsim_file = os.path.join(os.getcwd(), 'similaritygraph', f'drugdrugsim_v{today}.csv')

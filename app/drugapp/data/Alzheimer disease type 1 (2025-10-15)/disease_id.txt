@@ -1,1 +1,0 @@
-104300;MONDO:0007088;Alzheimer disease type 1
