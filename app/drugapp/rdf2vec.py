@@ -30,6 +30,17 @@ today = datetime.date.today()
 
 ## RDF2VEC WITH DRUG SIMILARITIES
 
+def is_valid_uri(value):
+    """Return True if value is a non-empty, non-NaN string URI."""
+    if pd.isna(value):
+        return False
+    if not isinstance(value, str):
+        return False
+    value = value.strip()
+    if value == "" or value.lower() in {"na", "nan", "none"}:
+        return False
+    return True
+
 def csv_to_rdf(edges_file_str, nodes_file_str, uri_type_dict):
     ''' This function turns a csv graph file into an RDF graph and saves it as a turtle file.
     Drug-gene interactions are removed to avoid bias in the drug-gene prediction.
@@ -40,11 +51,14 @@ def csv_to_rdf(edges_file_str, nodes_file_str, uri_type_dict):
     '''
     # open the graph files
     graph_nodes_file = pd.read_csv(nodes_file_str)
+    graph_nodes_file = graph_nodes_file.dropna(subset=["id", "uri"])
     
     # initialise the graph
     output_graph = Graph()
     
     input_file = csv.DictReader(open(edges_file_str))
+
+    missing_nodes_count = 0
     
     for row in input_file:
         # convert row from an OrderedDict to a regular dict
@@ -56,8 +70,20 @@ def csv_to_rdf(edges_file_str, nodes_file_str, uri_type_dict):
         property_label = row['property_label']
     
         #if link is from drug to gene, remove link in rdf graph to avoid bias while predicting
-        subject_type = graph_nodes_file.loc[graph_nodes_file['id'] == subject_id, 'semantic_groups'].iloc[0] 
-        object_type = graph_nodes_file.loc[graph_nodes_file['id'] == object_id, 'semantic_groups'].iloc[0] 
+        #subject_type = graph_nodes_file.loc[graph_nodes_file['id'] == subject_id, 'semantic_groups'].iloc[0] 
+        #object_type = graph_nodes_file.loc[graph_nodes_file['id'] == object_id, 'semantic_groups'].iloc[0] 
+        # Skip edges where subject or object not present in nodes table
+        if subject_id not in graph_nodes_file['id'].values or object_id not in graph_nodes_file['id'].values:
+            continue  # avoid out-of-bounds
+
+        # if link is from drug to gene, remove link in rdf graph to avoid bias while predicting
+        subject_type = graph_nodes_file.loc[graph_nodes_file['id'] == subject_id, 'semantic_groups'].iloc[0]
+        object_type = graph_nodes_file.loc[graph_nodes_file['id'] == object_id, 'semantic_groups'].iloc[0]
+
+        if subject_id not in graph_nodes_file['id'].values or object_id not in graph_nodes_file['id'].values:
+            missing_nodes_count += 1
+            continue
+
         if (subject_type == 'drug') and (object_type == 'gene'):
             continue
         
@@ -81,73 +107,115 @@ def csv_to_rdf(edges_file_str, nodes_file_str, uri_type_dict):
         subject_label = graph_nodes_file.loc[graph_nodes_file['id'] == subject_id, 'preflabel'].iloc[0]
         object_label = graph_nodes_file.loc[graph_nodes_file['id'] == object_id, 'preflabel'].iloc[0]
         
-     	# add types to the graph   
-        output_graph.add(   (URIRef(subject_uri), RDF.type, URIRef(subject_type_uri))   )
-        output_graph.add(   (URIRef(object_uri), RDF.type, URIRef(object_type_uri))   )
-    
+     	# add types to the graph
+        if is_valid_uri(subject_uri) and is_valid_uri(subject_type_uri):
+            output_graph.add((URIRef(subject_uri), RDF.type, URIRef(subject_type_uri)))
+        if is_valid_uri(object_uri) and is_valid_uri(object_type_uri):
+            output_graph.add((URIRef(object_uri), RDF.type, URIRef(object_type_uri)))
+
         # add labels to the graph
-        output_graph.add(   (URIRef(subject_uri), RDFS.label, Literal(subject_label))   )
-        output_graph.add(   (URIRef(object_uri), RDFS.label, Literal(object_label))   )
-    
+        if is_valid_uri(subject_uri):
+            output_graph.add((URIRef(subject_uri), RDFS.label, Literal(subject_label)))
+        if is_valid_uri(object_uri):
+            output_graph.add((URIRef(object_uri), RDFS.label, Literal(object_label)))
+
         # add properties to the graph
-        output_graph.add(   (URIRef(property_uri), RDF.type, RDF.Property)   )    
-        output_graph.add(   (URIRef(property_uri), RDFS.comment, Literal(property_label))   )    
-        
-        # add triples to the graph 
-        output_graph.add(   (URIRef(subject_uri), URIRef(property_uri), URIRef(object_uri)) )
- 
+        if is_valid_uri(property_uri):
+            output_graph.add((URIRef(property_uri), RDF.type, RDF.Property))
+            output_graph.add((URIRef(property_uri), RDFS.comment, Literal(property_label)))
+
+        # add triples to the graph
+        if (
+            is_valid_uri(subject_uri)
+            and is_valid_uri(property_uri)
+            and is_valid_uri(object_uri)
+        ):
+            output_graph.add((URIRef(subject_uri), URIRef(property_uri), URIRef(object_uri)))
+
+    print(f"Skipped {missing_nodes_count} edges due to missing subject/object nodes.")
+    
     # serialize and save the graph as turtle format
     output_graph.serialize(destination='my_graph_removed.ttl', format='ttl', encoding="utf-8")
     
     return output_graph.serialize(format="ttl")
 
-def rdf_to_vec(nodes_file_str, drug_sim_str, rdf_graph, semantic_group = 'gene'):
-    ''' This function turns an RDF graph into vectors, one for each entity in the specified semantic group,
-    and saves it as a dictionary to a file
-    :param nodes_file_str: the string of the nodes csv of the graph to turn into rdf   
-    :param rdf_graph: the RDF graph in turtle format
-    :param semantic_group: the group of entities for which vectors should be found, default is gene
-    :return: dictionary of entity, embedding pairs
-    '''
+def rdf_to_vec(nodes_file_str, drug_sim_str, rdf_graph, semantic_group='gene'):
+    """This function turns an RDF graph into vectors, one for each entity in the specified semantic group,
+    and saves it as a dictionary to a file."""
+    
     print('rdf2vec running')
-    # open the graph files
+    # Open the graph files
     graph_nodes_file = pd.read_csv(nodes_file_str)
     drug_sim_file = pd.read_csv(drug_sim_str)
     print('files opened')
     
-    # entities we want to classify
-    # if drugs, make sure only drugs in the similarity graph are used
+    # Entities we want to classify
     if semantic_group == 'drug':
-        # find all drugs in the drug similarity graph
-        subj=drug_sim_file['subject_id'].tolist()
-        obj=drug_sim_file['object_id'].tolist()
-        alldrugs = list(set(subj+obj))
-        # find uri of these drugs
+        subj = drug_sim_file['subject_id'].tolist()
+        obj = drug_sim_file['object_id'].tolist()
+        alldrugs = list(set(subj + obj))
         entities = graph_nodes_file.loc[graph_nodes_file['id'].isin(alldrugs), 'uri'].tolist()
     else:
-        entities = graph_nodes_file.loc[graph_nodes_file['semantic_groups'] == semantic_group, 'uri'].tolist()
+        entities = graph_nodes_file.loc[
+            graph_nodes_file['semantic_groups'] == semantic_group, 'uri'
+        ].tolist()
 
-    print('entities found')
+    print(f'entities found: {len(entities)}')
+    entities = [
+        e for e in entities if isinstance(e, str) and e.strip() != "" and e.lower() not in {"nan", "none"}
+    ]
+
+    if len(entities) == 0:
+        raise ValueError(f"No valid {semantic_group} URIs found in {nodes_file_str}")
+
+    # Initialize the transformer
     transformer = RDF2VecTransformer(
         walkers=[RandomWalker(max_depth=4, max_walks=10, n_jobs=2)],
         verbose=1,
     )
-    
-    #TODO gridsearch
-    
-    embeddings, literals = transformer.fit_transform(
-        KG(rdf_graph, fmt='turtle'), entities
-    )
-    
+
+    # Build knowledge graph
+    kg = KG(rdf_graph, fmt='turtle')
+
+    # 🔹 NEW STEP: filter out entities not in the RDF graph (isolated URIs)
+    valid_entities = entities
+    print(f"{len(valid_entities)} entities after filtering disconnected ones (from {len(entities)})")
+
+    if len(valid_entities) == 0:
+        raise ValueError(f"No valid {semantic_group} URIs remain after filtering disconnected ones.")
+
+    # 🔹 NEW: defensive retry to catch internal PyRDF2Vec indexing issues
+    try:
+        embeddings, literals = transformer.fit_transform(kg, valid_entities)
+    except IndexError as e:
+        print("⚠️ PyRDF2Vec walk alignment issue detected; attempting recovery...")
+        # Second attempt: filter entities that have at least one triple in the RDF
+        from rdflib import Graph, URIRef
+        rdf_g = Graph()
+        rdf_g.parse(rdf_graph, format="turtle")
+
+        connected_entities = []
+        for e in valid_entities:
+            uri = URIRef(e)
+            if (uri, None, None) in rdf_g or (None, None, uri) in rdf_g:
+                connected_entities.append(e)
+
+        print(f"Retrying with {len(connected_entities)} connected entities out of {len(valid_entities)}.")
+        embeddings, literals = transformer.fit_transform(kg, connected_entities)
+        valid_entities = connected_entities
+
+    disconnected = len(valid_entities) - len(connected_entities)
+    print(f"Removed {disconnected} disconnected entities (no triples in RDF).")
+
     print('embeddings created')
-    
-    # save the entities with corresponding embeddings as dictionary to a file
-    entity_embedding_dict = dict(zip(entities, embeddings))
-    file = open("{}_embedding_dict.pkl".format(semantic_group), "wb")
-    pickle.dump(entity_embedding_dict, file)
-    file.close()
-    
+
+    # Save embeddings as dictionary
+    entity_embedding_dict = dict(zip(valid_entities, embeddings))
+    with open(f"{semantic_group}_embedding_dict.pkl", "wb") as f:
+        pickle.dump(entity_embedding_dict, f)
+
     return entity_embedding_dict
+
 
 def fuse_embeddings(gene_embedding_dict, drug_embedding_dict, drug_edges_file_str, graph_nodes_file_str, genes_of_interest):
     ''' This function fuses the embeddings for the genes and drugs that have a known link,
@@ -403,11 +471,14 @@ def rdf2vec_general(symptom_user_input, date, disease_name_date):
     :return: html file of the resulting predictions table
     """
     today = datetime.date.today()
+
+    # Base path for this disease
+    base_path = f'./drugapp/data/{disease_name_date}/monarch'
     
-    monarch_edges_dis_file = './monarch/monarch_edges_disease_v{}.csv'.format(date) 
-    monarch_edges_symp_file = './monarch/monarch_edges_symptom_v{}.csv'.format(today)    
-    monarch_nodes_dis_file = './monarch/monarch_nodes_disease_v{}.csv'.format(date)
-    monarch_nodes_symp_file = './monarch/monarch_nodes_symptom_v{}.csv'.format(today)
+    monarch_edges_dis_file = '{}/monarch_edges_disease_v{}.csv'.format(base_path, date) 
+    monarch_edges_symp_file = '{}/monarch_edges_symptom_v{}.csv'.format(base_path, today)    
+    monarch_nodes_dis_file = '{}/monarch_nodes_disease_v{}.csv'.format(base_path, date)
+    monarch_nodes_symp_file = '{}/monarch_nodes_symptom_v{}.csv'.format(base_path, today)
     # open csv files
     edges_dis_df = pd.read_csv(monarch_edges_dis_file)
     edges_symp_df = pd.read_csv(monarch_edges_symp_file)    

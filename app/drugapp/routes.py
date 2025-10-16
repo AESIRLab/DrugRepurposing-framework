@@ -77,15 +77,15 @@ def config():
 
 @app.route("/symptoms", methods = ['GET', 'POST'])
 @app.route("/symptoms/<date>/<diseasename>", methods = ['GET', 'POST'])
-def symptoms(date='None', diseasename='None'):
+def symptoms(date, diseasename):
     form=Symptoms()
     form.symptoms.choices = session['symptoms_name_lst']
     if form.validate_on_submit():
         input_symptom = form.symptoms.data
-        run_monarch_symptom(input_symptom, date)
-        run_dgidb(date)
+        run_monarch_symptom(input_symptom, date, diseasename)
+        run_dgidb(date, diseasename)
         run_drugsimilarity()
-        run_combine_graphs(date)
+        run_combine_graphs(date, disease_folder=diseasename)
         print(input_symptom)
         rdf2vec_general(input_symptom, date, diseasename)
         return render_template('{}; {}.html'.format(diseasename, input_symptom), folders_output=folders_output)
@@ -93,9 +93,9 @@ def symptoms(date='None', diseasename='None'):
 
 @app.route("/symptoms_from_folder/<diseasename>", methods = ['GET', 'POST'])
 def symptoms_from_folder(diseasename='None'): # for when a disease folder is selected
-    symptoms_name_lst, date, input_number= symptom_list_specified_folder(input_folder=diseasename)
+    symptoms_name_lst, date, disease_name_date = symptom_list_from_folder(input_folder=diseasename)
     session['symptoms_name_lst'] = symptoms_name_lst
-    return redirect(url_for('symptoms', date=date, diseasename=diseasename, input_number=input_number))
+    return redirect(url_for('symptoms', date=date, diseasename=diseasename, disease_name=disease_name_date))
 
 @app.route("/predictions/<filename>", methods = ['GET', 'POST'])
 def predictions(filename='None'):

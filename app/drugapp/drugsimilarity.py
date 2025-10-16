@@ -175,7 +175,7 @@ def create_drug_sim_graph(smiles_conc_dict, K=10):
                 new_row = {'subject_id':subj, 'property_id': prop, 'object_id':obj, 'reference_uri': 'NA',
                            'reference_supporting_text': ref_text, 'reference_date':today, 
                            'property_label': prop_label, 'property_description': 'NA', 'property_uri': prop_uri}
-                drug_similarity_graph = drug_similarity_graph.append(new_row, ignore_index=True)
+                drug_similarity_graph = pd.concat([drug_similarity_graph, pd.DataFrame([new_row])], ignore_index=True)
     
     # save output file
     path = os.getcwd() + '/similaritygraph'

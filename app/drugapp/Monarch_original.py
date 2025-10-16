@@ -1,50 +1,24 @@
+# -*- coding: utf-8 -*-
+"""
+Module for Monarch network preparation and management
+
+Created on Sat May 7 11:51:22 2022
+
+@author: Carmen Reep
+"""
+
 import requests
-import os
+import sys,os
 import datetime
 import pandas as pd
 from biothings_client import get_client
 from tqdm import tqdm
-import math
+
 
 # timestamp
 today = datetime.date.today()
 curr_year = int(str(today)[:4])
 
-def is_real_uri(value):
-    """Return True if value is a real-looking URI string (not 'NA', 'nan', empty, or NaN)."""
-    if value is None:
-        return False
-    if isinstance(value, float) and math.isnan(value):
-        return False
-    if not isinstance(value, str):
-        return False
-    v = value.strip()
-    if v == "" or v.lower() in {"na", "nan", "none", "n/a"}:
-        return False
-    # Simple heuristic: must contain a scheme or at least a ':' (like http: or identifiers.org: or http)
-    if v.startswith("http") or ":" in v:
-        return True
-    return False
-
-def curie_to_uri(curie: str) -> str:
-    """Convert a CURIE like 'HGNC:1234' to a valid URI string, or return None if impossible."""
-    if not isinstance(curie, str) or ':' not in curie:
-        return None
-    prefix, local = curie.split(':', 1)
-    prefix_l = prefix.lower()
-    local = local.strip()
-    if not local:
-        return None
-    if prefix_l == 'hgnc':
-        return f'https://identifiers.org/HGNC:{local}'
-    if prefix_l == 'mondo':
-        return f'http://purl.obolibrary.org/obo/MONDO_{local}'
-    if prefix_l in {'hp', 'hpo'}:
-        return f'http://purl.obolibrary.org/obo/HP_{local}'
-    if prefix_l in {'go', 'pato', 'geno'}:
-        return f'http://purl.obolibrary.org/obo/{prefix.upper()}_{local}'
-    # fallback to identifiers.org for any other CURIE prefix
-    return f'https://identifiers.org/{prefix}:{local}'
 
 def read_connections(filename):
     """
@@ -56,88 +30,44 @@ def read_connections(filename):
     # monarch network
     path = os.getcwd() + '/monarch'
     csv_path = path + '/' + filename
-    network_df = pd.read_csv(csv_path)
+    network_df = pd.read_csv('{}'.format(csv_path))
     print('\n* This is the size of the data structure: {}'.format(network_df.shape))
     print('* These are the attributes: {}'.format(network_df.columns))
     print('* This is the first record:\n{}'.format(network_df.head(1)))
 
     return network_df
 
-def hit_monarch_api(node='HGNC:4851', rows=500, category=None, category_in=None, use_entity=True):
+
+# retrieve subnetwork from Monarch knowledge graph
+
+def hit_monarch_api(node='HGNC:4851', rows=500, category=None, category_in=None):
     """
     This function performs API calls to Monarch to retrieve out and in edges from a query node.
-    If use_entity=True and node is a disease, uses entity API for phenotypes/genes, else uses association API.
     :param node: node id to query (string). Default: 'HGNC:4851' (=HTT gene).
-    :param rows: the maximum number of results to return (integer). Default: 500.
+    :param rows: the maximum number of results to return (integer). Default: 500 (API max).
     :param category: association category for out (string). Default: None.
     :param category_in: association category for in (string). Default: None.
-    :param use_entity: whether to use entity API for disease nodes (boolean). Default: True.
     :return: two API response objects: 'out' and 'in' response objects
     """
-    if use_entity and node.startswith('MONDO:'):
-        # Use entity API for disease nodes
-        entity_url = f'https://api.monarchinitiative.org/v3/api/entity/{node}'
-        r_entity = requests.get(entity_url)
-        if r_entity.status_code != 200:
-            print(f"Entity API failed for {node}: {r_entity.status_code}")
-            return {'items': []}, {'items': []}
-        json_data = r_entity.json()
-        
-        # r_out: Disease → Phenotypes (has_phenotype)
-        r_out_items = []
-        phenotypes = json_data.get('has_phenotype', [])
-        phenotype_labels = json_data.get('has_phenotype_label', [])
-        disease_name = json_data.get('name', 'NA')
-        for i, pheno_id in enumerate(phenotypes):
-            r_out_items.append({
-                'subject': node,
-                'subject_label': disease_name,
-                'object': pheno_id,
-                'object_label': phenotype_labels[i] if i < len(phenotype_labels) else 'NA',
-                'predicate': 'RO:0002200',
-                'subject_category': 'biolink:Disease',
-                'object_category': 'biolink:PhenotypicFeature',
-                'publications': ['NA']
-            })
-        
-        # r_in: Genes → Disease (causal_gene)
-        r_in_items = []
-        causal_genes = json_data.get('causal_gene', [])
-        for gene in causal_genes:
-            r_in_items.append({
-                'subject': gene.get('id', 'NA'),
-                'subject_label': gene.get('name', 'NA'),
-                'object': node,
-                'object_label': disease_name,
-                'predicate': 'RO:0003303',
-                'subject_category': 'biolink:Gene',
-                'object_category': 'biolink:Disease',
-                'publications': ['NA']
-            })
-        
-        # Debug: Print number of phenotypes and genes found
-        print(f"Entity API for {node}: {len(r_out_items)} phenotypes, {len(r_in_items)} genes")
-        return {'items': r_out_items}, {'items': r_in_items}
-    
-    # Fallback to association API
     biolink = 'https://api.monarchinitiative.org/v3/api/association'
     parameters = {'limit': rows}
     if category:
         parameters['category'] = category
     
     out_params = {'subject': node, **parameters}
+    print(f"API Request (out): {biolink}?{('&').join(f'{k}={v}' for k, v in out_params.items())}")
     r_out = requests.get(biolink, params=out_params)
+    print(f"Out Response Items (length): {len(r_out.json().get('items', []))}")
     
     parameters_in = {'limit': rows}
     if category_in:
         parameters_in['category'] = category_in
     in_params = {'object': node, **parameters_in}
+    print(f"API Request (in): {biolink}?{('&').join(f'{k}={v}' for k, v in in_params.items())}")
     r_in = requests.get(biolink, params=in_params)
-    
-    r_out_json = r_out.json() if r_out.status_code == 200 else {'items': []}
-    r_in_json = r_in.json() if r_in.status_code == 200 else {'items': []}
-    print(f"Association API for {node}: {len(r_out_json.get('items', []))} out, {len(r_in_json.get('items', []))} in")
-    return r_out_json, r_in_json
+    print(f"In Response Items (length): {len(r_in.json().get('items', []))}")
+
+    return r_out, r_in
 
 def get_disease_name_id(disease_input_ID='OMIM:143100'):
     """
@@ -147,33 +77,49 @@ def get_disease_name_id(disease_input_ID='OMIM:143100'):
     """
     search_url = 'https://api.monarchinitiative.org/v3/api/search'
     params = {'q': disease_input_ID, 'category': 'biolink:Disease', 'limit': 1}
+    print(f"Search API Request: {search_url}?{('&').join(f'{k}={v}' for k, v in params.items())}")
     r_search = requests.get(search_url, params=params)
-    items = r_search.json().get('items', [])
+    search_json = r_search.json()
+    print(f"Search Response Items (length): {len(search_json.get('items', []))}")
     
+    items = search_json.get('items', [])
     if not items:
+        print(f"Warning: No items found for {disease_input_ID}. Using input ID as fallback.")
         return 'NA', disease_input_ID
     
     mondo_id = items[0].get('id', 'NA')
     entity_url = f'https://api.monarchinitiative.org/v3/api/entity/{mondo_id}'
+    print(f"Entity API Request: {entity_url}")
     r_entity = requests.get(entity_url)
     json_data = r_entity.json()
+    print(f"Entity Response: {json_data.keys()}")
+    
     disease_name = json_data.get('name', 'NA')
-    disease_id = json_data.get('id', disease_input_ID)
+    disease_id = json_data.get('id', disease_input_ID)  # Fallback to OMIM if MONDO fails
     return disease_name, disease_id
 
 def get_edges_objects(r_out, r_in):
     """
-    This function prepares the API object responses from Monarch.
+    This function prepares the api object responses from Monarch.
+    It returns four lists: subjects, relations, objects, and references.
+    Subjects, relations and objects are lists of dictionaries, where each dictionary is a node.
+    References list lists strings, where each string is a chain of references for each edge.
     :param r_out: BioLink API 'out' response object
     :param r_in: BioLink API 'in' response object
-    :return: subjects, relations, objects, and references lists
+    :return: subjects, relations, objects and references lists (in this order)
     """
     sub_l, rel_l, obj_l, ref_l = [], [], [], []
     
-    for assoc_list in [r_out.get('items', []), r_in.get('items', [])]:
-        for association in assoc_list:
+    for idx, assoc_list in enumerate([r_out.json().get('items', []), r_in.json().get('items', [])]):
+        print(f"Processing assoc_list {idx} (length): {len(assoc_list)}")
+        if assoc_list:
+            print(f"Assoc list {idx} first type: {type(assoc_list[0])}, repr: {repr(assoc_list[0])}")
+        for i, association in enumerate(assoc_list):
+            print(f"Assoc {idx}-{i} type: {type(association)}, repr: {repr(association)[:100]}...")  # Truncate repr
             if not isinstance(association, dict):
+                print(f"Skipping non-dict assoc {idx}-{i}: {repr(association)}")
                 continue
+            pub_l = []
             sub_l.append({
                 'id': association.get('subject', 'NA'),
                 'label': association.get('subject_label', 'NA'),
@@ -192,21 +138,158 @@ def get_edges_objects(r_out, r_in):
                 'category': [association.get('object_category', 'NA')]
             })
             pubs = association.get('publications', [])
-            ref_l.append('|'.join(pubs if pubs else ['NA']))
+            pub_l = [pub.get('id', 'NA') for pub in pubs] if pubs else ['NA']
+            ref_l.append('|'.join(pub_l))
     
-    return sub_l, rel_l, obj_l, ref_l
+    print(f"Subjects List (length): {len(sub_l)}, Relations List (length): {len(rel_l)}, Objects List (length): {len(obj_l)}, References List (length): {len(ref_l)}")
+    return sub_l, rel_l, obj_l, ref_l   
 
 def get_edges(sub_l, rel_l, obj_l, ref_l, attribute='id'):
+    """
+    This function builds edges using a user-specified attribute for each node.
+    It returns a set of edges, where edges are tuples.
+
+    :param sub_l: subjects (objects) list from the get_edges_objects() function
+    :param rel_l: relations (objects) list from the get_edges_objects() function
+    :param obj_l: objects (objects) list from the get_edges_objects() function
+    :param ref_l: references (strings) list from the get_edges_objects() function
+    :param attribute: object attribute, default 'id'
+    :return: edges (as tuples) set
+    """
     edges = set()
+    # compose tuple
     for i in range(len(sub_l)):
         sub = sub_l[i][attribute]
         rel = rel_l[i][attribute]
         obj = obj_l[i][attribute]
         ref = ref_l[i]
         edges.add((sub, rel, obj, ref))
+
     return edges
 
+
+def keep_edges(keep, new):
+    """
+    This function adds edges from a new set to a keep set.
+    :param keep: edges set
+    :param new: edges set
+    :return: updated edges set
+    """
+
+    for edge in new:
+        keep.add(edge)
+
+    return keep
+
+
+def keep_nodes(keep, edges, seed):
+    """
+    This function collects nodes from the edges that are not in the nodes query list to keep nodes set.
+    It filters out: PMID nodes, and nodes related by provenance:
+        * None
+        * 'dc:source'
+        * 'IAO:0000136' or 'is about'
+        * 'IAO:0000142' or 'mentions'
+    i.e., not biologically related
+    It returns a set of nodes.
+
+    :param keep: nodes set
+    :param edges: edges set
+    :param seed: query nodes list
+    :return: updated nodes set
+    """
+
+    for (sub, rel, obj, ref) in edges:
+        if 'PMID' in sub or 'PMID' in obj:
+            continue
+        if rel == None:
+            rel = 'None'
+        if 'dc:source' in rel:
+            continue
+        if 'IAO:0000136' in rel:  # is about
+            continue
+        if 'IAO:0000142' in rel:  # mentions
+            continue
+        if sub not in seed:
+            keep.add(sub)
+        if obj not in seed:
+            keep.add(obj)
+
+    return keep
+
+def get_neighbours(seed):
+    """
+    This function gets the first layer of neighbours and relations.
+    :param seed: query nodes list
+    :return: nodes set, edges set (in this order)
+    """
+    keepNodes = set()
+    keepEdges = set()
+    seedNodes = set(seed)
+    for node in tqdm(seedNodes):
+        try:
+            r_out, r_in = hit_monarch_api(node)
+            sub_l, rel_l, obj_l, ref_l = get_edges_objects(r_out, r_in)
+            edges = get_edges(sub_l, rel_l, obj_l, ref_l, 'id')
+            keepEdges = keep_edges(keepEdges, edges)
+            keepNodes = keep_nodes(keepNodes, edges, seedNodes)
+            
+            # If empty and node is MONDO (disease), fetch phenotypes from entity
+            if not edges and node.startswith('MONDO:'):
+                entity_url = f'https://api.monarchinitiative.org/v3/api/entity/{node}'
+                print(f"Fetching entity for disease: {entity_url}")
+                r_entity = requests.get(entity_url)
+                entity_json = r_entity.json()
+                print(f"Entity Phenotypes (length): {len(entity_json.get('has_phenotype', []))}, Full Entity: {entity_json}")
+                phenotypes = entity_json.get('has_phenotype', [])
+                for pheno in phenotypes:
+                    # Create synthetic edge: disease --RO:0002200--> phenotype
+                    sub_dict = {'id': node, 'label': 'Disease', 'iri': 'NA', 'category': ['biolink:Disease']}
+                    rel_dict = {'id': 'RO:0002200', 'label': 'has phenotype', 'iri': 'NA'}
+                    obj_dict = {'id': pheno, 'label': 'Phenotype', 'iri': 'NA', 'category': ['biolink:PhenotypicFeature']}
+                    ref = 'NA'
+                    sub_l.append(sub_dict)
+                    rel_l.append(rel_dict)
+                    obj_l.append(obj_dict)
+                    ref_l.append(ref)
+                    edges.add((node, 'RO:0002200', pheno, ref))
+                keepEdges = keep_edges(keepEdges, edges)
+                keepNodes = keep_nodes(keepNodes, edges, seedNodes)
+
+        except (ValueError, KeyError):
+            pass
+        except Exception as e:
+            print(f'error: {sys.exc_info()[0]} - {str(e)}')
+            print(node)
+
+    return keepNodes, keepEdges
+
+def filter_edges(nodes, edges):
+    """
+    This function filters down edges with both nodes in a nodes list.
+
+    :param nodes: nodes list
+    :param edges: edges set
+    :return: filtered edges set
+    """
+    nodes = set(nodes)
+    keep = set()
+    for (start, pred, stop, ref) in edges:
+        if {start, stop} <= nodes: # is {..} a subset of {..}
+            keep.add((start, pred, stop, ref))
+
+    return keep
+
+
 def add_attributes(sub_l, rel_l, obj_l, edges):
+    """
+    This function adds 'label', 'uri', 'category' attributes to each entity in the edge for v3 API.
+    :param sub_l: subjects (object) list
+    :param rel_l: relations (object) list
+    :param obj_l: objects (object) list
+    :param edges: edges set
+    :return: metaedges set
+    """
     metaedges = set()
     for (sub_id, rel_id, obj_id, refs) in edges:
         for i in range(len(sub_l)):
@@ -214,111 +297,292 @@ def add_attributes(sub_l, rel_l, obj_l, edges):
                 metaedges.add((
                     sub_id,
                     sub_l[i]['label'],
-                    'NA',
-                    sub_l[i]['category'][0],
+                    sub_l[i]['iri'],  # 'NA' in v3, kept for compatibility
+                    sub_l[i]['category'][0],  # Biolink category
                     rel_id,
                     rel_l[i]['label'],
-                    'NA',
+                    rel_l[i]['iri'],  # 'NA' in v3
                     obj_id,
                     obj_l[i]['label'],
-                    'NA',
-                    obj_l[i]['category'][0],
+                    obj_l[i]['iri'],  # 'NA' in v3
+                    obj_l[i]['category'][0],  # Biolink category
                     refs
                 ))
                 break
     return metaedges
 
+
 def keep_node_type(edges, seed, nodeType='ortho'):
-    propertyList = ['RO:HOM0000017', 'RO:HOM0000020'] if nodeType == 'ortho' else ['RO:0002200', 'RO:0002607', 'RO:0002326', 'GENO:0000840']
+    """
+    This function keeps specific node types for objects in edges.
+
+    :param edges: edges set
+    :param seed: the query nodes list
+    :param nodeType: Introduce node type to keep (string): 'ortho' for orthologs or 'pheno' \
+    for phenotypes/diseases, default is 'ortho'
+    :return: nodes set
+    """
+
+    propertyList = ['RO:HOM0000017', 'RO:HOM0000020']
+    if nodeType == 'pheno':
+        propertyList = ['RO:0002200', 'RO:0002607', 'RO:0002326', 'GENO:0000840']
+
     keep = set()
     for (sub, rel, obj, ref) in edges:
+        if rel == None:
+            continue
         if rel in propertyList:
             if sub not in seed:
                 keep.add(sub)
             if obj not in seed:
                 keep.add(obj)
+
     return keep
+
 
 def get_connections(nodes):
-    keep = set()
-    for node in tqdm(nodes, desc="Processing nodes"):
+    """
+    This function gets edges between a list of nodes.
+    :param nodes: list of node IDs
+    :return: set of edges
+    """
+    keepEdges = set()
+    total_edges = 0
+    for node in tqdm(nodes):
         try:
-            r_out, r_in = hit_monarch_api(node)
+            if node.startswith('HP:'):
+                category = 'biolink:GeneToPhenotypicFeatureAssociation'
+                category_in = None
+            else:
+                category = 'biolink:DiseaseToGeneAssociation' if node.startswith('MONDO:') else None
+                category_in = None
+            r_out, r_in = hit_monarch_api(node, category=category, category_in=category_in)
             sub_l, rel_l, obj_l, ref_l = get_edges_objects(r_out, r_in)
             edges = get_edges(sub_l, rel_l, obj_l, ref_l, 'id')
+            # Enrich with attributes for build_nodes
             meta_edges = add_attributes(sub_l, rel_l, obj_l, edges)
-            keep.update(meta_edges)
+            keepEdges.update(meta_edges)
+            total_edges += len(meta_edges)
+            print(f"Edges for {node}: {len(meta_edges)}")
         except Exception as e:
-            print(f"Error processing node {node}: {e}")
-    print(f"Total edges extracted: {len(keep)}")
-    return keep
-    
-def get_neighbours_list(seed_list):
-    neighbours = set()
-    for node in tqdm(seed_list):
-        r_out, r_in = hit_monarch_api(node, category='biolink:DiseaseToPhenotypicFeatureAssociation', category_in='biolink:GeneToDiseaseAssociation', use_entity=True)
-        sub_l, rel_l, obj_l, ref_l = get_edges_objects(r_out, r_in)
-        edges = get_edges(sub_l, rel_l, obj_l, ref_l, 'id')
-        neighbours.update([obj for (sub, rel, obj, ref) in edges])
-    return list(neighbours)
+            print(f"Error processing {node}: {type(e).__name__} - {str(e)}")
+    print(f"Total edges extracted in get_connections: {total_edges}")
+    return keepEdges
 
-def get_orthopheno_list(seed_list):
-    orthopheno = set()
-    for node in tqdm(seed_list):
-        r_out, r_in = hit_monarch_api(node, category='biolink:orthologous_to', use_entity=False)
-        sub_l, rel_l, obj_l, ref_l = get_edges_objects(r_out, r_in)
-        edges = get_edges(sub_l, rel_l, obj_l, ref_l, 'id')
-        orthologs = keep_node_type(edges, seed_list, 'ortho')
-        for ortholog in orthologs:
-            r_out, r_in = hit_monarch_api(ortholog, category='biolink:has_phenotype', use_entity=False)
+
+# NETWORK MANAGEMENT FUNCTIONS
+
+def get_neighbours_list(seed):
+    """
+    This function gets the first layer of neighbours and relations.
+    :param seed: query nodes list
+    :return: nodes list
+    """
+    keepNodes = set()
+    seedNodes = set(seed)
+    for node in tqdm(seedNodes):
+        try:
+            category = 'biolink:DiseaseToPhenotypicFeatureAssociation' if node.startswith('MONDO:') else None
+            category_in = 'biolink:GeneToDiseaseAssociation' if node.startswith('MONDO:') else None
+            r_out, r_in = hit_monarch_api(node, category=category, category_in=category_in)
             sub_l, rel_l, obj_l, ref_l = get_edges_objects(r_out, r_in)
             edges = get_edges(sub_l, rel_l, obj_l, ref_l, 'id')
-            phenotypes = keep_node_type(edges, [ortholog], 'pheno')
-            orthopheno.update(phenotypes)
+            keepNodes.update([e[0] for e in edges] + [e[2] for e in edges])
+            
+            if not edges and node.startswith('MONDO:'):
+                entity_url = f'https://api.monarchinitiative.org/v3/api/entity/{node}'
+                print(f"Fetching entity for disease: {entity_url}")
+                r_entity = requests.get(entity_url)
+                entity_json = r_entity.json()
+                phenotypes = entity_json.get('has_phenotype', [])
+                print(f"Entity Phenotypes (length): {len(phenotypes)}")
+                for pheno in phenotypes:
+                    edge = (node, 'RO:0002200', pheno, 'NA')
+                    edges.add(edge)
+                    keepNodes.update([node, pheno])
+        except Exception as e:
+            print(f"Error processing {node}: {type(e).__name__} - {str(e)}")
+    return list(keepNodes)
+
+def get_orthopheno_list(seed):
+    """
+    This function gets orthologous phenotypes to a query disease.
+    :param seed: query nodes list
+    :return: orthologous phenotypes list
+    """
+    orthopheno = set()
+    seedNodes = set(seed)
+    for node in tqdm(seedNodes):
+        try:
+            r_out, r_in = hit_monarch_api(node, category='biolink:DiseaseToPhenotypicFeatureAssociation')
+            sub_l, rel_l, obj_l, ref_l = get_edges_objects(r_out, r_in)
+            edges = get_edges(sub_l, rel_l, obj_l, ref_l, 'id')
+            orthopheno.update([e[2] for e in edges if e[1] == 'RO:0004025'])  # Disease to phenotype
+            if not edges and node.startswith('MONDO:'):
+                entity_url = f'https://api.monarchinitiative.org/v3/api/entity/{node}'
+                print(f"Fetching entity for orthopheno: {entity_url}")
+                r_entity = requests.get(entity_url)
+                entity_json = r_entity.json()
+                phenotypes = entity_json.get('has_phenotype', [])
+                print(f"Entity Orthopheno Phenotypes (length): {len(phenotypes)}")
+                for pheno in phenotypes:
+                    orthopheno.add(pheno)
+        except Exception as e:
+            print(f"Error processing {node}: {type(e).__name__} - {str(e)}")
     return list(orthopheno)
 
-def extract_edges(gene_list):
-    keep = set()
-    for node in tqdm(gene_list, desc="Processing nodes"):
-        try:
-            r_out, r_in = hit_monarch_api(node, use_entity=node.startswith('MONDO:'))
-            sub_l, rel_l, obj_l, ref_l = get_edges_objects(r_out, r_in)
-            edges = get_edges(sub_l, rel_l, obj_l, ref_l, 'id')
-            meta_edges = add_attributes(sub_l, rel_l, obj_l, edges)
-            keep.update(meta_edges)
-        except Exception as e:
-            print(f"Error processing node {node}: {e}")
-    print(f"Total edges extracted: {len(keep)}")
-    if not keep:
+def extract_edges(geneList):
+    """
+    This function extracts edges from a list of nodes.
+    :param geneList: list of node IDs
+    :return: set of edges
+    """
+    print("The function 'extract_edges()' is running...")
+    print(f"Processing {len(geneList)} nodes")
+    network = get_connections(geneList)
+    print(f"Total edges extracted: {len(network)}")
+    if not network:
         print("Warning: No edges found for provided nodes. Network is empty.")
-    return keep
+    print("Finished extract_edges(). To save the retrieved Monarch edges use the function 'print_network()'.")
+    return network
+
+
+def _print_network2(network, filename):
+    """This function saves the Monarch expanded network into a CSV file. this function save connections file format into
+    get-monarch-connections/"""
+
+    # print output file
+    path = os.getcwd() + '/monarch'
+    if not os.path.isdir(path): os.makedirs(path)
+    with open('{}/{}_v{}.csv'.format(path, filename, today), 'w') as f:
+        f.write(
+            'subject_id,subject_label,subject_uri,subject_category,relation_id,relation_label,relation_uri,object_id,object_label,object_uri,object_category,reference_id_list\n')
+        for edge in network:
+            edge = ['None' if t is None else '"{}"'.format(str(t)) for t in edge]
+            f.write('{}\n'.format(','.join(edge)))
+
+    return print("\nFile '{}/{}_v{}.csv' saved.".format(path, filename, today))
 
 def print_network(network, filename):
+    """
+    This function saves the Monarch network into a CSV file. It only prints connections file format only.
+    :param network: monarch edges set (tuples from get_edges or add_attributes)
+    :param filename: file name without extension string, e.g. 'monarch_connections'
+    :return: None object
+    """
     if not network:
-        print(f"!!!THIS IS PRINT NETWORK. Warning: No edges to save for {filename}_v{today}.csv. DataFrame is empty.")
-        return None
-    edges = [
-        {
-            'subject_id': tup[0],
-            'subject_label': tup[1],
-            'subject_uri': tup[2],
-            'subject_category': tup[3],
-            'relation_id': tup[4],
-            'relation_label': tup[5],
-            'relation_uri': tup[6],
-            'object_id': tup[7],
-            'object_label': tup[8],
-            'object_uri': tup[9],
-            'object_category': tup[10],
-            'reference_id_list': tup[11]
-        }
-        for tup in network
-    ]
-    df = pd.DataFrame(edges).fillna('NA')
+        print(f'Warning: No edges to save for {filename}_v{today}.csv. DataFrame is empty.')
+        return
+    
+    # Handle 4-tuples (sub, rel, obj, ref) or 12-tuples
+    edges = []
+    for tup in network:
+        if len(tup) == 4:
+            # Simple 4-tuple: sub, rel, obj, ref
+            row = {
+                'subject_id': tup[0],
+                'relation_id': tup[1],
+                'object_id': tup[2],
+                'reference_id_list': tup[3],
+                'subject_label': 'NA',
+                'subject_uri': 'NA',
+                'subject_category': 'NA',
+                'relation_label': 'NA',
+                'relation_uri': 'NA',
+                'object_label': 'NA',
+                'object_uri': 'NA',
+                'object_category': 'NA'
+            }
+        else:
+            # 12-tuple from add_attributes
+            row = {
+                'subject_id': tup[0],
+                'subject_label': tup[1],
+                'subject_uri': tup[2],
+                'subject_category': tup[3],
+                'relation_id': tup[4],
+                'relation_label': tup[5],
+                'relation_uri': tup[6],
+                'object_id': tup[7],
+                'object_label': tup[8],
+                'object_uri': tup[9],
+                'object_category': tup[10],
+                'reference_id_list': tup[11]
+            }
+        edges.append(row)
+    
+    df = pd.DataFrame(edges).fillna('None')
+    
+    if not df.empty:
+        df = df[~df['object_id'].str.contains('coriell', case=False, na=False)]
+        df = df[~df['subject_id'].str.contains('coriell', case=False, na=False)]
+
     path = os.getcwd() + '/monarch'
-    os.makedirs(path, exist_ok=True)
-    df.to_csv(f'{path}/{filename}_v{today}.csv', index=False)
-    return df
+    if not os.path.isdir(path): os.makedirs(path)
+    df.to_csv('{}/{}_v{}.csv'.format(path, filename, today), index=False)
+    print(f"Saving {filename}_v{today}.csv with {len(df)} edges")
+
+def print_nodes(nodes, filename):
+    """
+    This function saves Monarch nodes into a CSV file.
+    :param nodes: nodes list
+    :param filename: file name without path and extension, e.g. 'monarch_nodes'
+    :return: None object
+    """
+
+    # print output file
+    path = os.getcwd() + '/monarch'
+    if not os.path.isdir(path): os.makedirs(path)
+    with open('{}/{}_v{}.csv'.format(path, filename, today), 'w') as f:
+        f.write('{}\n'.format('\n'.join(list(nodes))))
+
+    return print("\nFile '{}/{}_v{}.csv' saved.".format(path, filename, today))
+
+
+def expand_edges(seed_list):
+    """
+    This function returns the Monarch network expanded with the first layer of neighbors from a list of query nodes.
+    This function builds monarch 1shell network.
+    This function receives a list of nodes and returns a network or edges from Monarch.
+
+    :param seed_list: the query nodes list
+    :return: edges set
+    """
+
+    # get 1shell list of nodes or neighbors
+    neighbours, relations = get_neighbours(seed_list)
+
+    # network nodes:  seed + 1shell
+    nodes = set(seed_list).union(neighbours)
+
+    # get connections for network nodes
+    network = get_connections(nodes)
+
+    return network
+
+
+def orthopheno_expand_edges(seed_list):
+    """
+    This function returns the Monarch network expanded with the orthologs and the ortholog associated phenotypes from
+     a list of query nodes.
+    This function builds monarch 1shell-animal network.
+    This function receives a list of nodes and returns a network or edges from Monarch.
+
+    :param seed_list: the query nodes list
+    :return: edges set
+    """
+
+    # get ortholog-phenotypes list
+    orthophenoList = get_orthopheno_list(seed_list)
+
+    # network nodes:  seed + neighbors + orthologs + phenotypes
+    nodes = set(seed_list).union(set(orthophenoList))
+
+    # get connections for network nodes
+    network = get_connections(nodes)
+
+    return network
+
 
 # BUILD NETWORK
 
@@ -528,6 +792,7 @@ def build_edges(edges_df, edges_fname):
 
     return df
 
+
 def build_nodes(edges_df, nodes_fname):
     """
     This function builds the nodes network with the graph schema.
@@ -594,20 +859,15 @@ def build_nodes(edges_df, nodes_fname):
         
         if sgroup == 'genotype' and ogroup == 'gene' and edge.relation_id == 'GENO:0000408':
             sgroup = 'variant'
-
-        # Normalize incoming URIs/placeholders and synthesize when missing
-        # use suri/ouri only if they look like real URIs; otherwise synthesize from CURIE (id)
-        subject_uri_val = suri if is_real_uri(suri) else curie_to_uri(sid)
-        object_uri_val  = ouri if is_real_uri(ouri) else curie_to_uri(oid)
         
         concept_dct[sid] = {'preflabel': slab or 'NA',
                             'semantic_groups': sgroup,
-                            'uri': subject_uri_val if subject_uri_val is not None else 'NA' ,
+                            'uri': suri or 'NA',
                             'synonyms': 'NA', 
                             'description': 'NA'}
         concept_dct[oid] = {'preflabel': olab or 'NA',
                             'semantic_groups': ogroup,
-                            'uri': object_uri_val if object_uri_val is not None else 'NA',
+                            'uri': ouri or 'NA',
                             'synonyms': 'NA', 
                             'description': 'NA'}
 
@@ -659,8 +919,6 @@ def build_nodes(edges_df, nodes_fname):
 
     # save nodes file
     df = pd.DataFrame(nodes_l)
-    # Ensure 'uri' is a string and replace None / nan-like with 'NA'
-    df['uri'] = df['uri'].apply(lambda x: x if is_real_uri(x) else 'NA')
     df = df[['id', 'semantic_groups', 'uri', 'preflabel', 'name', 'synonyms', 'description']]
     path = os.getcwd() + '/monarch'
     df.fillna('NA').to_csv('{}/{}_v{}.csv'.format(path,nodes_fname, today), index=False)
@@ -683,51 +941,42 @@ def get_symptoms_disease(disease_id, monarch_edges_csv, monarch_nodes_csv):
     :return: a list of symptom names
     """
     # open csv file
-    edges_df = pd.read_csv(monarch_edges_csv)
-    nodes_df = pd.read_csv(monarch_nodes_csv)
+    fname_edges = monarch_edges_csv
+    fname_nodes = monarch_nodes_csv
+    edges_df = pd.read_csv(fname_edges)
+    nodes_df = pd.read_csv(fname_nodes)
 
     # find all nodes that are one step away from disease and have as relation 'has phenotype' (='RO:0002200')
     df_symptoms = edges_df.loc[(edges_df['subject_id'] == disease_id) & (edges_df['property_id'] == 'RO:0002200')]
-    print(f"Symptom edges for {disease_id}: {len(df_symptoms)}")
-
+    
     symptoms_id_lst = df_symptoms['object_id'].tolist()
     #get names of symptoms
     symptoms_name_lst = nodes_df.loc[nodes_df['id'].isin(symptoms_id_lst), 'preflabel'].to_list()
-    print(f"Symptoms found: {symptoms_name_lst}")
     return symptoms_name_lst
 
-def symptom_list_from_folder(input_folder):
+def symptom_list_specified_folder(input_folder = 'Huntington disease (2022-06-23)'):
     """
-    This function finds the symptom list of the disease in the specified folder.
-    :param input_folder: folder name containing disease_id.txt and monarch CSVs (e.g., 'Alzheimer disease type 1 (2025-10-15)')
-    :return: symptom name list, date of creation, disease name with date
+    This function finds the symptom list of the disease specified by user 
+    clicking a folder and changes the cwd to the folder specified.
+    :param input_folder: The input folder of the disease
+    :return: symptom name list
     """
-    import os
-    date = input_folder.split('(')[-1].rstrip(')')
-    
-    # Change to the specified folder
-    base_path = os.getcwd()
-    folder_path = os.path.join(base_path, 'drugapp', 'data', input_folder)
-    if not os.path.exists(folder_path):
-        raise FileNotFoundError(f"Folder {folder_path} does not exist")
-    os.chdir(folder_path)
-    
-    # Read disease_id.txt
-    with open("disease_id.txt", 'r') as file:
+    date_str = input_folder[-11:-1] # get the date from the disease name
+    date = datetime.datetime.strptime(date_str, '%Y-%m-%d').date()
+    #change directory to the folder
+    os.chdir(os.getcwd() +'/drugapp/data/' + input_folder)
+
+    # find the disease ID that was previously written in a txt file
+    with open(os.getcwd()+"/disease_id.txt", 'r') as file:
         file_text = file.read()
         input_number, disease_id, disease_name = file_text.split(';')
+
+    monarch_fname_edges = './monarch/monarch_edges_disease_v{}.csv'.format(date)
+    monarch_fname_nodes = './monarch/monarch_nodes_disease_v{}.csv'.format(date)
     
-    disease_name_date = f"{disease_name} ({date})"
-    monarch_fname_edges = f'./monarch/monarch_edges_disease_v{date}.csv'
-    monarch_fname_nodes = f'./monarch/monarch_nodes_disease_v{date}.csv'
-    
-    # Get list of symptoms
-    symptoms_name_lst = get_symptoms_disease(disease_id, monarch_fname_edges, monarch_fname_nodes)
-    
-    # Restore original working directory
-    os.chdir(base_path)
-    
-    return symptoms_name_lst, date, disease_name_date
+    # get list of symptoms for disease to ask user
+    symptoms_name_lst=get_symptoms_disease(disease_id, monarch_fname_edges, monarch_fname_nodes)
+    return symptoms_name_lst, date, input_number
 
 def symptom_list_today():
     """
@@ -752,77 +1001,87 @@ def symptom_list_today():
     
     return symptoms_name_lst, date, disease_name_date
 
-def run_monarch(input_number='104300'):
+def run_monarch(input_number='143100'):
+    """
+    This function runs the whole Monarch script and saves nodes and edges files.
+    :param input_number: The input phenotype MIM number of the disease
+    :return: nodes and edges files in /monarch folder
+    """
     input_id = 'OMIM:' + input_number
-    disease_name, disease_id = get_disease_name_id(input_id)
+    disease_name, disease_id = get_disease_name_id(disease_input_ID=input_id)
+    print(f"Input OMIM: {input_id}, Disease Name: {disease_name}, ID: {disease_id}")
+    
     new_path = os.getcwd() + '/drugapp/data/' + disease_name + ' ({})'.format(today)
     os.makedirs(new_path, exist_ok=True)
     os.chdir(new_path)
-    text_file = open("disease_id.txt", "w")
+
+    text_file = open(os.getcwd() + "/disease_id.txt", "w")
     text_file.write(input_number + ';' + disease_id + ';' + disease_name)
     text_file.close()
     
-    seed_list = [disease_id]
-    neighbour_list = get_neighbours_list(seed_list)
-    orthopheno_list = get_orthopheno_list(seed_list)
-    gene_list = seed_list + neighbour_list + orthopheno_list
-    network = extract_edges(gene_list)
-    df = print_network(network, 'monarch_orthopeno_network_disease')
-    if df is None:
-        print("Error: No network data to build edges and nodes.")
+    seedList = [disease_id]
+    print(f"Seed List: {seedList}")
+    neighbourList = get_neighbours_list(seedList)
+    print(f"Neighbour List (length): {len(neighbourList)}")
+    orthophenoList = get_orthopheno_list(seedList)
+    print(f"Orthopheno List (length): {len(orthophenoList)}")
+    geneList = sum([seedList, neighbourList, orthophenoList], [])
+    print(f"Gene List (length): {len(geneList)}")
+    network = extract_edges(geneList)
+    print(f"Network (edges count): {len(network)}")
+
+    if not network:
+        print(f"Warning: Empty network for {disease_id}. Trying OMIM ID as fallback.")
+        seedList = [input_id]
+        neighbourList = get_neighbours_list(seedList)
+        orthophenoList = get_orthopheno_list(seedList)
+        geneList = sum([seedList, neighbourList, orthophenoList], [])
+        network = extract_edges(geneList)
+        print(f"Fallback Network (edges count): {len(network)}")
+    
+    if not network:
+        print(f"Error: No edges retrieved for {disease_id} or {input_id}. Skipping CSV creation.")
         return
-    build_edges(df, 'monarch_edges_disease')
-    build_nodes(df, 'monarch_nodes_disease')
 
-def run_monarch_symptom(input_symptom, date, disease_folder):
+    print_network(network, 'monarch_orthopeno_network_disease')
+    file = 'monarch_orthopeno_network_disease_v{}.csv'.format(today)
+    monarch_connections = read_connections(file)
+    build_edges(monarch_connections, edges_fname='monarch_edges_disease')
+    build_nodes(monarch_connections, nodes_fname='monarch_nodes_disease')
+
+def run_monarch_symptom(input_symptom, date):
     """
-    This function runs the Monarch script using the symptom ID as the seed and saves nodes/edges files.
-    :param input_symptom: The input symptom name (e.g., 'Dementia')
-    :param date: Date string of the disease folder (e.g., '2025-10-15')
-    :param disease_folder: Folder name containing disease_id.txt and CSVs (e.g., 'Alzheimer disease type 1 (2025-10-15)')
-    :return: None (saves CSVs in monarch folder)
+    This function runs the whole Monarch script using the disease phenotype MIM number
+    and symptom ID as seeds and saves nodes and edges files.
+
+    :param input_symptom: The input symptom
+    :return: nodes and edges files in /monarch folder
     """
-    # Change to disease folder
-    base_path = os.getcwd()
-    folder_path = os.path.join(base_path, 'drugapp', 'data', disease_folder)
-    if not os.path.exists(folder_path):
-        raise FileNotFoundError(f"Folder {folder_path} does not exist")
-    os.chdir(folder_path)
-    
-    # Get symptom ID from nodes CSV
-    monarch_fname_nodes = f'./monarch/monarch_nodes_disease_v{date}.csv'
-    try:
-        nodes_df = pd.read_csv(monarch_fname_nodes)
-        symptom_id_row = nodes_df[nodes_df['preflabel'] == input_symptom]
-        if symptom_id_row.empty:
-            raise ValueError(f"Symptom '{input_symptom}' not found in {monarch_fname_nodes}")
-        symptom_id = symptom_id_row['id'].iloc[0]
-    except Exception as e:
-        os.chdir(base_path)
-        raise Exception(f"Error finding symptom ID for '{input_symptom}': {e}")
-    
-    # Build Monarch network with symptom as seed
-    seed_list = [symptom_id]
-    neighbour_list = get_neighbours_list(seed_list)
-    orthopheno_list = get_orthopheno_list(seed_list)
-    gene_list = seed_list + neighbour_list + orthopheno_list
-    network = extract_edges(gene_list)
 
-    print(f"Building symptom KG for symptom: {input_symptom} (ID: {symptom_id})")
-    print(f"Neighbours: {len(neighbour_list)}, Orthophenotypes: {len(orthopheno_list)}")
-    print(f"Total edges: {len(network)}")
+    # turn input symptom name into ID
+    monarch_fname_nodes = './monarch/monarch_nodes_disease_v{}.csv'.format(date)
+    nodes_df = pd.read_csv(monarch_fname_nodes)
+    symptom_id = nodes_df.loc[nodes_df['preflabel'] == input_symptom, 'id'].iloc[0]
     
-    # Save network
-    df = print_network(network, 'monarch_orthopeno_network_symptom')
-    if df is None:
-        os.chdir(base_path)
-        raise ValueError("No edges generated for symptom network")
-    
-    # Build and save edges/nodes
-    build_edges(df, edges_fname='monarch_edges_symptom')
-    build_nodes(df, nodes_fname='monarch_nodes_symptom')
-    
-    # Restore original working directory
-    os.chdir(base_path)
+    #build monarch network
+    seedList = [symptom_id]
 
-#run_monarch()
+    neighbourList = get_neighbours_list(seedList)
+    orthophenoList = get_orthopheno_list(seedList) 
+    geneList = sum([seedList,neighbourList,orthophenoList], [])
+    network = extract_edges(geneList) 
+
+    # save network
+    print_network(network, 'monarch_orthopeno_network_symptom')
+    
+    file = 'monarch_orthopeno_network_symptom_v{}.csv'.format(today)
+    monarch_connections = read_connections(file)
+    build_edges(monarch_connections, edges_fname='monarch_edges_symptom')
+    build_nodes(monarch_connections, nodes_fname = 'monarch_nodes_symptom')    
+
+
+
+if __name__ == '__main__':
+    
+    input_number = '143100' # input of user
+    run_monarch(input_number)

@@ -1,0 +1,442 @@
+subject_id,subject_label,subject_uri,subject_category,relation_id,relation_label,relation_uri,object_id,object_label,object_uri,object_category,reference_id_list
+HGNC:7427,MT-CYB,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:18063,STARD7,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:31664034
+MONDO:0015059,progressive non-fluent aphasia,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011632,amyotrophic lateral sclerosis type 21,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:9179,POLG,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:12565911
+MONDO:0016562,progressive supranuclear palsy-pure akinesia with gait freezing syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0008178,inclusion body myopathy with Paget disease of bone and frontotemporal dementia type 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0000914,"cerebral arteriopathy, autosomal dominant, with subcortical infarcts and leukoencephalopathy, type 1",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0007325,"choreoathetosis, familial inverted",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011781,spinocerebellar ataxia type 17,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:14985389
+HGNC:53924,NOTCH2NLC,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:27797808
+MONDO:0010578,deafness dystonia syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:5033,HNRNPA2B1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:12827,XPR1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0013584,hereditary sensory neuropathy-deafness-dementia syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:11571,TARDBP,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0009839,progressive supranuclear palsy-parkinsonism syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:2584,CYLD,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:32666117|PMID:23338750
+MONDO:0018737,catastrophic antiphospholipid syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:2202,COL4A1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:27666438
+MONDO:0007105,frontotemporal dementia and/or amyotrophic lateral sclerosis 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:30213,ATP13A2,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:28137957
+MONDO:0007088,Alzheimer disease type 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:11802,TIA1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,PMID:28817800
+MONDO:0017947,"ABeta amyloidosis, Italian type",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0014975,autosomal recessive spastic paraplegia type 78,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:28137957
+MONDO:0014717,early-onset Lafora body disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:9179,POLG,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0016594,superficial siderosis,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:12449,TYROBP,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000727,Frontal lobe dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0007656,Gerstmann-Straussler-Scheinker syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011743,Alzheimer disease 4,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:9007102
+MONDO:0011703,spongiform encephalopathy with neuropsychiatric features,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:9266722
+MONDO:0010773,mitochondrial myopathy with diabetes,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:9508,PSEN1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:6524873
+HGNC:28337,C9orf72,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0012391,neuronal ceroid lipofuscinosis 8 northern epilepsy variant,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:2475,CST3,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0800306,myoclonic epilepsy of Lafora 2,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:15781812
+MONDO:0008935,cerebellar ataxia-hypogonadism syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0014899,"progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 4",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010789,MELAS syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0012278,"supranuclear palsy, progressive, 2",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002439,Frontolimbic dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0007105,frontotemporal dementia and/or amyotrophic lateral sclerosis 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0014866,Charcot-Marie-Tooth disease axonal type 2T,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:26991897
+HGNC:10549,ATXN10,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010459,amyotrophic lateral sclerosis type 15,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0019569,Cockayne syndrome type 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:17761,TREM2,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000727,Frontal lobe dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0000914,"cerebral arteriopathy, autosomal dominant, with subcortical infarcts and leukoencephalopathy, type 1",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:10371078|PMID:16864835
+HGNC:7154,MME,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:26991897
+MONDO:0016091,adult Krabbe disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0007104,amyotrophic lateral sclerosis-parkinsonism-dementia complex,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011445,hereditary spastic paraplegia 11,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0020750,polycystic lipomembranous osteodysplasia with sclerosing leukoencephalopathy 2,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:15883308
+HGNC:4878,HEXA,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010794,NARP syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0018951,distal myopathy with vocal cord weakness,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010936,frontotemporal dementia and/or amyotrophic lateral sclerosis 7,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:1160,TWNK,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0009698,Unverricht-Lundborg syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:9508,PSEN1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0859529,"amyotrophic lateral sclerosis 27, juvenile",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:34059824
+MONDO:0030805,spinocerebellar ataxia 49,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:35310830
+HGNC:3148,TYMP,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:10852545
+MONDO:0008842,"ataxia, early-onset, with oculomotor apraxia and hypoalbuminemia",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0008178,inclusion body myopathy with Paget disease of bone and frontotemporal dementia type 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:15732117|PMID:16247064
+MONDO:0014545,progressive myoclonic epilepsy type 8,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:24782409
+MONDO:0010044,hereditary spastic paraplegia 15,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010820,autosomal recessive juvenile Parkinson disease 2,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:16328510
+MONDO:0008768,"ceroid lipofuscinosis, neuronal, 6B (Kufs type)",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:21549341
+HGNC:2074,CLN3,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7883,NOTCH3,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:10371078|PMID:16864835
+MONDO:0010100,Tay-Sachs disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:8800,PDGFB,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:23913003
+HGNC:10555,ATXN2,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:870,ATP7B,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:2711,DCTN1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:13308,GPRC5B,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:37143309
+HGNC:7455,MT-ND1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0017946,"ABeta amyloidosis, Iowa type",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:535,ANXA11,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:28469040
+MONDO:0017730,"metachromatic leukodystrophy, adult form",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011743,Alzheimer disease 4,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:30104866
+HGNC:1591,CCNF,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,PMID:27080313
+MONDO:0008767,neuronal ceroid lipofuscinosis 3,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0009281,glutaryl-CoA dehydrogenase deficiency,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011397,"autosomal dominant cerebellar ataxia, deafness and narcolepsy",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:22328086
+HGNC:6893,MAPT,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000727,Frontal lobe dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:2077,CLN6,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:21549341
+HGNC:2976,DNMT1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:22328086
+MONDO:0016591,sporadic adult-onset ataxia of unknown etiology,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0100294,"mitochondrial complex II deficiency, nuclear type 1",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7683,NDUFA1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:19185523
+MONDO:0010857,semantic dementia,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:6524873
+HGNC:11584,TBK1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:8804,PDGFRB,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:23255827
+MONDO:0008083,"ceroid lipofuscinosis, neuronal, 4 (Kufs type)",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:21820099
+MONDO:0014387,"leukoencephalopathy, progressive, with ovarian failure",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:24808023
+MONDO:0011638,neuroferritinopathy,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0007123,Subcortical dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0014640,frontotemporal dementia and/or amyotrophic lateral sclerosis 3,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0009861,phenylketonuria,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0008201,Perry syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0012867,hereditary spastic paraplegia 38,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0018868,metachromatic leukodystrophy,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0009445,ichthyosis-hepatosplenomegaly-cerebellar degeneration syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0013060,autosomal recessive Parkinson disease 14,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0009830,parkinsonian-pyramidal syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:2482,CSTB,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:11571333
+MONDO:0016621,juvenile Huntington disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0008695,chorea-acanthocytosis,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0015140,early-onset autosomal dominant Alzheimer disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:4367,GM2A,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0007104,amyotrophic lateral sclerosis-parkinsonism-dementia complex,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:22637429
+MONDO:0009319,pantothenate kinase-associated neurodegeneration,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:15911822
+MONDO:0007182,Machado-Joseph disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:15559,CHCHD10,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000727,Frontal lobe dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010857,semantic dementia,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:9508,PSEN1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0009092,polycystic lipomembranous osteodysplasia with sclerosing leukoencephaly,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000727,Frontal lobe dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0013737,hereditary spastic paraplegia 46,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:2244,COQ7,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:36454683
+MONDO:0009463,"internal carotid arteries, hypoplasia of",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0013132,hereditary spastic paraplegia 36,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010997,"supranuclear palsy, progressive, 1",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002439,Frontolimbic dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:20373,SPG21,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:14564668
+HGNC:25443,C19orf12,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0007624,Flynn-Aird syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:15559,CHCHD10,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,PMID:24934289
+MONDO:0011887,"cataract, congenital, with mental impairment and dentate gyrus atrophy",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0030872,frontotemporal dementia and/or amyotrophic lateral sclerosis 8,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:32666117|PMID:23338750
+HGNC:14203,JPH3,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0007123,Subcortical dementia,NA,biolink:PhenotypicFeature,PMID:11914418
+MONDO:0007098,ACys amyloidosis,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0019977,parkinsonism with dementia of Guadeloupe,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000727,Frontal lobe dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010382,fragile X-associated tremor/ataxia syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0020749,polycystic lipomembranous osteodysplasia with sclerosing leukoencephalopathy 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:12370476
+MONDO:0015484,cysticercosis,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0017160,behavioral variant of frontotemporal dementia,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0008444,"spastic paraplegia, optic atrophy, and dementia",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0019037,progressive supranuclear palsy,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0012790,amyotrophic lateral sclerosis type 10,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:6893,MAPT,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:6524873
+HGNC:14203,JPH3,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HP:0000727,Frontal lobe dementia,NA,biolink:PhenotypicFeature,biolink:subclass_of,subclass of,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:613,APOE,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:12925374
+MONDO:0008045,spinal muscular atrophy-progressive myoclonic epilepsy syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:735,ASAH1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010382,fragile X-associated tremor/ataxia syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,OMIM:309550
+MONDO:0011638,neuroferritinopathy,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000727,Frontal lobe dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0018964,homocystinuria without methylmalonic aciduria,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0015140,early-onset autosomal dominant Alzheimer disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0030219,Semantic dementia,NA,biolink:PhenotypicFeature,NA
+HP:0000726,Dementia,NA,biolink:PhenotypicFeature,biolink:subclass_of,subclass of,NA,HP:0001268,Mental deterioration,NA,biolink:PhenotypicFeature,NA
+MONDO:0019972,dural sinus malformation,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0013373,dilated cardiomyopathy 1V,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:17186461
+MONDO:0007435,dentatorubral-pallidoluysian atrophy,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:31755148
+MONDO:0957874,"neuronopathy, distal hereditary motor, autosomal recessive 9",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:36454683
+MONDO:0011764,autosomal dominant Parkinson disease 8,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:9476,HTRA1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:34946904|PMID:19387015
+MONDO:0019977,parkinsonism with dementia of Guadeloupe,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0800027,"leukoencephalopathy, diffuse hereditary, with spheroids 1",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000727,Frontal lobe dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0009568,mast syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:14564668
+HGNC:14253,CERS1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:24782409
+MONDO:0011283,mitochondrial DNA depletion syndrome 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:10852545
+MONDO:0011439,spinocerebellar ataxia type 12,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0005620,cerebral amyloid angiopathy,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:9305,PPP2R2B,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7678,NDP,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:6893,MAPT,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0013673,Wolfram-like syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0017575,mitochondrial neurogastrointestinal encephalomyopathy,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010044,hereditary spastic paraplegia 15,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010099,Tay-Sachs disease AB variant,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:61,ABCD1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0100212,IFAP syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0009366,normal pressure hydrocephalus,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0014899,"progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal recessive 4",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:23043144
+HGNC:4851,HTT,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:11588,TBP,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:14985389
+MONDO:0012721,progressive myoclonic epilepsy type 3,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:3033,ATN1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:31755148
+HGNC:7490,MT-TL1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:9352,PRDX1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:9449,PRNP,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:9266722
+MONDO:0018475,PRKAR1B-related neurodegenerative dementia with intermediate filaments,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:6893,MAPT,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0004976,amyotrophic lateral sclerosis,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:11140,SNCB,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010772,Leber optic atrophy and dystonia,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:14537,NPC2,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:9509,PSEN2,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:12925374
+MONDO:0011842,GRN-related frontotemporal lobar degeneration with Tdp43 inclusions,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0014147,neuronal ceroid lipofuscinosis 13,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:23297359
+MONDO:0011781,spinocerebellar ataxia type 17,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000727,Frontal lobe dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:9509,PSEN2,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:17186461
+MONDO:0009897,adult polyglucosan body disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0014796,autosomal recessive early-onset Parkinson disease 23,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:26942284
+HGNC:2548,CUBN,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:2605,CYP27A1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0007334,autosomal dominant popliteal pterygium syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0008243,Pick disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0018475,PRKAR1B-related neurodegenerative dementia with intermediate filaments,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:15984,APTX,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0008201,Perry syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:9476,HTRA1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:26063658
+MONDO:0014395,frontotemporal dementia and/or amyotrophic lateral sclerosis 2,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,PMID:24934289
+HGNC:3413,EPM2A,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0007493,torsion dystonia 4,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0030885,amyotrophic lateral sclerosis 26 with or without frontotemporal dementia,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,PMID:28817800
+MONDO:0011412,familial encephalopathy with neuroserpin inclusion bodies,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:29478,ROGDI,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:14581,PINK1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0000507,inclusion body myopathy with Paget disease of bone and frontotemporal dementia,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:11277,SPTLC1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:34059824
+MONDO:0010709,early-onset parkinsonism-intellectual disability syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0001627,dementia,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:18986,GBA2,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:20593214
+MONDO:0007433,dementia/parkinsonism with non-Alzheimer amyloid plaques,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:21645,CHCHD2,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:12244316
+MONDO:0010476,neurodegeneration with brain iron accumulation 5,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:23435086
+HGNC:7501,MT-TW,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011638,neuroferritinopathy,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011299,Huntington disease-like 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:10581230
+MONDO:0007297,ADan amyloidosis,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0020527,ectopic Cushing syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0008963,Chediak-Higashi syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010030,Sjogren syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:2433,CSF1R,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000727,Frontal lobe dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7481,MT-TF,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0009835,subacute sclerosing panencephalitis,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011743,Alzheimer disease 4,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:12925374
+MONDO:0009698,Unverricht-Lundborg syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:11571333
+HGNC:12405,TTR,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HP:0002439,Frontolimbic dementia,NA,biolink:PhenotypicFeature,biolink:subclass_of,subclass of,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010534,X-linked spinocerebellar ataxia type 4,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0014568,hereditary spastic paraplegia 73,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0014395,frontotemporal dementia and/or amyotrophic lateral sclerosis 2,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000727,Frontal lobe dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011895,idiopathic hypereosinophilic syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0008948,cerebrotendinous xanthomatosis,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:10775536
+MONDO:0008306,ABri amyloidosis,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0007089,Alzheimer disease 2,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:17761,TREM2,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:12370476
+MONDO:0018644,autosomal dominant complex spastic paraplegia type 9B,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0004648,vascular dementia,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0014628,"basal ganglia calcification, idiopathic, 6",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:20,AARS1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:31775912
+MONDO:0019037,progressive supranuclear palsy,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:9179,POLG,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:10852545
+MONDO:0100156,Imerslund-Grasbeck syndrome type 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0016545,leukoencephalopathy-palmoplantar keratoderma syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0027694,amyotrophic lateral sclerosis type 23,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:28469040
+MONDO:0010829,CARASIL syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7897,NPC1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:6912,MATR3,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,OMIM:606070
+MONDO:0008458,spinocerebellar ataxia type 2,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:2295,CP,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0021011,hereditary progressive chorea without dementia,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:12891678
+MONDO:0011583,"cerebral amyloid angiopathy, APP-related",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:16178030
+MONDO:0971004,"amyloidosis, hereditary systemic 1",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0018937,mucopolysaccharidosis type 3,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0007403,inherited Creutzfeldt-Jakob disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7498,MT-TS2,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010857,semantic dementia,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000727,Frontal lobe dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0044332,childhood-onset benign chorea with striatal involvement,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0014768,"cerebral arteriopathy, autosomal dominant, with subcortical infarcts and leukoencephalopathy, type 2",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:26063658
+MONDO:0009568,mast syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:17761,TREM2,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:3999,FTL,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7422,MT-CO3,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7981,NR4A2,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0015033,"ABeta amyloidosis, dutch type",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:620,APP,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0030634,"leukoencephalopathy, hereditary diffuse, with spheroids 2",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:31775912
+MONDO:0014867,spinocerebellar ataxia 43,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010829,CARASIL syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:34946904|PMID:19387015
+MONDO:0008436,Sneddon syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011671,Huntington disease-like 2,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0007123,Subcortical dementia,NA,biolink:PhenotypicFeature,PMID:11914418
+MONDO:0015681,childhood disintegrative disorder,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0007739,Huntington disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0018696,corticobasal syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0009267,Gaucher disease type III,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7883,NOTCH3,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0007123,Subcortical dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010184,methylmalonic aciduria and homocystinuria type cblC,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011327,neuronal intranuclear inclusion disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7499,MT-TT,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:2531,CTSF,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:23297359
+MONDO:0009185,amelocerebrohypohidrotic syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0009502,pyruvate dehydrogenase E2 deficiency,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:11825,NKX2-1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:12891678
+MONDO:0009050,Cushing disease due to pituitary adenoma,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0017279,young-onset Parkinson disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000727,Frontal lobe dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0008935,cerebellar ataxia-hypogonadism syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:23656588
+HGNC:6174,ITM2B,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7495,MT-TQ,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011006,hereditary spastic paraplegia 9A,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0008641,retinal vasculopathy with cerebral leukoencephalopathy and systemic manifestations,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:17660820
+HGNC:24537,CHMP2B,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0018006,adult-onset distal myopathy due to VCP mutation,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7106,ATXN3,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0009852,hereditary intrinsic factor deficiency,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0000914,"cerebral arteriopathy, autosomal dominant, with subcortical infarcts and leukoencephalopathy, type 1",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0007123,Subcortical dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011706,Kufor-Rakeb syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7500,MT-TV,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:3432,ERBB4,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:24119685
+HGNC:23594,VPS13C,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:26942284
+HGNC:2976,DNMT1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0030875,frontotemporal dementia and/or amyotrophic lateral sclerosis 5,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,PMID:27080313
+MONDO:0017276,frontotemporal dementia,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0018591,ITM2B amyloidosis,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0017161,frontotemporal dementia with motor neuron disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:1160,TWNK,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:12565911
+MONDO:0011330,spinocerebellar ataxia type 10,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0018544,adrenoleukodystrophy,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:9449,PRNP,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:3775,FMR1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011327,neuronal intranuclear inclusion disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:27797808
+HP:0007123,Subcortical dementia,NA,biolink:PhenotypicFeature,biolink:subclass_of,subclass of,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:21576,NHLRC1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:15781812
+MONDO:0009697,Lafora disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,biolink:subclass_of,subclass of,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:2858,DGUOK,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:23043144
+MONDO:0010215,xeroderma pigmentosum group F,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:11139,SNCAIP,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0019975,pellagra,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010857,semantic dementia,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0014204,"basal ganglia calcification, idiopathic, 5",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:23913003
+HGNC:620,APP,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:16178030
+MONDO:0007488,Lewy body dementia,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0009319,pantothenate kinase-associated neurodegeneration,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:11233,SPAST,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7497,MT-TS1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:4177,GBA1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0008947,bilateral striopallidodentate calcinosis,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:613,APOE,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0008836,ataxia with myoclonic epilepsy and presenile dementia,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:26684,CFAP43,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:12449,TYROBP,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:12370476
+MONDO:0008781,juvenile amyotrophic lateral sclerosis with dementia,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0014742,"Parkinson disease 22, autosomal dominant",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:12244316
+MONDO:0017945,ABetaL34V amyloidosis,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011426,aceruloplasminemia,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:8607,PRKN,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:16328510
+MONDO:0016730,gangliocytoma,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011706,Kufor-Rakeb syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:16964263
+HGNC:11280,SQSTM1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0014975,autosomal recessive spastic paraplegia type 78,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0008134,"autosomal dominant optic atrophy, classic form",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011562,autosomal dominant Parkinson disease 4,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0026720,"mitochondrial complex I deficiency, nuclear type 12",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:19185523
+MONDO:0008793,"angiomatosis, diffuse Corticomeningeal, of Divry and van Bogaert",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:21698,RNF216,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:23656588
+MONDO:0010476,neurodegeneration with brain iron accumulation 5,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0019160,primary progressive freezing gait,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:28912,WDR45,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:23435086
+MONDO:0017279,young-onset Parkinson disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:2584,CYLD,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:3999,FTL,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0007123,Subcortical dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011299,Huntington disease-like 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:11138,SNCA,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0020488,atypical progressive supranuclear palsy syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011835,"sensory ataxic neuropathy, dysarthria, and ophthalmoparesis",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:12565911
+HGNC:3436,ERCC4,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,OMIM:278760
+MONDO:0018982,Niemann-Pick disease type C,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0014531,amyotrophic lateral sclerosis type 22,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,PMID:25374358
+MONDO:0957533,megalencephalic leukoencephalopathy with subcortical cysts 3,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:37143309
+MONDO:0007435,dentatorubral-pallidoluysian atrophy,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:28337,C9orf72,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0013584,hereditary sensory neuropathy-deafness-dementia syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:21532572
+HGNC:4601,GRN,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0016370,Marchiafava-Bignami disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011691,amyotrophic lateral sclerosis type 3,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:11706389
+MONDO:0014004,"basal ganglia calcification, idiopathic, 4",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:23255827
+MONDO:0009054,"autosomal recessive cutis laxa type 2, classic type",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011613,autosomal recessive early-onset Parkinson disease 6,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0032814,"microangiopathy and leukoencephalopathy, pontine, autosomal dominant",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:27666438
+MONDO:0008215,adult-onset autosomal dominant demyelinating leukodystrophy,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010200,Wilson disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:12666,VCP,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0008199,late-onset Parkinson disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7421,MT-CO2,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:16235,DNAJC5,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:21820099
+MONDO:0008438,hereditary spastic paraplegia 4,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7419,MT-CO1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:6893,MAPT,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0002439,Frontolimbic dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7414,MT-ATP6,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011873,"Niemann-Pick disease, type C2",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011671,Huntington disease-like 2,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0013737,hereditary spastic paraplegia 46,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:20593214
+HGNC:30213,ATP13A2,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:16964263
+HGNC:9039,PLA2G6,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010787,Kearns-Sayre syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0020749,polycystic lipomembranous osteodysplasia with sclerosing leukoencephalopathy 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000727,Frontal lobe dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0018696,corticobasal syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0013674,neurodegeneration with brain iron accumulation 4,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:890,AUH,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:20855850
+HGNC:3439,ERCC8,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:15894,PANK2,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:15911822|OMIM:234200
+HGNC:24525,MMACHC,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7487,MT-TH,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:12666,VCP,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:15732117|PMID:16247064
+MONDO:0018105,Wolfram syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:13993,PRDM8,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:12509,UBQLN2,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,OMIM:300857
+HGNC:8943,SERPINI1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0014641,frontotemporal dementia and/or amyotrophic lateral sclerosis 4,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0011930,"epilepsy, familial adult myoclonic, 2",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:31664034
+MONDO:0008758,mitochondrial DNA depletion syndrome 4a,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0012321,Alzheimer disease 10,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0012241,"progressive external ophthalmoplegia with mitochondrial DNA deletions, autosomal dominant 3",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7461,MT-ND5,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010691,Norrie disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0060456,"cerebral sclerosis, diffuse, scholz type",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0014223,amyotrophic lateral sclerosis type 19,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:24119685
+MONDO:0011913,Alzheimer disease 3,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0030872,frontotemporal dementia and/or amyotrophic lateral sclerosis 8,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,PMID:23338750
+HGNC:9508,PSEN1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000727,Frontal lobe dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:48,ABCB7,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:11118249
+HGNC:7477,MT-TC,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:6121,IRF6,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:12269,TREX1,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:17660820
+HGNC:1349,SAMD9L,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:35310830
+MONDO:0018150,Gaucher disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0009757,"Niemann-Pick disease, type C1",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:16499,RAB39B,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,OMIM:311510
+HP:0030219,Semantic dementia,NA,biolink:PhenotypicFeature,biolink:subclass_of,subclass of,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010524,X-linked sideroblastic anemia with ataxia,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:11118249
+HGNC:1908,VPS13A,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,OMIM:200150
+MONDO:0008200,autosomal dominant Parkinson disease 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010808,fatal familial insomnia,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:11588,TBP,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000727,Frontal lobe dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0018637,familial chylomicronemia syndrome,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0014178,inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia 2,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,PMID:11891683
+HGNC:7491,MT-TL2,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0958199,myoclonic epilepsy of Lafora 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7489,MT-TK,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:12407,TUBA4A,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,PMID:25374358
+MONDO:0015271,idiopathic camptocormia,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002145,Frontotemporal dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:21022,AARS2,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:24808023
+MONDO:0016079,sporadic Creutzfeldt-Jakob disease,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+HGNC:7462,MT-ND6,NA,biolink:Gene,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0008307,"presenile dementia, Kraepelin type",NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0009610,3-methylglutaconic aciduria type 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Dementia,NA,biolink:PhenotypicFeature,PMID:20855850
