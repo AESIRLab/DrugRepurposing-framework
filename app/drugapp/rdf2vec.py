@@ -456,7 +456,7 @@ def drug_list_rank(symptom_user_input, disease_name, interaction_predictions_df,
     df_predict_nozero=interaction_predictions_df[interaction_predictions_df['predicted_interaction'] != '0']
     # drop interactions with min_prob of belonging in that class
     df_predict_highprob=df_predict_nozero[df_predict_nozero['prob'] > min_prob]
-    df_predict_highprob['geneinteraction']=list(zip(df_predict_highprob.gene, df_predict_highprob.predicted_interaction, df_predict_highprob.prob))
+    df_predict_highprob.loc[:, 'geneinteraction'] = list(zip(df_predict_highprob.gene, df_predict_highprob.predicted_interaction, df_predict_highprob.prob))
     groupedby = df_predict_highprob.groupby('drug')['geneinteraction'].apply(lambda x: x.values.tolist()).to_frame()
     # add how many interactions each drug has
     groupedby['nr_interactions'] = groupedby.apply(lambda row: len(row.geneinteraction), axis=1)
@@ -588,6 +588,8 @@ def rdf2vec_general(symptom_user_input, date, disease_name_date):
 
     interaction_predictions_df = pd.read_csv('./predictions/drug_gene_pred_v{}.csv'.format(today))
     drug_list_rank(symptom_user_input, disease_name_date, interaction_predictions_df,min_prob=0.9)
+    file_path = './monarch/monarch_orthopeno_network_symptom_v{}.csv'.format(today)
+    print(f"Checking if file exists at: {file_path}, exists: {os.path.exists(file_path)}")
     
     # delete the files not needed anymore (everything except the original disease graph)
     # these extra files take up a lot of space
@@ -595,9 +597,12 @@ def rdf2vec_general(symptom_user_input, date, disease_name_date):
     print(f"Current directory: {os.getcwd()}")
     os.remove('./monarch/monarch_edges_symptom_v{}.csv'.format(today))
     os.remove('./monarch/monarch_nodes_symptom_v{}.csv'.format(today))
-    file_path = './monarch/monarch_orthopeno_network_symptom_v{}.csv'.format(today)
+    file_path = os.path.join(os.getcwd(), 'monarch', f'monarch_orthopeno_network_symptom_v{today}.csv')
     print(f"Attempting to remove: {file_path}, exists: {os.path.exists(file_path)}")
-    os.remove(file_path)
+    if os.path.exists(file_path):
+        os.remove(file_path)
+    else:
+        print(f"File not found, skipping removal: {file_path}")
     #os.remove('./monarch/monarch_orthopeno_network_symptom_v{}.csv'.format(today))
     os.remove('./DGIdb/DGIdb_edges_v{}.csv'.format(today))
     os.remove('./DGIdb/DGIdb_nodes_v{}.csv'.format(today))
