@@ -1,0 +1,8 @@
+subject_id,property_id,object_id,reference_uri,reference_supporting_text,reference_date,property_label,property_description,property_uri
+MONDO:0007088,biolink:has_phenotype,HP:0000726,NA,This edge comes from the Monarch Initiative 2025.,2025-10-17,has phenotype,NA,NA
+HGNC:620,biolink:causes_or_contributes_to,MONDO:0007088,NA,This edge comes from the Monarch Initiative 2025.,2025-10-17,causes or contributes to,NA,NA
+MONDO:0007088,biolink:has_phenotype,HP:0410054,NA,This edge comes from the Monarch Initiative 2025.,2025-10-17,has phenotype,NA,NA
+MONDO:0007088,biolink:has_phenotype,HP:0001300,NA,This edge comes from the Monarch Initiative 2025.,2025-10-17,has phenotype,NA,NA
+MONDO:0007088,biolink:has_phenotype,HP:0002185,NA,This edge comes from the Monarch Initiative 2025.,2025-10-17,has phenotype,NA,NA
+MONDO:0007088,biolink:has_phenotype,HP:0002511,NA,This edge comes from the Monarch Initiative 2025.,2025-10-17,has phenotype,NA,NA
+MONDO:0007088,biolink:has_phenotype,HP:0002423,NA,This edge comes from the Monarch Initiative 2025.,2025-10-17,has phenotype,NA,NA

@@ -159,7 +159,7 @@ def hit_dgidb_api(genes_list, rows=2000):
         return {'data': {'genes': {'nodes': []}}}
     
     print('\nThe function "hit_dgidb_api()" is running...This may take a while')
-    endpoint = 'https://dgidb.org/api/graphql'
+    endpoint = 'https://dgidb.org/api/graphql'  # Confirmed v5 endpoint
     query = """
     query Interactions($genes: [String!]) {
       genes(names: $genes) {
@@ -177,16 +177,22 @@ def hit_dgidb_api(genes_list, rows=2000):
       }
     }
     """
-    # genes_list is symbols
-    print(f"Querying DGIdb with {len(genes_list)} gene names: {genes_list[:5]}...")  # Debug print
+    print(f"Querying DGIdb with {len(genes_list)} gene names: {genes_list[:5]}...")  # Debug
     variables = {'genes': genes_list}
-    response = requests.post(endpoint, json={'query': query, 'variables': variables})
+    headers = {'Content-Type': 'application/json'}  # Explicitly set content type
+    response = requests.post(endpoint, json={'query': query, 'variables': variables}, headers=headers)
     
     if response.status_code != 200:
         print(f"DGIdb API error: {response.status_code}, text: {response.text}")
-        return {'data': {'genes': {'nodes': []}}}
+        # Fallback: Try GET if POST fails (unlikely, but debug)
+        response = requests.get(f'https://dgidb.org/api/v5/interactions.json?genes={",".join(genes_list)}&limit={rows}')
+        if response.status_code != 200:
+            print(f"GET fallback failed: {response.status_code}, text: {response.text}")
+            return {'data': {'genes': {'nodes': []}}}
+        json_data = response.json()
+    else:
+        json_data = response.json()
     
-    json_data = response.json()
     print(f"DGIdb returned {len(json_data.get('data', {}).get('genes', {}).get('nodes', []))} gene nodes")  # Debug
     print('\nFinished "hit_dgidb_api()".')
     return json_data
@@ -506,8 +512,13 @@ def run_dgidb(date=None, disease_folder=None):
     
     # Adjust paths if disease_folder provided
     base_path = os.getcwd()
+<<<<<<< HEAD
+    #if disease_folder:
+    #    base_path = os.path.join(base_path, 'drugapp', 'data', disease_folder)
+=======
     # if disease_folder:
     #     base_path = os.path.join(base_path, 'drugapp', 'data', disease_folder)
+>>>>>>> 6c7d80776fdcc54cd34da8d6e6f98affd13a59f9
     
     monarch_nodes_dis_file = os.path.join(base_path, 'monarch', f'monarch_nodes_disease_v{date}.csv')
     monarch_nodes_symp_file = os.path.join(base_path, 'monarch', f'monarch_nodes_symptom_v{date}.csv')

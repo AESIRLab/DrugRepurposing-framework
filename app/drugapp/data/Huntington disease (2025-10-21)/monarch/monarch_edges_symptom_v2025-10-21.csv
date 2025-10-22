@@ -1,0 +1,76 @@
+subject_id,property_id,object_id,reference_uri,reference_supporting_text,reference_date,property_label,property_description,property_uri
+MONDO:0019173,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0018020,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+HGNC:29217,RO:0002200,HP:0031354,https://www.ncbi.nlm.nih.gov/pubmed/29556724,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0009904,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+HP:0031354,biolink:subclass_of,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,subclass of,NA,NA
+MONDO:0015346,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+HGNC:7869,RO:0002200,HP:0100785,https://www.ncbi.nlm.nih.gov/pubmed/22926851,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0018546,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+HP:5200292,biolink:subclass_of,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,subclass of,NA,NA
+MONDO:0007053,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+HP:0031355,biolink:subclass_of,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,subclass of,NA,NA
+HGNC:2321,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0005619,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0008311,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0005459,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0010200,RO:0002200,HP:0100785,https://www.ncbi.nlm.nih.gov/pubmed/29914392,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0100429,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+HGNC:13013,RO:0002200,HP:0100785,https://www.ncbi.nlm.nih.gov/pubmed/25728775,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+HGNC:2711,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+HGNC:7764,RO:0002200,HP:0100785,https://www.ncbi.nlm.nih.gov/pubmed/33439489,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0019538,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0016603,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0030917,RO:0002200,HP:0031354,https://www.ncbi.nlm.nih.gov/pubmed/28191889,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+HGNC:870,RO:0002200,HP:0100785,https://www.ncbi.nlm.nih.gov/pubmed/29914392,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0018081,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+HGNC:13590,RO:0002200,HP:0031354,https://www.ncbi.nlm.nih.gov/pubmed/30057029,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0021081,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+HGNC:4422,RO:0002200,HP:0031354,https://www.ncbi.nlm.nih.gov/pubmed/17998446,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0958240,RO:0002200,HP:0031354,https://www.ncbi.nlm.nih.gov/pubmed/30564627,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0008294,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+HGNC:20153,RO:0002200,HP:0031354,"https://www.ncbi.nlm.nih.gov/pubmed/31001818,27595554,24998929",This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0971007,RO:0002200,HP:0031354,https://www.ncbi.nlm.nih.gov/pubmed/29556724,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0800001,RO:0002200,HP:0031354,https://www.ncbi.nlm.nih.gov/pubmed/28388406,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0008889,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0017722,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0014882,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0005048,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0008813,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0033925,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0019632,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0014558,RO:0002200,HP:0100785,https://www.ncbi.nlm.nih.gov/pubmed/25728775,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+HGNC:9449,RO:0002200,HP:0100785,https://www.ncbi.nlm.nih.gov/pubmed/1439789,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0010808,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0007739,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0100093,RO:0002200,HP:0100785,https://www.ncbi.nlm.nih.gov/pubmed/22926851,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0014017,RO:0002200,HP:0031354,"https://www.ncbi.nlm.nih.gov/pubmed/31001818,27595554,24998929",This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+HGNC:4124,RO:0002200,HP:0100785,https://www.ncbi.nlm.nih.gov/pubmed/32293671,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0009658,RO:0002200,HP:0031354,https://www.ncbi.nlm.nih.gov/pubmed/17998446,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0010200,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0013541,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0009377,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0018019,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0008201,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0007947,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0008678,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+HP:0031356,biolink:subclass_of,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,subclass of,NA,NA
+HP:0100785,biolink:subclass_of,HP:0002360,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,subclass of,NA,NA
+MONDO:0017279,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0019371,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+HGNC:24283,RO:0002200,HP:0031354,https://www.ncbi.nlm.nih.gov/pubmed/28191889,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0060760,RO:0002200,HP:0031354,https://www.ncbi.nlm.nih.gov/pubmed/30057029,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0030900,RO:0002200,HP:0100785,https://www.ncbi.nlm.nih.gov/pubmed/32196122,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0005029,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0010808,RO:0002200,HP:0100785,https://www.ncbi.nlm.nih.gov/pubmed/1439789,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0030043,RO:0002200,HP:0100785,https://www.ncbi.nlm.nih.gov/pubmed/32293671,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+HGNC:10541,RO:0002200,HP:0031355,https://www.ncbi.nlm.nih.gov/pubmed/33513338,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+HGNC:8777,RO:0002200,HP:0100785,https://www.ncbi.nlm.nih.gov/pubmed/32196122,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0020527,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0032526,RO:0002200,HP:0100785,https://www.ncbi.nlm.nih.gov/pubmed/31126790,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0007369,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0007403,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0030990,RO:0002200,HP:0031355,https://www.ncbi.nlm.nih.gov/pubmed/33513338,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+HGNC:30031,RO:0002200,HP:0031354,https://www.ncbi.nlm.nih.gov/pubmed/30564627,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+MONDO:0957563,RO:0002200,HP:0100785,https://www.ncbi.nlm.nih.gov/pubmed/33439489,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA
+HGNC:11427,RO:0002200,HP:0100785,NA,This edge comes from the Monarch Initiative 2025.,2025-10-21,0002200,NA,NA

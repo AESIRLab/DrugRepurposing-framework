@@ -1,0 +1,76 @@
+subject_id,subject_label,subject_uri,subject_category,relation_id,relation_label,relation_uri,object_id,object_label,object_uri,object_category,reference_id_list
+MONDO:0019173,rabies,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0018020,mercury poisoning,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+HGNC:29217,PRR12,NA,biolink:Gene,RO:0002200,0002200,NA,HP:0031354,Sleep onset insomnia,NA,biolink:PhenotypicFeature,PMID:29556724
+MONDO:0009904,Gitelman syndrome,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+HP:0031354,Sleep onset insomnia,NA,biolink:PhenotypicFeature,biolink:subclass_of,subclass of,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0015346,epilepsy with eyelid myoclonia,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+HGNC:7869,NOL3,NA,biolink:Gene,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,PMID:22926851
+MONDO:0018546,serotonin syndrome,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+HP:5200292,Non-restorative sleep,NA,biolink:PhenotypicFeature,biolink:subclass_of,subclass of,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0007053,"restless legs syndrome, susceptibility to, 1",NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+HP:0031355,Maintenance insomnia,NA,biolink:PhenotypicFeature,biolink:subclass_of,subclass of,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+HGNC:2321,CPOX,NA,biolink:Gene,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0005619,typhoid fever,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0008311,progeria-short stature-pigmented nevi syndrome,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0005459,human African trypanosomiasis,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010200,Wilson disease,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,PMID:29914392
+MONDO:0100429,intrahepatic cholestasis of pregnancy,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+HGNC:13013,KAT6A,NA,biolink:Gene,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,PMID:25728775
+HGNC:2711,DCTN1,NA,biolink:Gene,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+HGNC:7764,NEUROG1,NA,biolink:Gene,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,PMID:33439489
+MONDO:0019538,Gaisbock syndrome,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0016603,citrullinemia type II,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0030917,"intellectual disability, autosomal dominant 51",NA,biolink:Disease,RO:0002200,0002200,NA,HP:0031354,Sleep onset insomnia,NA,biolink:PhenotypicFeature,PMID:28191889
+HGNC:870,ATP7B,NA,biolink:Gene,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,PMID:29914392
+MONDO:0018081,hemorrhagic fever-renal syndrome,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+HGNC:13590,FBXO11,NA,biolink:Gene,RO:0002200,0002200,NA,HP:0031354,Sleep onset insomnia,NA,biolink:PhenotypicFeature,PMID:30057029
+MONDO:0021081,anti-NMDA receptor encephalitis,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+HGNC:4422,GNS,NA,biolink:Gene,RO:0002200,0002200,NA,HP:0031354,Sleep onset insomnia,NA,biolink:PhenotypicFeature,PMID:17998446
+MONDO:0958240,"neurodevelopmental disorder with hyperkinetic movements, seizures, and structural brain abnormalities",NA,biolink:Disease,RO:0002200,0002200,NA,HP:0031354,Sleep onset insomnia,NA,biolink:PhenotypicFeature,PMID:30564627
+MONDO:0008294,acute intermittent porphyria,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+HGNC:20153,CHD8,NA,biolink:Gene,RO:0002200,0002200,NA,HP:0031354,Sleep onset insomnia,NA,biolink:PhenotypicFeature,PMID:31001818|PMID:27595554|PMID:24998929
+MONDO:0971007,neuroocular syndrome 1,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0031354,Sleep onset insomnia,NA,biolink:PhenotypicFeature,PMID:29556724
+MONDO:0800001,"delayed sleep phase syndrome, susceptibility to",NA,biolink:Disease,RO:0002200,0002200,NA,HP:0031354,Sleep onset insomnia,NA,biolink:PhenotypicFeature,PMID:28388406
+MONDO:0008889,thromboangiitis obliterans,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0017722,"Sandhoff disease, juvenile form",NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0014882,hereditary spastic paraplegia 77,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0005048,pancreatic insulin-producing neuroendocrine tumor,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0008813,arachnoid cyst,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0033925,pediatric-onset Graves disease,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0019632,Lyme disease,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0014558,autosomal dominant intellectual disability-craniofacial anomalies-cardiac defects syndrome,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,PMID:25728775
+HGNC:9449,PRNP,NA,biolink:Gene,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,PMID:1439789
+MONDO:0010808,fatal familial insomnia,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0007739,Huntington disease,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0100093,"myoclonus, familial, 1",NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,PMID:22926851
+MONDO:0014017,intellectual developmental disorder with autism and macrocephaly,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0031354,Sleep onset insomnia,NA,biolink:PhenotypicFeature,PMID:31001818|PMID:27595554|PMID:24998929
+HGNC:4124,GALNT2,NA,biolink:Gene,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,PMID:32293671
+MONDO:0009658,mucopolysaccharidosis type 3D,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0031354,Sleep onset insomnia,NA,biolink:PhenotypicFeature,PMID:17998446
+MONDO:0010200,Wilson disease,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0013541,complex cortical dysplasia with other brain malformations 1,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0009377,hyperammonemia due to N-acetylglutamate synthase deficiency,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0018019,lead poisoning,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0008201,Perry syndrome,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0007947,Marfan syndrome,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0008678,Williams syndrome,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+HP:0031356,Terminal insomnia,NA,biolink:PhenotypicFeature,biolink:subclass_of,subclass of,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,biolink:subclass_of,subclass of,NA,HP:0002360,Sleep abnormality,NA,biolink:PhenotypicFeature,NA
+MONDO:0017279,young-onset Parkinson disease,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0019371,narcolepsy without cataplexy,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+HGNC:24283,KMT5B,NA,biolink:Gene,RO:0002200,0002200,NA,HP:0031354,Sleep onset insomnia,NA,biolink:PhenotypicFeature,PMID:28191889
+MONDO:0060760,intellectual developmental disorder with dysmorphic facies and behavioral abnormalities,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0031354,Sleep onset insomnia,NA,biolink:PhenotypicFeature,PMID:30057029
+MONDO:0030900,intellectual developmental disorder with paroxysmal dyskinesia or seizures,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,PMID:32196122
+MONDO:0005029,essential thrombocythemia,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0010808,fatal familial insomnia,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,PMID:1439789
+MONDO:0030043,"congenital disorder of glycosylation, type iit",NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,PMID:32293671
+HGNC:10541,SATB1,NA,biolink:Gene,RO:0002200,0002200,NA,HP:0031355,Maintenance insomnia,NA,biolink:PhenotypicFeature,PMID:33513338
+HGNC:8777,PDE2A,NA,biolink:Gene,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,PMID:32196122
+MONDO:0020527,ectopic Cushing syndrome,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0032526,spinocerebellar ataxia 48,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,PMID:31126790
+MONDO:0007369,hereditary coproporphyria,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0007403,inherited Creutzfeldt-Jakob disease,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA
+MONDO:0030990,Kohlschutter-Tonz syndrome-like,NA,biolink:Disease,RO:0002200,0002200,NA,HP:0031355,Maintenance insomnia,NA,biolink:PhenotypicFeature,PMID:33513338
+HGNC:30031,PI4K2A,NA,biolink:Gene,RO:0002200,0002200,NA,HP:0031354,Sleep onset insomnia,NA,biolink:PhenotypicFeature,PMID:30564627
+MONDO:0957563,"cranial dysinnervation disorder, congenital, with absent corneal reflex and developmental delay",NA,biolink:Disease,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,PMID:33439489
+HGNC:11427,STUB1,NA,biolink:Gene,RO:0002200,0002200,NA,HP:0100785,Insomnia,NA,biolink:PhenotypicFeature,NA

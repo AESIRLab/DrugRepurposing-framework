@@ -1,0 +1,8 @@
+subject_id,subject_label,subject_uri,subject_category,relation_id,relation_label,relation_uri,object_id,object_label,object_uri,object_category,reference_id_list
+MONDO:0007088,Alzheimer disease type 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0000726,Long-tract sign,NA,biolink:PhenotypicFeature,NA
+HGNC:620,APP,NA,biolink:Gene,biolink:causes_or_contributes_to,causes or contributes to,NA,MONDO:0007088,Alzheimer disease type 1,NA,biolink:Disease,NA
+MONDO:0007088,Alzheimer disease type 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0410054,Parkinsonism,NA,biolink:PhenotypicFeature,NA
+MONDO:0007088,Alzheimer disease type 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0001300,Alzheimer disease,NA,biolink:PhenotypicFeature,NA
+MONDO:0007088,Alzheimer disease type 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002185,Dementia,NA,biolink:PhenotypicFeature,NA
+MONDO:0007088,Alzheimer disease type 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002511,Neurofibrillary tangles,NA,biolink:PhenotypicFeature,NA
+MONDO:0007088,Alzheimer disease type 1,NA,biolink:Disease,biolink:has_phenotype,has phenotype,NA,HP:0002423,Decreased circulating GABA concentration,NA,biolink:PhenotypicFeature,NA

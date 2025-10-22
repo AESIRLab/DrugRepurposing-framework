@@ -162,10 +162,17 @@ def rdf_to_vec(nodes_file_str, drug_sim_str, rdf_graph, semantic_group='gene'):
         ].tolist()
 
     print(f'entities found: {len(entities)}')
-    entities = [
-        e for e in entities if isinstance(e, str) and e.strip() != "" and e.lower() not in {"nan", "none"}
-    ]
+    #entities = [
+    #    e for e in entities if isinstance(e, str) and e.strip() != "" and e.lower() not in {"nan", "none"}
+    #]
 
+<<<<<<< HEAD
+    #if len(entities) == 0:
+    #    raise ValueError(f"No valid {semantic_group} URIs found in {nodes_file_str}")
+
+    # Initialize the transformer
+    transformer = RDF2VecTransformer(
+=======
     with open(os.path.join(os.getcwd(), 'extracted_entities.csv'), 'w') as f:
         for e in entities:
             f.write(f"{e},\n")
@@ -176,6 +183,7 @@ def rdf_to_vec(nodes_file_str, drug_sim_str, rdf_graph, semantic_group='gene'):
     # Initialize the transformer
     transformer = RDF2VecTransformer(
         Word2Vec(),
+>>>>>>> 6c7d80776fdcc54cd34da8d6e6f98affd13a59f9
         walkers=[RandomWalker(max_depth=4, max_walks=10, n_jobs=2, random_state=22)],
         verbose=1,
     )
@@ -189,6 +197,35 @@ def rdf_to_vec(nodes_file_str, drug_sim_str, rdf_graph, semantic_group='gene'):
             f.write(f"{e.name},\n")
     
     # 🔹 NEW STEP: filter out entities not in the RDF graph (isolated URIs)
+<<<<<<< HEAD
+    valid_entities = list(set(entities))
+    print(f"{len(valid_entities)} entities after filtering disconnected ones (from {len(entities)})")
+
+    if len(valid_entities) == 0:
+        raise ValueError(f"No valid {semantic_group} URIs remain after filtering disconnected ones.")
+    
+    embeddings, literals = transformer.fit_transform(kg, valid_entities)
+
+    # 🔹 NEW: defensive retry to catch internal PyRDF2Vec indexing issues
+    #try:
+    #    embeddings, literals = transformer.fit_transform(kg, valid_entities)
+    #except IndexError as e:
+    #    print("⚠️ PyRDF2Vec walk alignment issue detected; attempting recovery...")
+    #    # Second attempt: filter entities that have at least one triple in the RDF
+    #    from rdflib import Graph, URIRef
+    #    rdf_g = Graph()
+    #    rdf_g.parse(rdf_graph, format="turtle")
+
+    #    connected_entities = []
+    #    for e in valid_entities:
+    ##        uri = URIRef(e)
+    #        if (uri, None, None) in rdf_g or (None, None, uri) in rdf_g:
+    #            connected_entities.append(e)
+
+    #    print(f"Retrying with {len(connected_entities)} connected entities out of {len(valid_entities)}.")
+    #    embeddings, literals = transformer.fit_transform(kg, connected_entities)
+    #    valid_entities = connected_entities
+=======
     # valid_entities = entities
     # print(f"{len(valid_entities)} entities after filtering disconnected ones (from {len(entities)})")
 
@@ -217,9 +254,10 @@ def rdf_to_vec(nodes_file_str, drug_sim_str, rdf_graph, semantic_group='gene'):
     #     print(f"Retrying with {len(connected_entities)} connected entities out of {len(valid_entities)}.")
     #     embeddings, literals = transformer.fit_transform(kg, connected_entities)
     #     valid_entities = connected_entities
+>>>>>>> 6c7d80776fdcc54cd34da8d6e6f98affd13a59f9
 
-    disconnected = len(valid_entities) - len(connected_entities)
-    print(f"Removed {disconnected} disconnected entities (no triples in RDF).")
+    #disconnected = len(valid_entities) - len(connected_entities)
+    #print(f"Removed {disconnected} disconnected entities (no triples in RDF).")
 
     print('embeddings created')
 
@@ -236,8 +274,8 @@ def fuse_embeddings(gene_embedding_dict, drug_embedding_dict, drug_edges_file_st
     and adds the same amount of drug-gene pairs of random non-known links
     :param gene_embedding_dict: all gene embeddings (dict: key is gene, value is embedding)
     :param drug_embedding_dict: all drug embeddings (dict: key is drug, value is embedding)
-    :param drug_edges_file_str: the string of the edges csv of the drug graph 
-    :param graph_nodes_file_str: the string of the nodes csv of the whole graph  
+    :param drug_edges_file_str: the string of the edges csv of the drug graph
+    :param graph_nodes_file_str: the string of the nodes csv of the whole graph
     :param genes_of_interest: the genes for which predictions are wanted
     :return: training df of drug-gene pair with fused embeddings and class label, and prediction df
     '''
@@ -248,82 +286,96 @@ def fuse_embeddings(gene_embedding_dict, drug_embedding_dict, drug_edges_file_st
     dgidb_edges_df = pd.read_csv(drug_edges_file_str)
     graph_nodes_df = pd.read_csv(graph_nodes_file_str)
 
-    # create a gene-drug interaction dataframe, with all known and unknown interactions
-    gene_drug_df_total = pd.DataFrame(columns=['gene','drug','fused_embedding', 'class'])
+    # Create a gene-drug interaction dataframe
+    gene_drug_df_total = pd.DataFrame(columns=['gene', 'drug', 'fused_embedding', 'class'])
     
     array_drugs_len = len(array_drugs)
     for gene in array_genes:
         gene_emb = gene_embedding_dict[gene]
         gene_iri = gene
         gene_id = graph_nodes_df.loc[graph_nodes_df['uri'] == gene_iri, 'id'].iloc[0]
-        # multiply with embedding of every drug
-        fused_emb = np.multiply(gene_emb, drugs_emb) #Hadamard operation
+        fused_emb = np.multiply(gene_emb, drugs_emb)  # Hadamard operation
         gene_drug_df = pd.DataFrame({'fused_embedding': fused_emb.tolist()})
-        # add gene and drug iri columns
         gene_drug_df.insert(loc=0, column='drug', value=array_drugs)
-        gene_drug_df.insert(loc=0, column='gene', value=[gene_iri] * array_drugs_len)    
-    
-        # add class column
+        gene_drug_df.insert(loc=0, column='gene', value=[gene_iri] * array_drugs_len)
+        
+        # Add class column
         if gene_id not in dgidb_edges_df['object_id'].unique():
-            class_lst = [0] * array_drugs_len # no interaction
+            class_lst = [0] * array_drugs_len  # No interaction
         else:
             class_lst = []
             for drug_iri in array_drugs:
                 drug_id = graph_nodes_df.loc[graph_nodes_df['uri'] == drug_iri, 'id'].iloc[0]
-                # if there is an interaction, add the property as class
                 if len(dgidb_edges_df.loc[(dgidb_edges_df['subject_id'] == drug_id) & (dgidb_edges_df['object_id'] == gene_id), 'property_id']) != 0:
                     class_lst.append(dgidb_edges_df.loc[(dgidb_edges_df['subject_id'] == drug_id) & (dgidb_edges_df['object_id'] == gene_id), 'property_id'].item())
                 else:
-                    class_lst.append(0) # no interaction
+                    class_lst.append(0)  # No interaction
         gene_drug_df['class'] = class_lst
         
-        # join the newly created gene df with the total df
         gene_drug_df_total = pd.concat([gene_drug_df_total, gene_drug_df], ignore_index=True)
     
-    # select all interactions that are known (=non zero) and same amount of random non-known interactions
-    # first, split on class (known and unknown)
+    print(f'[rdf2vec.py][fuse_embeddings] gene_drug_df_total head is:{gene_drug_df_total.head()}')
+    # Split on class (known and unknown)
     gene_drug_df_known = gene_drug_df_total[gene_drug_df_total['class'] != 0]
     gene_drug_df_unknown = gene_drug_df_total[gene_drug_df_total['class'] == 0]
     
-    # split unkown class into drug-gene pairs to predict and drug-gene pairs to train
+    # Split unknown into predict and train
     gene_drug_df_unknown_to_predict = gene_drug_df_unknown[gene_drug_df_unknown['gene'].isin(genes_of_interest)]
     gene_drug_df_unknown_not_predict = gene_drug_df_unknown[~gene_drug_df_unknown['gene'].isin(genes_of_interest)]
+
+    if gene_drug_df_known.empty and gene_drug_df_unknown_not_predict.empty:
+        print("No known or unknown DTIs; returning empty predict_df.")
+        return pd.DataFrame(columns=['gene', 'drug', 'fused_embedding', 'class']), pd.DataFrame(columns=['gene', 'drug', 'fused_embedding', 'class'])
     
-    # from unknown pairs that we do not want to predict, select k random pairs to train, with k the number of biggest group of known pairs    
-    k = gene_drug_df_known.groupby('class').size().max()
-    gene_drug_df_unknown_to_train = gene_drug_df_unknown_not_predict.sample(n = k)
+    k = min(len(gene_drug_df_unknown_not_predict), 1000) if not gene_drug_df_known.empty else min(len(gene_drug_df_unknown_not_predict), 100)
+    print(f'(rdf2vec.py)(fuse_embeddings) value of k sample of data to train of unknown_not_predict df: {k}')
     
-    # combine the known interactions with the unknown pairs to train
+    if len(gene_drug_df_unknown_not_predict) > 0:
+        gene_drug_df_unknown_to_train = gene_drug_df_unknown_not_predict.sample(n=min(k, len(gene_drug_df_unknown_not_predict)))
+        gene_drug_df_unknown_to_predict = gene_drug_df_unknown_not_predict.drop(gene_drug_df_unknown_to_train.index)
+        predict_df = gene_drug_df_unknown_to_predict[['gene', 'drug', 'fused_embedding', 'class']].copy()
+    else:
+        predict_df = pd.DataFrame(columns=['gene', 'drug', 'fused_embedding', 'class'])
+    
+    # Combine known and unknown for training
     train_df = pd.concat([gene_drug_df_known, gene_drug_df_unknown_to_train], ignore_index=True)
     
-    # save output files
+    # Save output files
     path = os.getcwd() + '/embedding'
     if not os.path.isdir(path): os.makedirs(path)
-    train_df.to_csv('{}/{}_v{}.csv'.format(path, 'genetarget_train', today), index=False)
-    gene_drug_df_unknown_to_predict.to_csv('{}/{}_v{}.csv'.format(path, 'genetarget_predict', today), index=False)
+    train_df.to_csv(f'{path}/genetarget_train_v{today}.csv', index=False)
+    if not predict_df.empty:
+        predict_df.to_csv(f'{path}/genetarget_predict_v{today}.csv', index=False)
     
-    return train_df, gene_drug_df_unknown_to_predict
+    return train_df, predict_df
 
 def get_genes_of_interest(edges_df, nodes_df, phenotype_of_interest):
-    ''' This function finds all genes that cause the phenotype of interest. 
-    :param fname_edges: the string file name of the monarch edges 
-    :param fname_nodes: the string file name of the monarch nodes 
-    :param phenotype_of_interest: the id (string) of the phenotype of interest (e.g.'HP:0002072' for chorea) 
-    :return: a list of iris of all genes of interest 
-    '''        
-    # get all rows with the phenotype of interest as object id
-    df_phenotype = edges_df.loc[edges_df['object_id'] == phenotype_of_interest]
+    ''' This function finds all genes that cause the phenotype of interest.
+    :param edges_df: the dataframe of the monarch edges
+    :param nodes_df: the dataframe of the monarch nodes
+    :param phenotype_of_interest: the id (string) of the phenotype of interest (e.g. 'HP:0002072' for chorea)
+    :return: a list of iris of all genes of interest
+    '''
+    genes = set()
+    # Original: Gene -> disease (causal)
+    causal_edges = edges_df[edges_df['property_id'] == 'RO:0003303']
+    genes.update(causal_edges[causal_edges['object_id'] == phenotype_of_interest]['subject_id'])
     
-    # get list of all genes that have an arrow going to the phenotype of interest
-    genes_of_interest = []
-    for subject_id in df_phenotype['subject_id']:
-        sem_group = nodes_df.loc[nodes_df['id'] == subject_id, 'semantic_groups'].iloc[0]
-        if sem_group == 'gene':
-            iri = nodes_df.loc[nodes_df['id'] == subject_id, 'uri'].iloc[0]
-            genes_of_interest.append(iri)
-            
-    return genes_of_interest
-            
+    # Enhanced: Pheno -> disease -> genes, plus direct gene-phenotype links
+    if phenotype_of_interest.startswith('HP:'):
+        # Pheno -> disease
+        pheno_disease_edges = edges_df[edges_df['subject_id'] == phenotype_of_interest]
+        diseases = pheno_disease_edges['object_id'].unique()
+        for disease in diseases:
+            disease_genes = edges_df[(edges_df['object_id'] == disease) & (edges_df['property_id'] == 'RO:0003303')]['subject_id']
+            genes.update(disease_genes)
+        
+        # Direct gene -> phenotype (e.g., HP:0000726)
+        direct_edges = edges_df[(edges_df['object_id'] == phenotype_of_interest) & (edges_df['property_id'] == 'RO:0002200')]
+        genes.update(direct_edges['subject_id'])
+    
+    print(f'Genes of interest: {len(genes)} from symptom: {phenotype_of_interest}')
+    return list(genes)          
 
 def ml_prediction(train_df, predict_df, date):
     ''' This function builds a ML model using the training data and predicts the interactions of interest
@@ -332,74 +384,99 @@ def ml_prediction(train_df, predict_df, date):
     :param date: the date of the creation of the graph file
     :return: the predictions for the interactions in predict_df
     '''
-    
     print('ML model is being trained, be patient')
     
     # X is the embeddings, turn list of embeddings into columns
     emb_col = train_df['fused_embedding']
     X = pd.DataFrame.from_dict(dict(zip(emb_col.index, emb_col.values))).T
     X = X.astype(float)
-    # y is the labels
-    y = train_df['class'].astype(str)
+    
+    # y is the labels, map to integers (0 for unknown, 1+ for known)
+    y = train_df['class'].copy()
+    class_mapping = {str(val): idx + 1 for idx, val in enumerate(train_df['class'].unique()) if str(val) != '0'}
+    class_mapping['0'] = 0  # Unknown class is 0
+    y = y.map(class_mapping).astype(int)
 
-    #define parameters to be tuned
+    unique_classes = np.unique(y)
+    if len(unique_classes) == 1:
+        print("Only one class detected; adding dummy positives for training.")
+        mask = np.random.random(len(y)) < 0.01
+        y = y.copy()
+        y[mask] = 1  # Use integer 1 for dummy positives
+        objective = 'binary:logistic'
+    else:
+        objective = 'multi:softmax' if len(unique_classes) > 2 else 'binary:logistic'
+    
+    # Define parameters to be tuned
     parameters = {
-            'min_child_weight': [2, 3, 5, 8, 13, 20, 30],
-            'gamma': [0, 0.2, 0.5, 0.8, 1.2, 1.6, 2.5, 4, 6],
-            'reg_alpha': [0, 0.5, 1, 3, 5, 10],
-            'reg_lambda': [0, 0.5, 1, 3, 5, 10],
-            'subsample': uniform(0.5, 0.5), # = uniform distribution on (0.5, 1)
-            'colsample_bytree': uniform(0.2, 0.8), # = uniform distribution on (0.2, 1)
-            'max_depth': [4, 6, 8, 10, 12, 14, 16], 
-            'n_estimators': [35, 45, 50, 70, 80, 90, 100],
-            'learning_rate': uniform(0, 0.3),
-            }
+        'min_child_weight': [2, 3, 5, 8, 13, 20, 30],
+        'gamma': [0, 0.2, 0.5, 0.8, 1.2, 1.6, 2.5, 4, 6],
+        'reg_alpha': [0, 0.5, 1, 3, 5, 10],
+        'reg_lambda': [0, 0.5, 1, 3, 5, 10],
+        'subsample': uniform(0.5, 0.5),
+        'colsample_bytree': uniform(0.2, 0.8),
+        'max_depth': [4, 6, 8, 10, 12, 14, 16],
+        'n_estimators': [35, 45, 50, 70, 80, 90, 100],
+        'learning_rate': uniform(0, 0.3),
+    }
     
-    # define the model
-    xgb_model_hyp = XGBClassifier(objective='multi:softmax', eval_metric='mlogloss')
+    # Define the model
+    xgb_model_hyp = XGBClassifier(objective=objective, use_label_encoder=False)
 
-    # find the best hyperparameters using repeated stratified k-fold and randomized search
-    rskf = RepeatedStratifiedKFold(n_splits=10, n_repeats=5, random_state = 123)
-    randomized_search = RandomizedSearchCV(xgb_model_hyp, param_distributions=parameters, 
-                                     scoring='f1_weighted',n_iter=20, n_jobs=-1, #n_iter set to 50
-                                     error_score='raise', cv=rskf.split(X,y), verbose=3, 
-                                     refit=True) # refit: train with best hyperparameters found
+    # Find the best hyperparameters using repeated stratified k-fold and randomized search
+    rskf = RepeatedStratifiedKFold(n_splits=10, n_repeats=5, random_state=123)
+    randomized_search = RandomizedSearchCV(xgb_model_hyp, param_distributions=parameters,
+                                          scoring='f1_weighted', n_iter=20, n_jobs=-1,
+                                          error_score='raise', cv=rskf.split(X, y), verbose=3,
+                                          refit=True)
     
-    weight = class_weight.compute_sample_weight('balanced', y)# make sure weights for training are added to avoid unbalanced training
-    randomized_search.fit(X, y, sample_weight=weight) 
+    # Compute sample weights
+    weight = class_weight.compute_sample_weight('balanced', y)
+    randomized_search.fit(X, y, sample_weight=weight)
 
-    # find best params
+    # Find best params and score
     print('best found hyperparameters:', randomized_search.best_params_)
-    
-    # find best model score
     print('score of the model:', randomized_search.best_score_)
     
-    # predict
-    emb_col_pred = predict_df['fused_embedding']  
+    # Predict
+    if predict_df.empty:
+        print("No predictions; returning empty DF.")
+        return pd.DataFrame(columns=['drug', 'gene', 'predicted_interaction', 'prob'])
+    
+    emb_col_pred = predict_df['fused_embedding']
     X_pred = pd.DataFrame.from_dict(dict(zip(emb_col_pred.index, emb_col_pred.values))).T
     X_pred = X_pred.astype(float)
 
     predictions = randomized_search.predict(X_pred)
     predictions_prob = randomized_search.predict_proba(X_pred)
     
-    interaction_predictions_df = pd.DataFrame(
-    {'drug': predict_df['drug'],
-     'gene': predict_df['gene'],
-     'predicted_interaction': predictions,
-     'prob': np.max(predictions_prob, axis=1)
+    # Map predictions back to original class labels for readability
+    reverse_mapping = {v: k for k, v in class_mapping.items()}
+    predictions = [reverse_mapping.get(pred, '0') for pred in predictions]
+    
+    interaction_predictions_df = pd.DataFrame({
+        'drug': predict_df['drug'],
+        'gene': predict_df['gene'],
+        'predicted_interaction': predictions,
+        'prob': np.max(predictions_prob, axis=1)
     })
     
-    # add labels to the drugs and genes for better readability
-    graph_fname_nodes = './graph/graph_nodes_v{}.csv'.format(date) 
+    # Add labels to drugs and genes for readability
+    graph_fname_nodes = f'./graph/graph_nodes_v{date}.csv'
     nodes_df = pd.read_csv(graph_fname_nodes)
-    interaction_predictions_df['drug'] = interaction_predictions_df.drug.apply(lambda drug_uri : '<a href="{}">{}</a>'.format(drug_uri, nodes_df.loc[nodes_df['uri'] == drug_uri, 'preflabel'].iloc[0]))#+ ' ' + drug_uri)
-    #interaction_predictions_df['gene'] = interaction_predictions_df.gene.apply(lambda gene_uri : nodes_df.loc[nodes_df['uri'] == gene_uri, 'preflabel'].iloc[0]+ ' ' + gene_uri)
-    interaction_predictions_df['gene'] = interaction_predictions_df.gene.apply(lambda gene_uri : '<a href="{}">{}</a>'.format(gene_uri, nodes_df.loc[nodes_df['uri'] == gene_uri, 'preflabel'].iloc[0]))
+    interaction_predictions_df['drug'] = interaction_predictions_df['drug'].apply(
+        lambda drug_uri: f'<a href="{drug_uri}">{nodes_df.loc[nodes_df["uri"] == drug_uri, "preflabel"].iloc[0]}</a>'
+        if not nodes_df.loc[nodes_df["uri"] == drug_uri].empty else drug_uri
+    )
+    interaction_predictions_df['gene'] = interaction_predictions_df['gene'].apply(
+        lambda gene_uri: f'<a href="{gene_uri}">{nodes_df.loc[nodes_df["uri"] == gene_uri, "preflabel"].iloc[0]}</a>'
+        if not nodes_df.loc[nodes_df["uri"] == gene_uri].empty else gene_uri
+    )
     
-    # save output files
+    # Save output files
     path = os.getcwd() + '/predictions'
     if not os.path.isdir(path): os.makedirs(path)
-    interaction_predictions_df.to_csv('{}/{}_v{}.csv'.format(path, 'drug_gene_pred', today), index=False)
+    interaction_predictions_df.to_csv(f'{path}/drug_gene_pred_v{today}.csv', index=False)
     
     return interaction_predictions_df
 
@@ -487,8 +564,14 @@ def rdf2vec_general(symptom_user_input, date, disease_name_date):
     today = datetime.date.today()
 
     # Base path for this disease
+<<<<<<< HEAD
+    #base_path = f'./drugapp/data/{disease_name_date}/monarch'
+    base_path = os.path.join(os.getcwd(), 'monarch')
+    
+=======
     print(f'[rdf2vec.py] [rdf2vec_general] os.getcwd(): ${os.getcwd()}')
     base_path = os.path.join(os.getcwd(), 'monarch')# f'./drugapp/data/{disease_name_date}/monarch'
+>>>>>>> 6c7d80776fdcc54cd34da8d6e6f98affd13a59f9
     
     monarch_edges_dis_file = '{}/monarch_edges_disease_v{}.csv'.format(base_path, date) 
     monarch_edges_symp_file = '{}/monarch_edges_symptom_v{}.csv'.format(base_path, today)    
