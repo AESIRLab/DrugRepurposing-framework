@@ -110,8 +110,88 @@ rxcui:11413,drug,https://identifiers.org/rxcui:11413,ZIDOVUDINE,ZIDOVUDINE,NA,NA
 iuphar.ligand:12249,drug,https://identifiers.org/iuphar.ligand:12249,"COMPOUND 6LI [CHAN ET AL., 2022]","COMPOUND 6LI [CHAN ET AL., 2022]",NA,NA
 iuphar.ligand:11791,drug,https://identifiers.org/iuphar.ligand:11791,BIIB091,BIIB091,NA,NA
 rxcui:59763,drug,https://identifiers.org/rxcui:59763,STAVUDINE,STAVUDINE,NA,NA
+hgnc:4593,gene,NA,NA,NA,NA,NA
+iuphar.ligand:6345,drug,https://identifiers.org/iuphar.ligand:6345,COMPOUND 23C [PMID: 17929793],COMPOUND 23C [PMID: 17929793],NA,NA
+iuphar.ligand:6362,drug,https://identifiers.org/iuphar.ligand:6362,COMPOUND 9N [PMID: 23084894],COMPOUND 9N [PMID: 23084894],NA,NA
+iuphar.ligand:6338,drug,https://identifiers.org/iuphar.ligand:6338,COMPOUND 23H [PMID: 17929793],COMPOUND 23H [PMID: 17929793],NA,NA
+iuphar.ligand:1376,drug,https://identifiers.org/iuphar.ligand:1376,AIDA,AIDA,NA,NA
+iuphar.ligand:6354,drug,https://identifiers.org/iuphar.ligand:6354,A-794278,A-794278,NA,NA
+iuphar.ligand:10009,drug,https://identifiers.org/iuphar.ligand:10009,VU0483605,VU0483605,NA,NA
+iuphar.ligand:6358,drug,https://identifiers.org/iuphar.ligand:6358,COMPOUND 22 [PMID: 17276684],COMPOUND 22 [PMID: 17276684],NA,NA
+iuphar.ligand:6213,drug,https://identifiers.org/iuphar.ligand:6213,[18F]FITM,[18F]FITM,NA,NA
+iuphar.ligand:6357,drug,https://identifiers.org/iuphar.ligand:6357,COMPOUND 12E [PMID: 22266036],COMPOUND 12E [PMID: 22266036],NA,NA
+iuphar.ligand:1391,drug,https://identifiers.org/iuphar.ligand:1391,[3H]R214127,[3H]R214127,NA,NA
+iuphar.ligand:1382,drug,https://identifiers.org/iuphar.ligand:1382,CPCCOET,CPCCOET,NA,NA
+iuphar.ligand:3953,drug,https://identifiers.org/iuphar.ligand:3953,A-841720,A-841720,NA,NA
+iuphar.ligand:1389,drug,https://identifiers.org/iuphar.ligand:1389,YM298198,YM298198,NA,NA
+iuphar.ligand:6341,drug,https://identifiers.org/iuphar.ligand:6341,CFMTI,CFMTI,NA,NA
+iuphar.ligand:6212,drug,https://identifiers.org/iuphar.ligand:6212,[11C]MMTP,[11C]MMTP,NA,NA
+iuphar.ligand:3346,drug,https://identifiers.org/iuphar.ligand:3346,LY456236,LY456236,NA,NA
+iuphar.ligand:3347,drug,https://identifiers.org/iuphar.ligand:3347,LY456066,LY456066,NA,NA
+iuphar.ligand:6363,drug,https://identifiers.org/iuphar.ligand:6363,FTIDC,FTIDC,NA,NA
+iuphar.ligand:6346,drug,https://identifiers.org/iuphar.ligand:6346,COMPOUND 23E [PMID: 17929793],COMPOUND 23E [PMID: 17929793],NA,NA
+rxcui:25916,drug,https://identifiers.org/rxcui:25916,GLUTAMIC ACID,GLUTAMIC ACID,NA,NA
+rxcui:1886,drug,https://identifiers.org/rxcui:1886,CAFFEINE,CAFFEINE,NA,NA
+iuphar.ligand:6337,drug,https://identifiers.org/iuphar.ligand:6337,VU0469650,VU0469650,NA,NA
+iuphar.ligand:6343,drug,https://identifiers.org/iuphar.ligand:6343,COMPOUND 11C [PMID: 17929793],COMPOUND 11C [PMID: 17929793],NA,NA
+iuphar.ligand:6355,drug,https://identifiers.org/iuphar.ligand:6355,A-850002,A-850002,NA,NA
+iuphar.ligand:6215,drug,https://identifiers.org/iuphar.ligand:6215,COMPOUND 11S [PMID: 19433355],COMPOUND 11S [PMID: 19433355],NA,NA
+rxcui:4678,drug,https://identifiers.org/rxcui:4678,GANCICLOVIR,GANCICLOVIR,NA,NA
+iuphar.ligand:9290,drug,https://identifiers.org/iuphar.ligand:9290,ELEZANUMAB,ELEZANUMAB,NA,NA
+iuphar.ligand:6210,drug,https://identifiers.org/iuphar.ligand:6210,COMPOUND 27 [PMID: 20346665],COMPOUND 27 [PMID: 20346665],NA,NA
+iuphar.ligand:6209,drug,https://identifiers.org/iuphar.ligand:6209,COMPOUND 24 [PMID: 20346665],COMPOUND 24 [PMID: 20346665],NA,NA
+iuphar.ligand:1385,drug,https://identifiers.org/iuphar.ligand:1385,JNJ16259685,JNJ16259685,NA,NA
+iuphar.ligand:6214,drug,https://identifiers.org/iuphar.ligand:6214,COMPOUND 11Q [PMID: 19433355],COMPOUND 11Q [PMID: 19433355],NA,NA
+ncit:C265,drug,https://identifiers.org/ncit:C265,ANTIDEPRESSANT AGENT,ANTIDEPRESSANT AGENT,NA,NA
+iuphar.ligand:6474,drug,https://identifiers.org/iuphar.ligand:6474,CIS-10 [PMID: 15771457],CIS-10 [PMID: 15771457],NA,NA
+iuphar.ligand:1416,drug,https://identifiers.org/iuphar.ligand:1416,PHCCC,PHCCC,NA,NA
+iuphar.ligand:6211,drug,https://identifiers.org/iuphar.ligand:6211,A-794282,A-794282,NA,NA
+rxcui:32926,drug,https://identifiers.org/rxcui:32926,PAREGORIC,PAREGORIC,NA,NA
+iuphar.ligand:6340,drug,https://identifiers.org/iuphar.ligand:6340,CFMMC,CFMMC,NA,NA
+iuphar.ligand:6335,drug,https://identifiers.org/iuphar.ligand:6335,MK-5435,MK-5435,NA,NA
+iuphar.ligand:6365,drug,https://identifiers.org/iuphar.ligand:6365,COMPOUND 10I [PMID: 23084894],COMPOUND 10I [PMID: 23084894],NA,NA
+iuphar.ligand:1374,drug,https://identifiers.org/iuphar.ligand:1374,(S)-4C3HPG,(S)-4C3HPG,NA,NA
+iuphar.ligand:6356,drug,https://identifiers.org/iuphar.ligand:6356,COMPOUND 9A [PMID: 22266036],COMPOUND 9A [PMID: 22266036],NA,NA
+chembl:CHEMBL16117,drug,https://identifiers.org/chembl:CHEMBL16117,PHILANTHOTOXIN 343,PHILANTHOTOXIN 343,NA,NA
+iuphar.ligand:6334,drug,https://identifiers.org/iuphar.ligand:6334,[18F]MK-1312,[18F]MK-1312,NA,NA
+iuphar.ligand:1378,drug,https://identifiers.org/iuphar.ligand:1378,LY341495,LY341495,NA,NA
+iuphar.ligand:6342,drug,https://identifiers.org/iuphar.ligand:6342,COMPOUND 2F [PMID: 17532216],COMPOUND 2F [PMID: 17532216],NA,NA
+iuphar.ligand:6348,drug,https://identifiers.org/iuphar.ligand:6348,COMPOUND 23I [PMID: 17929793],COMPOUND 23I [PMID: 17929793],NA,NA
+rxcui:5833,drug,https://identifiers.org/rxcui:5833,INOSITOL,INOSITOL,NA,NA
+iuphar.ligand:1379,drug,https://identifiers.org/iuphar.ligand:1379,LY367385,LY367385,NA,NA
+hgnc:8157,gene,NA,NA,NA,NA,NA
+ncit:C170052,drug,https://identifiers.org/ncit:C170052,IGMESINE,IGMESINE,NA,NA
+rxcui:104973,drug,https://identifiers.org/rxcui:104973,PENTAZOCINE HYDROCHLORIDE,PENTAZOCINE HYDROCHLORIDE,NA,NA
+drugbank:DB05422,drug,https://identifiers.org/drugbank:DB05422,OPC-14523,OPC-14523,NA,NA
+iuphar.ligand:6683,drug,https://identifiers.org/iuphar.ligand:6683,[3H]PENTAZOCINE,[3H]PENTAZOCINE,NA,NA
+rxcui:283547,drug,https://identifiers.org/rxcui:283547,CARBETAPENTANE CITRATE,CARBETAPENTANE CITRATE,NA,NA
+rxcui:82018,drug,https://identifiers.org/rxcui:82018,FENFLURAMINE HYDROCHLORIDE,FENFLURAMINE HYDROCHLORIDE,NA,NA
+rxcui:7243,drug,https://identifiers.org/rxcui:7243,NALTREXONE,NALTREXONE,NA,NA
+iuphar.ligand:6680,drug,https://identifiers.org/iuphar.ligand:6680,BD-1047,BD-1047,NA,NA
+rxcui:26420,drug,https://identifiers.org/rxcui:26420,HALOPERIDOL DECANOATE,HALOPERIDOL DECANOATE,NA,NA
+iuphar.ligand:12125,drug,https://identifiers.org/iuphar.ligand:12125,BD-1063,BD-1063,NA,NA
+ncit:C171846,drug,https://identifiers.org/ncit:C171846,BLARCAMESINE,BLARCAMESINE,NA,NA
+iuphar.ligand:6678,drug,https://identifiers.org/iuphar.ligand:6678,PRE-084,PRE-084,NA,NA
+iuphar.ligand:11343,drug,https://identifiers.org/iuphar.ligand:11343,EST64454,EST64454,NA,NA
+ncit:C152218,drug,https://identifiers.org/ncit:C152218,RIMCAZOLE,RIMCAZOLE,NA,NA
+iuphar.ligand:10431,drug,https://identifiers.org/iuphar.ligand:10431,E-52862,E-52862,NA,NA
+iuphar.ligand:6679,drug,https://identifiers.org/iuphar.ligand:6679,NE-100,NE-100,NA,NA
+rxcui:8001,drug,https://identifiers.org/rxcui:8001,PENTAZOCINE,PENTAZOCINE,NA,NA
+iuphar.ligand:6676,drug,https://identifiers.org/iuphar.ligand:6676,(RS)-PPCC,(RS)-PPCC,NA,NA
+iuphar.ligand:6677,drug,https://identifiers.org/iuphar.ligand:6677,(+)-SKF 10.047,(+)-SKF 10.047,NA,NA
+rxcui:102490,drug,https://identifiers.org/rxcui:102490,DEXTROMETHORPHAN HYDROBROMIDE,DEXTROMETHORPHAN HYDROBROMIDE,NA,NA
+rxcui:203196,drug,https://identifiers.org/rxcui:203196,PENTAZOCINE LACTATE,PENTAZOCINE LACTATE,NA,NA
+rxcui:42355,drug,https://identifiers.org/rxcui:42355,FLUVOXAMINE,FLUVOXAMINE,NA,NA
+iuphar.ligand:12777,drug,https://identifiers.org/iuphar.ligand:12777,EST73502,EST73502,NA,NA
+rxcui:236146,drug,https://identifiers.org/rxcui:236146,DEXTROMETHORPHAN POLISTIREX,DEXTROMETHORPHAN POLISTIREX,NA,NA
+ncit:C83642,drug,https://identifiers.org/ncit:C83642,CUTAMESINE,CUTAMESINE,NA,NA
 hgnc:9449,gene,NA,NA,NA,NA,NA
 drugbank:DB07348,drug,https://identifiers.org/drugbank:DB07348,BREFELDIN A,BREFELDIN A,NA,NA
+hgnc:1493,gene,NA,NA,NA,NA,NA
+rxcui:3248,drug,https://identifiers.org/rxcui:3248,DESLANOSIDE,DESLANOSIDE,NA,NA
+rxcui:132871,drug,https://identifiers.org/rxcui:132871,ACETYLDIGITOXIN,ACETYLDIGITOXIN,NA,NA
+rxcui:3407,drug,https://identifiers.org/rxcui:3407,DIGOXIN,DIGOXIN,NA,NA
+rxcui:3403,drug,https://identifiers.org/rxcui:3403,DIGITOXIN,DIGITOXIN,NA,NA
 hgnc:1361,gene,NA,NA,NA,NA,NA
 ncit:C70650,drug,https://identifiers.org/ncit:C70650,TOSEDOSTAT,TOSEDOSTAT,NA,NA
 hgnc:11049,gene,NA,NA,NA,NA,NA
@@ -160,7 +240,6 @@ rxcui:197,drug,https://identifiers.org/rxcui:197,ACETYLCYSTEINE,ACETYLCYSTEINE,N
 ncit:C169780,drug,https://identifiers.org/ncit:C169780,AMITIFADINE,AMITIFADINE,NA,NA
 rxcui:3389,drug,https://identifiers.org/rxcui:3389,DIETHYLPROPION,DIETHYLPROPION,NA,NA
 drugbank:DB05805,drug,https://identifiers.org/drugbank:DB05805,NS-2359,NS-2359,NA,NA
-rxcui:26420,drug,https://identifiers.org/rxcui:26420,HALOPERIDOL DECANOATE,HALOPERIDOL DECANOATE,NA,NA
 rxcui:1294535,drug,https://identifiers.org/rxcui:1294535,SIBUTRAMINE HYDROCHLORIDE,SIBUTRAMINE HYDROCHLORIDE,NA,NA
 rxcui:81952,drug,https://identifiers.org/rxcui:81952,AMPHETAMINE SULFATE,AMPHETAMINE SULFATE,NA,NA
 ncit:C66589,drug,https://identifiers.org/ncit:C66589,TESOFENSINE,TESOFENSINE,NA,NA
@@ -170,6 +249,15 @@ rxcui:30125,drug,https://identifiers.org/rxcui:30125,MODAFINIL,MODAFINIL,NA,NA
 rxcui:2653,drug,https://identifiers.org/rxcui:2653,COCAINE,COCAINE,NA,NA
 rxcui:262302,drug,https://identifiers.org/rxcui:262302,NOMIFENSINE MALEATE,NOMIFENSINE MALEATE,NA,NA
 rxcui:3287,drug,https://identifiers.org/rxcui:3287,DEXTROAMPHETAMINE SULFATE,DEXTROAMPHETAMINE SULFATE,NA,NA
+hgnc:6180,gene,NA,NA,NA,NA,NA
+iuphar.ligand:4344,drug,https://identifiers.org/iuphar.ligand:4344,XESTOSPONGIN C,XESTOSPONGIN C,NA,NA
+iuphar.ligand:4124,drug,https://identifiers.org/iuphar.ligand:4124,ADENOPHOSTIN A,ADENOPHOSTIN A,NA,NA
+iuphar.ligand:707,drug,https://identifiers.org/iuphar.ligand:707,CA2+,CA2+,NA,NA
+iuphar.ligand:4222,drug,https://identifiers.org/iuphar.ligand:4222,IP3,IP3,NA,NA
+iuphar.ligand:4223,drug,https://identifiers.org/iuphar.ligand:4223,"INOSITOL 2,4,5-TRISPHOSPHATE","INOSITOL 2,4,5-TRISPHOSPHATE",NA,NA
+iuphar.ligand:2459,drug,https://identifiers.org/iuphar.ligand:2459,DECAVANADATE,DECAVANADATE,NA,NA
+rxcui:318,drug,https://identifiers.org/rxcui:318,ADENOSINE TRIPHOSPHATE,ADENOSINE TRIPHOSPHATE,NA,NA
+iuphar.ligand:2387,drug,https://identifiers.org/iuphar.ligand:2387,PIP2,PIP2,NA,NA
 hgnc:4177,gene,NA,NA,NA,NA,NA
 rxcui:20791,drug,https://identifiers.org/rxcui:20791,CHLORHEXIDINE GLUCONATE,CHLORHEXIDINE GLUCONATE,NA,NA
 chembl:CHEMBL579837,drug,https://identifiers.org/chembl:CHEMBL579837,CHEMBL:CHEMBL579837,CHEMBL:CHEMBL579837,NA,NA
@@ -211,10 +299,81 @@ iuphar.ligand:10215,drug,https://identifiers.org/iuphar.ligand:10215,FD6,FD6,NA,
 rxcui:29998,drug,https://identifiers.org/rxcui:29998,OCRIPLASMIN,OCRIPLASMIN,NA,NA
 rxcui:898492,drug,https://identifiers.org/rxcui:898492,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,NA,NA
 iuphar.ligand:5233,drug,https://identifiers.org/iuphar.ligand:5233,NKY80,NKY80,NA,NA
+hgnc:11114,gene,NA,NA,NA,NA,NA
+iuphar.ligand:8229,drug,https://identifiers.org/iuphar.ligand:8229,IOX2,IOX2,NA,NA
+iuphar.ligand:7027,drug,https://identifiers.org/iuphar.ligand:7027,GSK-J1,GSK-J1,NA,NA
+rxcui:141704,drug,https://identifiers.org/rxcui:141704,EVEROLIMUS,EVEROLIMUS,NA,NA
+iuphar.ligand:7026,drug,https://identifiers.org/iuphar.ligand:7026,PBIT,PBIT,NA,NA
+rxcui:357977,drug,https://identifiers.org/rxcui:357977,SUNITINIB,SUNITINIB,NA,NA
+iuphar.ligand:8979,drug,https://identifiers.org/iuphar.ligand:8979,GSK-J4,GSK-J4,NA,NA
 hgnc:4193,gene,NA,NA,NA,NA,NA
 wikidata:Q7246687,drug,https://identifiers.org/wikidata:Q7246687,PROSAVIN,PROSAVIN,NA,NA
 rxcui:1372539,drug,https://identifiers.org/rxcui:1372539,GUANINE,GUANINE,NA,NA
 iuphar.ligand:13514,drug,https://identifiers.org/iuphar.ligand:13514,NEORAUFLAVANE,NEORAUFLAVANE,NA,NA
+hgnc:10585,gene,NA,NA,NA,NA,NA
+rxcui:10391,drug,https://identifiers.org/rxcui:10391,TETRACAINE,TETRACAINE,NA,NA
+rxcui:33253,drug,https://identifiers.org/rxcui:33253,PHENACEMIDE,PHENACEMIDE,NA,NA
+rxcui:35623,drug,https://identifiers.org/rxcui:35623,RILUZOLE,RILUZOLE,NA,NA
+rxcui:1922448,drug,https://identifiers.org/rxcui:1922448,SAFINAMIDE,SAFINAMIDE,NA,NA
+rxcui:71227,drug,https://identifiers.org/rxcui:71227,PHENYTOIN SODIUM,PHENYTOIN SODIUM,NA,NA
+rxcui:203185,drug,https://identifiers.org/rxcui:203185,MEPIVACAINE HYDROCHLORIDE,MEPIVACAINE HYDROCHLORIDE,NA,NA
+rxcui:20859,drug,https://identifiers.org/rxcui:20859,CHLOROPROCAINE,CHLOROPROCAINE,NA,NA
+rxcui:1482501,drug,https://identifiers.org/rxcui:1482501,ESLICARBAZEPINE ACETATE,ESLICARBAZEPINE ACETATE,NA,NA
+rxcui:142440,drug,https://identifiers.org/rxcui:142440,LIDOCAINE HYDROCHLORIDE,LIDOCAINE HYDROCHLORIDE,NA,NA
+rxcui:4135,drug,https://identifiers.org/rxcui:4135,ETHOSUXIMIDE,ETHOSUXIMIDE,NA,NA
+rxcui:72236,drug,https://identifiers.org/rxcui:72236,FOSPHENYTOIN,FOSPHENYTOIN,NA,NA
+rxcui:203178,drug,https://identifiers.org/rxcui:203178,DISOPYRAMIDE PHOSPHATE,DISOPYRAMIDE PHOSPHATE,NA,NA
+rxcui:69036,drug,https://identifiers.org/rxcui:69036,RUFINAMIDE,RUFINAMIDE,NA,NA
+ncit:C65960,drug,https://identifiers.org/ncit:C65960,IRAMPANEL,IRAMPANEL,NA,NA
+rxcui:38404,drug,https://identifiers.org/rxcui:38404,TOPIRAMATE,TOPIRAMATE,NA,NA
+rxcui:9069,drug,https://identifiers.org/rxcui:9069,QUINIDINE SULFATE,QUINIDINE SULFATE,NA,NA
+rxcui:227221,drug,https://identifiers.org/rxcui:227221,ETIDOCAINE HYDROCHLORIDE,ETIDOCAINE HYDROCHLORIDE,NA,NA
+ncit:C65911,drug,https://identifiers.org/ncit:C65911,INDECAINIDE HYDROCHLORIDE,INDECAINIDE HYDROCHLORIDE,NA,NA
+rxcui:91188,drug,https://identifiers.org/rxcui:91188,DYCLONINE HYDROCHLORIDE,DYCLONINE HYDROCHLORIDE,NA,NA
+rxcui:41875,drug,https://identifiers.org/rxcui:41875,QUINIDINE POLYGALACTURONATE,QUINIDINE POLYGALACTURONATE,NA,NA
+rxcui:39998,drug,https://identifiers.org/rxcui:39998,ZONISAMIDE,ZONISAMIDE,NA,NA
+rxcui:6387,drug,https://identifiers.org/rxcui:6387,LIDOCAINE,LIDOCAINE,NA,NA
+rxcui:81985,drug,https://identifiers.org/rxcui:81985,COCAINE HYDROCHLORIDE,COCAINE HYDROCHLORIDE,NA,NA
+rxcui:7440,drug,https://identifiers.org/rxcui:7440,NITRAZEPAM,NITRAZEPAM,NA,NA
+chembl:CHEMBL2107771,drug,https://identifiers.org/chembl:CHEMBL2107771,RALFINAMIDE,RALFINAMIDE,NA,NA
+rxcui:1546032,drug,https://identifiers.org/rxcui:1546032,HEXYLCAINE HYDROCHLORIDE,HEXYLCAINE HYDROCHLORIDE,NA,NA
+rxcui:7716,drug,https://identifiers.org/rxcui:7716,ORPHENADRINE CITRATE,ORPHENADRINE CITRATE,NA,NA
+rxcui:8686,drug,https://identifiers.org/rxcui:8686,PRILOCAINE,PRILOCAINE,NA,NA
+rxcui:281189,drug,https://identifiers.org/rxcui:281189,ENCAINIDE HYDROCHLORIDE,ENCAINIDE HYDROCHLORIDE,NA,NA
+rxcui:35220,drug,https://identifiers.org/rxcui:35220,QUINIDINE GLUCONATE,QUINIDINE GLUCONATE,NA,NA
+rxcui:21241,drug,https://identifiers.org/rxcui:21241,CLOBAZAM,CLOBAZAM,NA,NA
+ncit:C47761,drug,https://identifiers.org/ncit:C47761,TOCAINIDE HYDROCHLORIDE,TOCAINIDE HYDROCHLORIDE,NA,NA
+rxcui:8691,drug,https://identifiers.org/rxcui:8691,PRIMIDONE,PRIMIDONE,NA,NA
+ncit:C264,drug,https://identifiers.org/ncit:C264,ANTICONVULSANT AGENT,ANTICONVULSANT AGENT,NA,NA
+ncit:C78845,drug,https://identifiers.org/ncit:C78845,TETRODOTOXIN,TETRODOTOXIN,NA,NA
+chembl:CHEMBL1200443,drug,https://identifiers.org/chembl:CHEMBL1200443,MERETHOXYLLINE PROCAINE,MERETHOXYLLINE PROCAINE,NA,NA
+rxcui:203135,drug,https://identifiers.org/rxcui:203135,PROPAFENONE HYDROCHLORIDE,PROPAFENONE HYDROCHLORIDE,NA,NA
+rxcui:2265690,drug,https://identifiers.org/rxcui:2265690,CENOBAMATE,CENOBAMATE,NA,NA
+rxcui:623400,drug,https://identifiers.org/rxcui:623400,LACOSAMIDE,LACOSAMIDE,NA,NA
+rxcui:736680,drug,https://identifiers.org/rxcui:736680,DRONEDARONE HYDROCHLORIDE,DRONEDARONE HYDROCHLORIDE,NA,NA
+rxcui:32624,drug,https://identifiers.org/rxcui:32624,OXCARBAZEPINE,OXCARBAZEPINE,NA,NA
+rxcui:2002,drug,https://identifiers.org/rxcui:2002,CARBAMAZEPINE,CARBAMAZEPINE,NA,NA
+ncit:C80997,drug,https://identifiers.org/ncit:C80997,NERISPIRDINE,NERISPIRDINE,NA,NA
+rxcui:203197,drug,https://identifiers.org/rxcui:203197,PHENAZOPYRIDINE HYDROCHLORIDE,PHENAZOPYRIDINE HYDROCHLORIDE,NA,NA
+rxcui:114477,drug,https://identifiers.org/rxcui:114477,LEVETIRACETAM,LEVETIRACETAM,NA,NA
+ncit:C174804,drug,https://identifiers.org/ncit:C174804,EVENAMIDE,EVENAMIDE,NA,NA
+ncit:C66493,drug,https://identifiers.org/ncit:C66493,PROPOXYCAINE HYDROCHLORIDE,PROPOXYCAINE HYDROCHLORIDE,NA,NA
+rxcui:1482502,drug,https://identifiers.org/rxcui:1482502,ESLICARBAZEPINE,ESLICARBAZEPINE,NA,NA
+rxcui:28439,drug,https://identifiers.org/rxcui:28439,LAMOTRIGINE,LAMOTRIGINE,NA,NA
+rxcui:227778,drug,https://identifiers.org/rxcui:227778,PROPARACAINE HYDROCHLORIDE,PROPARACAINE HYDROCHLORIDE,NA,NA
+rxcui:155056,drug,https://identifiers.org/rxcui:155056,PROCAINAMIDE HYDROCHLORIDE,PROCAINAMIDE HYDROCHLORIDE,NA,NA
+rxcui:236539,drug,https://identifiers.org/rxcui:236539,ROPIVACAINE HYDROCHLORIDE,ROPIVACAINE HYDROCHLORIDE,NA,NA
+rxcui:221126,drug,https://identifiers.org/rxcui:221126,MORICIZINE HYDROCHLORIDE,MORICIZINE HYDROCHLORIDE,NA,NA
+rxcui:2117,drug,https://identifiers.org/rxcui:2117,ARTICAINE HYDROCHLORIDE,ARTICAINE HYDROCHLORIDE,NA,NA
+rxcui:106558,drug,https://identifiers.org/rxcui:106558,PROCAINE HYDROCHLORIDE,PROCAINE HYDROCHLORIDE,NA,NA
+rxcui:202723,drug,https://identifiers.org/rxcui:202723,ORPHENADRINE HYDROCHLORIDE,ORPHENADRINE HYDROCHLORIDE,NA,NA
+rxcui:4136,drug,https://identifiers.org/rxcui:4136,ETHOTOIN,ETHOTOIN,NA,NA
+rxcui:142138,drug,https://identifiers.org/rxcui:142138,MEXILETINE HYDROCHLORIDE,MEXILETINE HYDROCHLORIDE,NA,NA
+rxcui:6757,drug,https://identifiers.org/rxcui:6757,MEPHENYTOIN,MEPHENYTOIN,NA,NA
+chembl:CHEMBL3545209,drug,https://identifiers.org/chembl:CHEMBL3545209,NKTR-171,NKTR-171,NA,NA
+rxcui:22906,drug,https://identifiers.org/rxcui:22906,DICHLOROBENZYL ALCOHOL,DICHLOROBENZYL ALCOHOL,NA,NA
+rxcui:235398,drug,https://identifiers.org/rxcui:235398,BENOXINATE HYDROCHLORIDE,BENOXINATE HYDROCHLORIDE,NA,NA
+rxcui:2557,drug,https://identifiers.org/rxcui:2557,PRILOCAINE HYDROCHLORIDE,PRILOCAINE HYDROCHLORIDE,NA,NA
 hgnc:7462,gene,NA,NA,NA,NA,NA
 rxcui:235743,drug,https://identifiers.org/rxcui:235743,METFORMIN HYDROCHLORIDE,METFORMIN HYDROCHLORIDE,NA,NA
 drugbank:DB13062,drug,https://identifiers.org/drugbank:DB13062,ME-344,ME-344,NA,NA
@@ -228,6 +387,20 @@ iuphar.ligand:12020,drug,https://identifiers.org/iuphar.ligand:12020,WNT-C59,WNT
 iuphar.ligand:11166,drug,https://identifiers.org/iuphar.ligand:11166,GNF-6231,GNF-6231,NA,NA
 hgnc:7421,gene,NA,NA,NA,NA,NA
 rxcui:140587,drug,https://identifiers.org/rxcui:140587,CELECOXIB,CELECOXIB,NA,NA
+hgnc:3438,gene,NA,NA,NA,NA,NA
+iuphar.ligand:9964,drug,https://identifiers.org/iuphar.ligand:9964,NIK SMI1,NIK SMI1,NA,NA
+iuphar.ligand:12186,drug,https://identifiers.org/iuphar.ligand:12186,AMG28,AMG28,NA,NA
+iuphar.ligand:10947,drug,https://identifiers.org/iuphar.ligand:10947,NIK INHIBITOR 12F,NIK INHIBITOR 12F,NA,NA
+iuphar.ligand:8174,drug,https://identifiers.org/iuphar.ligand:8174,COMPOUND 31 [PMID: 23374866],COMPOUND 31 [PMID: 23374866],NA,NA
+iuphar.ligand:9965,drug,https://identifiers.org/iuphar.ligand:9965,"COMPOUND 3A [PIPIONNE ET AL, 2018]","COMPOUND 3A [PIPIONNE ET AL, 2018]",NA,NA
+iuphar.ligand:2448,drug,https://identifiers.org/iuphar.ligand:2448,H2O2,H2O2,NA,NA
+rxcui:3008,drug,https://identifiers.org/rxcui:3008,CYCLOSPORINE,CYCLOSPORINE,NA,NA
+iuphar.ligand:11595,drug,https://identifiers.org/iuphar.ligand:11595,COMPOUND 18 [PMID: 34212719],COMPOUND 18 [PMID: 34212719],NA,NA
+hgnc:6783,gene,NA,NA,NA,NA,NA
+chembl:CHEMBL3545317,drug,https://identifiers.org/chembl:CHEMBL3545317,REFANEZUMAB,REFANEZUMAB,NA,NA
+ncit:C152172,drug,https://identifiers.org/ncit:C152172,REFANEZUMAB,REFANEZUMAB,NA,NA
+chembl:CHEMBL2109573,drug,https://identifiers.org/chembl:CHEMBL2109573,GSK-249320,GSK-249320,NA,NA
+hgnc:7711,gene,NA,NA,NA,NA,NA
 hgnc:7897,gene,NA,NA,NA,NA,NA
 drugbank:DB04705,drug,https://identifiers.org/drugbank:DB04705,25-HYDROXYCHOLESTEROL,25-HYDROXYCHOLESTEROL,NA,NA
 chembl:CHEMBL502774,drug,https://identifiers.org/chembl:CHEMBL502774,CHEMBL:CHEMBL502774,CHEMBL:CHEMBL502774,NA,NA
@@ -354,7 +527,6 @@ chembl:CHEMBL1467200,drug,https://identifiers.org/chembl:CHEMBL1467200,CHEMBL:CH
 chembl:CHEMBL421088,drug,https://identifiers.org/chembl:CHEMBL421088,CHEMBL:CHEMBL421088,CHEMBL:CHEMBL421088,NA,NA
 chembl:CHEMBL1330352,drug,https://identifiers.org/chembl:CHEMBL1330352,CHEMBL:CHEMBL1330352,CHEMBL:CHEMBL1330352,NA,NA
 chembl:CHEMBL2094456,drug,https://identifiers.org/chembl:CHEMBL2094456,CHEMBL:CHEMBL2094456,CHEMBL:CHEMBL2094456,NA,NA
-rxcui:35623,drug,https://identifiers.org/rxcui:35623,RILUZOLE,RILUZOLE,NA,NA
 ncit:C83801,drug,https://identifiers.org/ncit:C83801,INDOPROFEN,INDOPROFEN,NA,NA
 chembl:CHEMBL85826,drug,https://identifiers.org/chembl:CHEMBL85826,CHEMBL:CHEMBL85826,CHEMBL:CHEMBL85826,NA,NA
 chembl:CHEMBL464433,drug,https://identifiers.org/chembl:CHEMBL464433,"4',7-DIMETHOXY-5-HYDROXYGENISTEIN","4',7-DIMETHOXY-5-HYDROXYGENISTEIN",NA,NA
@@ -392,6 +564,10 @@ ncit:C28952,drug,https://identifiers.org/ncit:C28952,TETRANDRINE,TETRANDRINE,NA,
 hgnc:9039,gene,NA,NA,NA,NA,NA
 rxcui:7418,drug,https://identifiers.org/rxcui:7418,NIFLUMIC ACID,NIFLUMIC ACID,NA,NA
 rxcui:4179,drug,https://identifiers.org/rxcui:4179,ETOPOSIDE,ETOPOSIDE,NA,NA
+hgnc:23166,gene,NA,NA,NA,NA,NA
+rxcui:203123,drug,https://identifiers.org/rxcui:203123,ENALAPRIL MALEATE,ENALAPRIL MALEATE,NA,NA
+hgnc:3670,gene,NA,NA,NA,NA,NA
+iuphar.ligand:8138,drug,https://identifiers.org/iuphar.ligand:8138,COMPOUND 2C [PMID: 24900538],COMPOUND 2C [PMID: 24900538],NA,NA
 hgnc:7683,gene,NA,NA,NA,NA,NA
 hgnc:11005,gene,NA,NA,NA,NA,NA
 ncit:C1612,drug,https://identifiers.org/ncit:C1612,GLUFOSFAMIDE,GLUFOSFAMIDE,NA,NA
@@ -410,7 +586,6 @@ rxcui:84108,drug,https://identifiers.org/rxcui:84108,ROSIGLITAZONE,ROSIGLITAZONE
 ncit:C1674,drug,https://identifiers.org/ncit:C1674,RECOMBINANT FIBROBLAST GROWTH FACTOR 2,RECOMBINANT FIBROBLAST GROWTH FACTOR 2,NA,NA
 rxcui:10759,drug,https://identifiers.org/rxcui:10759,TRIAMCINOLONE,TRIAMCINOLONE,NA,NA
 rxcui:1372538,drug,https://identifiers.org/rxcui:1372538,THYMIDINE,THYMIDINE,NA,NA
-rxcui:71227,drug,https://identifiers.org/rxcui:71227,PHENYTOIN SODIUM,PHENYTOIN SODIUM,NA,NA
 hgnc:6893,gene,NA,NA,NA,NA,NA
 rxcui:203190,drug,https://identifiers.org/rxcui:203190,METHYSERGIDE MALEATE,METHYSERGIDE MALEATE,NA,NA
 chembl:CHEMBL582473,drug,https://identifiers.org/chembl:CHEMBL582473,CHEMBL:CHEMBL582473,CHEMBL:CHEMBL582473,NA,NA
@@ -491,7 +666,6 @@ chembl:CHEMBL1256388,drug,https://identifiers.org/chembl:CHEMBL1256388,CYSTAMINE
 chembl:CHEMBL601952,drug,https://identifiers.org/chembl:CHEMBL601952,CHEMBL:CHEMBL601952,CHEMBL:CHEMBL601952,NA,NA
 ncit:C1831,drug,https://identifiers.org/ncit:C1831,SEMAXANIB,SEMAXANIB,NA,NA
 chembl:CHEMBL1436980,drug,https://identifiers.org/chembl:CHEMBL1436980,"4,4'-DIMETHOXYDALBERGIONE","4,4'-DIMETHOXYDALBERGIONE",NA,NA
-rxcui:203197,drug,https://identifiers.org/rxcui:203197,PHENAZOPYRIDINE HYDROCHLORIDE,PHENAZOPYRIDINE HYDROCHLORIDE,NA,NA
 chembl:CHEMBL15193,drug,https://identifiers.org/chembl:CHEMBL15193,LAPACHOL,LAPACHOL,NA,NA
 rxcui:42837,drug,https://identifiers.org/rxcui:42837,P-AMINOHIPPURATE,P-AMINOHIPPURATE,NA,NA
 chembl:CHEMBL172439,drug,https://identifiers.org/chembl:CHEMBL172439,SLAZINIC ACID,SLAZINIC ACID,NA,NA
@@ -830,11 +1004,14 @@ chembl:CHEMBL1333653,drug,https://identifiers.org/chembl:CHEMBL1333653,OBTUSAQUI
 rxcui:328134,drug,https://identifiers.org/rxcui:328134,GEFITINIB,GEFITINIB,NA,NA
 chembl:CHEMBL1372046,drug,https://identifiers.org/chembl:CHEMBL1372046,CHEMBL:CHEMBL1372046,CHEMBL:CHEMBL1372046,NA,NA
 hgnc:8800,gene,NA,NA,NA,NA,NA
-rxcui:357977,drug,https://identifiers.org/rxcui:357977,SUNITINIB,SUNITINIB,NA,NA
 rxcui:282388,drug,https://identifiers.org/rxcui:282388,IMATINIB,IMATINIB,NA,NA
 rxcui:1242999,drug,https://identifiers.org/rxcui:1242999,AXITINIB,AXITINIB,NA,NA
 ncit:C170304,drug,https://identifiers.org/ncit:C170304,PEGPLERANIB SODIUM,PEGPLERANIB SODIUM,NA,NA
 rxcui:115238,drug,https://identifiers.org/rxcui:115238,BECAPLERMIN,BECAPLERMIN,NA,NA
+hgnc:15832,gene,NA,NA,NA,NA,NA
+rxcui:1491625,drug,https://identifiers.org/rxcui:1491625,METRELEPTIN,METRELEPTIN,NA,NA
+hgnc:30074,gene,NA,NA,NA,NA,NA
+drugbank:DB06656,drug,https://identifiers.org/drugbank:DB06656,TAS-106,TAS-106,NA,NA
 hgnc:8022,gene,NA,NA,NA,NA,NA
 rxcui:103,drug,https://identifiers.org/rxcui:103,MERCAPTOPURINE,MERCAPTOPURINE,NA,NA
 rxcui:10485,drug,https://identifiers.org/rxcui:10485,THIOGUANINE,THIOGUANINE,NA,NA
@@ -846,8 +1023,80 @@ ncit:C571,drug,https://identifiers.org/ncit:C571,ANTISERUM,ANTISERUM,NA,NA
 hgnc:12799,gene,NA,NA,NA,NA,NA
 rxcui:495881,drug,https://identifiers.org/rxcui:495881,SORAFENIB,SORAFENIB,NA,NA
 rxcui:12574,drug,https://identifiers.org/rxcui:12574,GEMCITABINE,GEMCITABINE,NA,NA
+hgnc:20278,gene,NA,NA,NA,NA,NA
+rxcui:73178,drug,https://identifiers.org/rxcui:73178,ILOPERIDONE,ILOPERIDONE,NA,NA
+hgnc:469,gene,NA,NA,NA,NA,NA
+iuphar.ligand:11073,drug,https://identifiers.org/iuphar.ligand:11073,S‐Y048,S‐Y048,NA,NA
+iuphar.ligand:3392,drug,https://identifiers.org/iuphar.ligand:3392,5-OXO-C20:3,5-OXO-C20:3,NA,NA
+iuphar.ligand:2483,drug,https://identifiers.org/iuphar.ligand:2483,5S-HPETE,5S-HPETE,NA,NA
+iuphar.ligand:6173,drug,https://identifiers.org/iuphar.ligand:6173,GUE1654,GUE1654,NA,NA
+iuphar.ligand:6164,drug,https://identifiers.org/iuphar.ligand:6164,5-OXO-ODE,5-OXO-ODE,NA,NA
+iuphar.ligand:6169,drug,https://identifiers.org/iuphar.ligand:6169,5-OXO-20-HETE,5-OXO-20-HETE,NA,NA
+iuphar.ligand:3390,drug,https://identifiers.org/iuphar.ligand:3390,5S-HETE,5S-HETE,NA,NA
+iuphar.ligand:6171,drug,https://identifiers.org/iuphar.ligand:6171,5-OXO-12-HETE,5-OXO-12-HETE,NA,NA
+iuphar.ligand:6174,drug,https://identifiers.org/iuphar.ligand:6174,5-(6-CHLORO-2-HEXYL-1H-INDOL-1-YL)-5-OXO-VALERIC ACID,5-(6-CHLORO-2-HEXYL-1H-INDOL-1-YL)-5-OXO-VALERIC ACID,NA,NA
+iuphar.ligand:3391,drug,https://identifiers.org/iuphar.ligand:3391,5-OXO-ETE,5-OXO-ETE,NA,NA
+iuphar.ligand:6167,drug,https://identifiers.org/iuphar.ligand:6167,5-OXO-15-HETE,5-OXO-15-HETE,NA,NA
+hgnc:2719,gene,NA,NA,NA,NA,NA
+rxcui:42954,drug,https://identifiers.org/rxcui:42954,VITAMIN B6,VITAMIN B6,NA,NA
+rxcui:1374,drug,https://identifiers.org/rxcui:1374,BENSERAZIDE,BENSERAZIDE,NA,NA
+rxcui:35302,drug,https://identifiers.org/rxcui:35302,SIROLIMUS,SIROLIMUS,NA,NA
+hgnc:245,gene,NA,NA,NA,NA,NA
+iuphar.ligand:5848,drug,https://identifiers.org/iuphar.ligand:5848,3-HYDROXY CAPRIC ACID,3-HYDROXY CAPRIC ACID,NA,NA
+iuphar.ligand:5850,drug,https://identifiers.org/iuphar.ligand:5850,3-HYDROXYLAURIC ACID,3-HYDROXYLAURIC ACID,NA,NA
+iuphar.ligand:11213,drug,https://identifiers.org/iuphar.ligand:11213,DL-175,DL-175,NA,NA
+iuphar.ligand:11212,drug,https://identifiers.org/iuphar.ligand:11212,"6-NONYLPYRIDINE-2,4-DIOL","6-NONYLPYRIDINE-2,4-DIOL",NA,NA
+iuphar.ligand:11211,drug,https://identifiers.org/iuphar.ligand:11211,ZQ-16,ZQ-16,NA,NA
+iuphar.ligand:13103,drug,https://identifiers.org/iuphar.ligand:13103,OX04529,OX04529,NA,NA
+iuphar.ligand:5846,drug,https://identifiers.org/iuphar.ligand:5846,6-N-OCTYLAMINOURACIL,6-N-OCTYLAMINOURACIL,NA,NA
+iuphar.ligand:9871,drug,https://identifiers.org/iuphar.ligand:9871,PSB-17365,PSB-17365,NA,NA
+ncit:C152801,drug,https://identifiers.org/ncit:C152801,UNDECANOIC ACID,UNDECANOIC ACID,NA,NA
+iuphar.ligand:5847,drug,https://identifiers.org/iuphar.ligand:5847,2-HYDROXY CAPRIC ACID,2-HYDROXY CAPRIC ACID,NA,NA
+iuphar.ligand:10043,drug,https://identifiers.org/iuphar.ligand:10043,SETOGEPRAM,SETOGEPRAM,NA,NA
+iuphar.ligand:5534,drug,https://identifiers.org/iuphar.ligand:5534,LAURIC ACID,LAURIC ACID,NA,NA
+iuphar.ligand:10717,drug,https://identifiers.org/iuphar.ligand:10717,PSB-1584,PSB-1584,NA,NA
+iuphar.ligand:5849,drug,https://identifiers.org/iuphar.ligand:5849,2-HYDROXYLAURIC ACID,2-HYDROXYLAURIC ACID,NA,NA
+iuphar.ligand:5532,drug,https://identifiers.org/iuphar.ligand:5532,DECANOIC ACID,DECANOIC ACID,NA,NA
+iuphar.ligand:12819,drug,https://identifiers.org/iuphar.ligand:12819,PBI-4547,PBI-4547,NA,NA
+iuphar.ligand:11208,drug,https://identifiers.org/iuphar.ligand:11208,DIM,DIM,NA,NA
+iuphar.ligand:11210,drug,https://identifiers.org/iuphar.ligand:11210,PSB-16434,PSB-16434,NA,NA
+iuphar.ligand:10171,drug,https://identifiers.org/iuphar.ligand:10171,GLPG1205,GLPG1205,NA,NA
+hgnc:4576,gene,NA,NA,NA,NA,NA
+iuphar.ligand:9098,drug,https://identifiers.org/iuphar.ligand:9098,CAROTUXIMAB,CAROTUXIMAB,NA,NA
+rxcui:35636,drug,https://identifiers.org/rxcui:35636,RISPERIDONE,RISPERIDONE,NA,NA
 hgnc:17194,gene,NA,NA,NA,NA,NA
 ncit:C171889,drug,https://identifiers.org/ncit:C171889,FLURPIRIDAZ F-18,FLURPIRIDAZ F-18,NA,NA
+hgnc:4235,gene,NA,NA,NA,NA,NA
+ncit:C575,drug,https://identifiers.org/ncit:C575,IMMUNOTOXIN,IMMUNOTOXIN,NA,NA
+rxcui:9945,drug,https://identifiers.org/rxcui:9945,SORBITOL,SORBITOL,NA,NA
+rxcui:6448,drug,https://identifiers.org/rxcui:6448,LITHIUM,LITHIUM,NA,NA
+ncit:C29554,drug,https://identifiers.org/ncit:C29554,GP-120 ANTIGEN,GP-120 ANTIGEN,NA,NA
+ncit:C1967,drug,https://identifiers.org/ncit:C1967,TYROSINE KINASE INHIBITOR,TYROSINE KINASE INHIBITOR,NA,NA
+rxcui:66925,drug,https://identifiers.org/rxcui:66925,PROCARBAZINE HYDROCHLORIDE,PROCARBAZINE HYDROCHLORIDE,NA,NA
+ncit:C79911,drug,https://identifiers.org/ncit:C79911,FADROZOLE,FADROZOLE,NA,NA
+ncit:C419,drug,https://identifiers.org/ncit:C419,DEMECOLCINE,DEMECOLCINE,NA,NA
+rxcui:1191,drug,https://identifiers.org/rxcui:1191,ASPIRIN,ASPIRIN,NA,NA
+rxcui:6711,drug,https://identifiers.org/rxcui:6711,MELATONIN,MELATONIN,NA,NA
+rxcui:1311380,drug,https://identifiers.org/rxcui:1311380,INTERLEUKIN-11,INTERLEUKIN-11,NA,NA
+rxcui:1151,drug,https://identifiers.org/rxcui:1151,ASCORBIC ACID,ASCORBIC ACID,NA,NA
+rxcui:33199,drug,https://identifiers.org/rxcui:33199,PERMETHRIN,PERMETHRIN,NA,NA
+rxcui:10402,drug,https://identifiers.org/rxcui:10402,DRONABINOL,DRONABINOL,NA,NA
+ncit:C2337,drug,https://identifiers.org/ncit:C2337,SODIUM BUTYRATE,SODIUM BUTYRATE,NA,NA
+rxcui:6383,drug,https://identifiers.org/rxcui:6383,LUTEINIZING HORMONE,LUTEINIZING HORMONE,NA,NA
+rxcui:1992,drug,https://identifiers.org/rxcui:1992,CAPSAICIN,CAPSAICIN,NA,NA
+ncit:C783,drug,https://identifiers.org/ncit:C783,PROTEASE INHIBITOR,PROTEASE INHIBITOR,NA,NA
+rxcui:3143,drug,https://identifiers.org/rxcui:3143,PRASTERONE,PRASTERONE,NA,NA
+rxcui:2683,drug,https://identifiers.org/rxcui:2683,COLCHICINE,COLCHICINE,NA,NA
+rxcui:5499,drug,https://identifiers.org/rxcui:5499,HYDROGEN PEROXIDE,HYDROGEN PEROXIDE,NA,NA
+rxcui:8013,drug,https://identifiers.org/rxcui:8013,PENTOXIFYLLINE,PENTOXIFYLLINE,NA,NA
+ncit:C1291,drug,https://identifiers.org/ncit:C1291,ANTISENSE OLIGONUCLEOTIDES,ANTISENSE OLIGONUCLEOTIDES,NA,NA
+ncit:C645,drug,https://identifiers.org/ncit:C645,METHYLNITROSOUREA,METHYLNITROSOUREA,NA,NA
+rxcui:82084,drug,https://identifiers.org/rxcui:82084,PROPRANOLOL HYDROCHLORIDE,PROPRANOLOL HYDROCHLORIDE,NA,NA
+ncit:C1890,drug,https://identifiers.org/ncit:C1890,ADENOVIRUS VECTOR,ADENOVIRUS VECTOR,NA,NA
+rxcui:7426,drug,https://identifiers.org/rxcui:7426,NIMODIPINE,NIMODIPINE,NA,NA
+ncit:C1426,drug,https://identifiers.org/ncit:C1426,RECOMBINANT HEREGULIN,RECOMBINANT HEREGULIN,NA,NA
+rxcui:6835,drug,https://identifiers.org/rxcui:6835,METHIMAZOLE,METHIMAZOLE,NA,NA
+ncit:C1237,drug,https://identifiers.org/ncit:C1237,STAUROSPORINE,STAUROSPORINE,NA,NA
 hgnc:12666,gene,NA,NA,NA,NA,NA
 drugbank:DB16874,drug,https://identifiers.org/drugbank:DB16874,CB-5083,CB-5083,NA,NA
 hgnc:6121,gene,NA,NA,NA,NA,NA
@@ -912,6 +1161,9 @@ iuphar.ligand:11518,drug,https://identifiers.org/iuphar.ligand:11518,DOSTARLIMAB
 rxcui:1547545,drug,https://identifiers.org/rxcui:1547545,PEMBROLIZUMAB,PEMBROLIZUMAB,NA,NA
 hgnc:589,gene,NA,NA,NA,NA,NA
 rxcui:327361,drug,https://identifiers.org/rxcui:327361,ADALIMUMAB,ADALIMUMAB,NA,NA
+hgnc:16266,gene,NA,NA,NA,NA,NA
+rxcui:6809,drug,https://identifiers.org/rxcui:6809,METFORMIN,METFORMIN,NA,NA
+hgnc:12525,gene,NA,NA,NA,NA,NA
 hgnc:9508,gene,NA,NA,NA,NA,NA
 ncit:C96305,drug,https://identifiers.org/ncit:C96305,AVAGACESTAT,AVAGACESTAT,NA,NA
 drugbank:DB11870,drug,https://identifiers.org/drugbank:DB11870,RG-4733,RG-4733,NA,NA
@@ -947,7 +1199,6 @@ iuphar.ligand:44,drug,https://identifiers.org/iuphar.ligand:44,NAFADOTRIDE,NAFAD
 rxcui:6779,drug,https://identifiers.org/rxcui:6779,MESORIDAZINE,MESORIDAZINE,NA,NA
 ncit:C152121,drug,https://identifiers.org/ncit:C152121,QUINELORANE,QUINELORANE,NA,NA
 rxcui:10800,drug,https://identifiers.org/rxcui:10800,TRIFLUOPERAZINE,TRIFLUOPERAZINE,NA,NA
-rxcui:35636,drug,https://identifiers.org/rxcui:35636,RISPERIDONE,RISPERIDONE,NA,NA
 rxcui:4495,drug,https://identifiers.org/rxcui:4495,FLUPENTHIXOL,FLUPENTHIXOL,NA,NA
 rxcui:41996,drug,https://identifiers.org/rxcui:41996,SERTINDOLE,SERTINDOLE,NA,NA
 iuphar.ligand:957,drug,https://identifiers.org/iuphar.ligand:957,(+)-UH232,(+)-UH232,NA,NA
@@ -1002,24 +1253,20 @@ hgnc:8983,gene,NA,NA,NA,NA,NA
 rxcui:2169285,drug,https://identifiers.org/rxcui:2169285,ALPELISIB,ALPELISIB,NA,NA
 hgnc:9476,gene,NA,NA,NA,NA,NA
 iuphar.ligand:11759,drug,https://identifiers.org/iuphar.ligand:11759,GALEGENIMAB,GALEGENIMAB,NA,NA
-rxcui:5499,drug,https://identifiers.org/rxcui:5499,HYDROGEN PEROXIDE,HYDROGEN PEROXIDE,NA,NA
+hgnc:8514,gene,NA,NA,NA,NA,NA
+rxcui:84857,drug,https://identifiers.org/rxcui:84857,ANASTROZOLE,ANASTROZOLE,NA,NA
 hgnc:7883,gene,NA,NA,NA,NA,NA
 ncit:C82367,drug,https://identifiers.org/ncit:C82367,ENOTICUMAB,ENOTICUMAB,NA,NA
 iuphar.ligand:7338,drug,https://identifiers.org/iuphar.ligand:7338,RO4929097,RO4929097,NA,NA
 ncit:C95719,drug,https://identifiers.org/ncit:C95719,TAREXTUMAB,TAREXTUMAB,NA,NA
 hgnc:801,gene,NA,NA,NA,NA,NA
 iuphar.ligand:1757,drug,https://identifiers.org/iuphar.ligand:1757,BZATP,BZATP,NA,NA
-rxcui:3403,drug,https://identifiers.org/rxcui:3403,DIGITOXIN,DIGITOXIN,NA,NA
 iuphar.ligand:4324,drug,https://identifiers.org/iuphar.ligand:4324,TNP-ATP,TNP-ATP,NA,NA
-rxcui:3407,drug,https://identifiers.org/rxcui:3407,DIGOXIN,DIGOXIN,NA,NA
 iuphar.ligand:11230,drug,https://identifiers.org/iuphar.ligand:11230,NF279,NF279,NA,NA
 iuphar.ligand:6496,drug,https://identifiers.org/iuphar.ligand:6496,MRS 2219,MRS 2219,NA,NA
-rxcui:3248,drug,https://identifiers.org/rxcui:3248,DESLANOSIDE,DESLANOSIDE,NA,NA
 ncit:C83849,drug,https://identifiers.org/ncit:C83849,ISTAROXIME,ISTAROXIME,NA,NA
-rxcui:318,drug,https://identifiers.org/rxcui:318,ADENOSINE TRIPHOSPHATE,ADENOSINE TRIPHOSPHATE,NA,NA
 iuphar.ligand:4236,drug,https://identifiers.org/iuphar.ligand:4236,L-&BETA;&GAMMA;-MEATP,L-&BETA;&GAMMA;-MEATP,NA,NA
 iuphar.ligand:4093,drug,https://identifiers.org/iuphar.ligand:4093,&ALPHA;&BETA;-MEATP,&ALPHA;&BETA;-MEATP,NA,NA
-rxcui:132871,drug,https://identifiers.org/rxcui:132871,ACETYLDIGITOXIN,ACETYLDIGITOXIN,NA,NA
 rxcui:27929,drug,https://identifiers.org/rxcui:27929,LANATOSIDE C,LANATOSIDE C,NA,NA
 iuphar.ligand:4225,drug,https://identifiers.org/iuphar.ligand:4225,IP5I,IP5I,NA,NA
 iuphar.ligand:4266,drug,https://identifiers.org/iuphar.ligand:4266,NF023,NF023,NA,NA
@@ -1055,7 +1302,6 @@ iuphar.ligand:12490,drug,https://identifiers.org/iuphar.ligand:12490,AZ2429,AZ24
 iuphar.ligand:6658,drug,https://identifiers.org/iuphar.ligand:6658,GB88,GB88,NA,NA
 rxcui:83818,drug,https://identifiers.org/rxcui:83818,IRBESARTAN,IRBESARTAN,NA,NA
 iuphar.ligand:3740,drug,https://identifiers.org/iuphar.ligand:3740,SLIGKV-NH2,SLIGKV-NH2,NA,NA
-ncit:C1237,drug,https://identifiers.org/ncit:C1237,STAUROSPORINE,STAUROSPORINE,NA,NA
 rxcui:72610,drug,https://identifiers.org/rxcui:72610,TROGLITAZONE,TROGLITAZONE,NA,NA
 drugbank:DB17642,drug,https://identifiers.org/drugbank:DB17642,AEM-28,AEM-28,NA,NA
 iuphar.ligand:3914,drug,https://identifiers.org/iuphar.ligand:3914,TRANS-CINNAMOYL-LIGRLO [N-[3H]PROPIONYL]-NH2,TRANS-CINNAMOYL-LIGRLO [N-[3H]PROPIONYL]-NH2,NA,NA
@@ -1071,9 +1317,7 @@ iuphar.ligand:9457,drug,https://identifiers.org/iuphar.ligand:9457,AC-98170,AC-9
 rxcui:340705,drug,https://identifiers.org/rxcui:340705,HUMAN CHORIONIC GONADOTROPIN,HUMAN CHORIONIC GONADOTROPIN,NA,NA
 rxcui:4637,drug,https://identifiers.org/rxcui:4637,GALANTAMINE,GALANTAMINE,NA,NA
 iuphar.ligand:12491,drug,https://identifiers.org/iuphar.ligand:12491,I-287,I-287,NA,NA
-ncit:C265,drug,https://identifiers.org/ncit:C265,ANTIDEPRESSANT AGENT,ANTIDEPRESSANT AGENT,NA,NA
 iuphar.ligand:12492,drug,https://identifiers.org/iuphar.ligand:12492,ISOX-CHA-CHG-ALA-ARG-DPR(4FB)-NH2,ISOX-CHA-CHG-ALA-ARG-DPR(4FB)-NH2,NA,NA
-rxcui:4678,drug,https://identifiers.org/rxcui:4678,GANCICLOVIR,GANCICLOVIR,NA,NA
 iuphar.ligand:9570,drug,https://identifiers.org/iuphar.ligand:9570,C391,C391,NA,NA
 iuphar.ligand:9585,drug,https://identifiers.org/iuphar.ligand:9585,AZ8838,AZ8838,NA,NA
 iuphar.ligand:4050,drug,https://identifiers.org/iuphar.ligand:4050,2-FUROYL-LIGRL[N-(ALEXA FLUOR 594)-O]-NH2,2-FUROYL-LIGRL[N-(ALEXA FLUOR 594)-O]-NH2,NA,NA
@@ -1159,11 +1403,21 @@ iuphar.ligand:12651,drug,https://identifiers.org/iuphar.ligand:12651,"COMPOUND 2
 iuphar.ligand:9860,drug,https://identifiers.org/iuphar.ligand:9860,VIDOFLUDIMUS,VIDOFLUDIMUS,NA,NA
 iuphar.ligand:12997,drug,https://identifiers.org/iuphar.ligand:12997,COMPOUND 111 [PMID: 37918435],COMPOUND 111 [PMID: 37918435],NA,NA
 iuphar.ligand:12998,drug,https://identifiers.org/iuphar.ligand:12998,COMPOUND 108 [PMID: 37918435],COMPOUND 108 [PMID: 37918435],NA,NA
+hgnc:4283,gene,NA,NA,NA,NA,NA
+iuphar.ligand:4278,drug,https://identifiers.org/iuphar.ligand:4278,OCTANOL,OCTANOL,NA,NA
+rxcui:4453,drug,https://identifiers.org/rxcui:4453,FLUFENAMIC ACID,FLUFENAMIC ACID,NA,NA
+ncit:C63669,drug,https://identifiers.org/ncit:C63669,CARBENOXOLONE,CARBENOXOLONE,NA,NA
+hgnc:6222,gene,NA,NA,NA,NA,NA
+rxcui:2106338,drug,https://identifiers.org/rxcui:2106338,AMIFAMPRIDINE,AMIFAMPRIDINE,NA,NA
+ncit:C72585,drug,https://identifiers.org/ncit:C72585,TEDISAMIL,TEDISAMIL,NA,NA
+rxcui:11170,drug,https://identifiers.org/rxcui:11170,VERAPAMIL,VERAPAMIL,NA,NA
+rxcui:897018,drug,https://identifiers.org/rxcui:897018,DALFAMPRIDINE,DALFAMPRIDINE,NA,NA
+rxcui:2106337,drug,https://identifiers.org/rxcui:2106337,AMIFAMPRIDINE PHOSPHATE,AMIFAMPRIDINE PHOSPHATE,NA,NA
+rxcui:50676,drug,https://identifiers.org/rxcui:50676,GUANIDINE HYDROCHLORIDE,GUANIDINE HYDROCHLORIDE,NA,NA
 hgnc:2475,gene,NA,NA,NA,NA,NA
 drugbank:DB04098,drug,https://identifiers.org/drugbank:DB04098,BALANOL,BALANOL,NA,NA
 rxcui:9344,drug,https://identifiers.org/rxcui:9344,RIBAVIRIN,RIBAVIRIN,NA,NA
 hgnc:8768,gene,NA,NA,NA,NA,NA
-rxcui:3008,drug,https://identifiers.org/rxcui:3008,CYCLOSPORINE,CYCLOSPORINE,NA,NA
 ncit:C28696,drug,https://identifiers.org/ncit:C28696,RECOMBINANT 70-KD HEAT-SHOCK PROTEIN,RECOMBINANT 70-KD HEAT-SHOCK PROTEIN,NA,NA
 hgnc:9352,gene,NA,NA,NA,NA,NA
 rxcui:1746906,drug,https://identifiers.org/rxcui:1746906,OBILTOXAXIMAB,OBILTOXAXIMAB,NA,NA
@@ -1173,6 +1427,10 @@ drugbank:DB17798,drug,https://identifiers.org/drugbank:DB17798,AVP-21D9,AVP-21D9
 drugbank:DB05945,drug,https://identifiers.org/drugbank:DB05945,MDX-1303,MDX-1303,NA,NA
 hgnc:23595,gene,NA,NA,NA,NA,NA
 rxcui:194000,drug,https://identifiers.org/rxcui:194000,CAPECITABINE,CAPECITABINE,NA,NA
+hgnc:1527,gene,NA,NA,NA,NA,NA
+rxcui:10379,drug,https://identifiers.org/rxcui:10379,TESTOSTERONE,TESTOSTERONE,NA,NA
+ncit:C83692,drug,https://identifiers.org/ncit:C83692,EPERISONE,EPERISONE,NA,NA
+rxcui:10639,drug,https://identifiers.org/rxcui:10639,TOLPERISONE,TOLPERISONE,NA,NA
 hgnc:7422,gene,NA,NA,NA,NA,NA
 rxcui:2557372,drug,https://identifiers.org/rxcui:2557372,PEGCETACOPLAN,PEGCETACOPLAN,NA,NA
 iuphar.ligand:9219,drug,https://identifiers.org/iuphar.ligand:9219,AL-78898A,AL-78898A,NA,NA
@@ -1197,6 +1455,7 @@ chembl:CHEMBL466465,drug,https://identifiers.org/chembl:CHEMBL466465,CHEMBL:CHEM
 chembl:CHEMBL64239,drug,https://identifiers.org/chembl:CHEMBL64239,CHEMBL:CHEMBL64239,CHEMBL:CHEMBL64239,NA,NA
 rxcui:3247,drug,https://identifiers.org/rxcui:3247,DESIPRAMINE,DESIPRAMINE,NA,NA
 drugbank:DB00466,drug,https://identifiers.org/drugbank:DB00466,PICROTOXIN,PICROTOXIN,NA,NA
+hgnc:8820,gene,NA,NA,NA,NA,NA
 hgnc:2482,gene,NA,NA,NA,NA,NA
 ncit:C152226,drug,https://identifiers.org/ncit:C152226,RIPASUDIL,RIPASUDIL,NA,NA
 iuphar.ligand:5196,drug,https://identifiers.org/iuphar.ligand:5196,GSK690693,GSK690693,NA,NA
@@ -1204,6 +1463,9 @@ drugbank:DB07995,drug,https://identifiers.org/drugbank:DB07995,H-89,H-89,NA,NA
 iuphar.ligand:13089,drug,https://identifiers.org/iuphar.ligand:13089,APLITHIANINE A,APLITHIANINE A,NA,NA
 hgnc:4601,gene,NA,NA,NA,NA,NA
 iuphar.ligand:9124,drug,https://identifiers.org/iuphar.ligand:9124,ANTI-ILT7 ANTIBODY,ANTI-ILT7 ANTIBODY,NA,NA
+hgnc:11237,gene,NA,NA,NA,NA,NA
+rxcui:10432,drug,https://identifiers.org/rxcui:10432,THALIDOMIDE,THALIDOMIDE,NA,NA
+rxcui:1299922,drug,https://identifiers.org/rxcui:1299922,DOCETAXEL ANHYDROUS,DOCETAXEL ANHYDROUS,NA,NA
 hgnc:2976,gene,NA,NA,NA,NA,NA
 rxcui:5657,drug,https://identifiers.org/rxcui:5657,IFOSFAMIDE,IFOSFAMIDE,NA,NA
 chembl:CHEMBL179512,drug,https://identifiers.org/chembl:CHEMBL179512,DEMETHOXYCURCUMIN,DEMETHOXYCURCUMIN,NA,NA
@@ -1244,13 +1506,12 @@ rxcui:15657,drug,https://identifiers.org/rxcui:15657,DECITABINE,DECITABINE,NA,NA
 ncit:C2530,drug,https://identifiers.org/ncit:C2530,DNMT1 MIXED-BACKBONE ANTISENSE OLIGONUCLEOTIDE MG 98,DNMT1 MIXED-BACKBONE ANTISENSE OLIGONUCLEOTIDE MG 98,NA,NA
 ncit:C113444,drug,https://identifiers.org/ncit:C113444,RODUCITABINE,RODUCITABINE,NA,NA
 hgnc:869,gene,NA,NA,NA,NA,NA
-rxcui:1299922,drug,https://identifiers.org/rxcui:1299922,DOCETAXEL ANHYDROUS,DOCETAXEL ANHYDROUS,NA,NA
 iuphar.ligand:7737,drug,https://identifiers.org/iuphar.ligand:7737,HELATX1,HELATX1,NA,NA
-rxcui:10432,drug,https://identifiers.org/rxcui:10432,THALIDOMIDE,THALIDOMIDE,NA,NA
 rxcui:32592,drug,https://identifiers.org/rxcui:32592,OXALIPLATIN,OXALIPLATIN,NA,NA
 iuphar.ligand:2547,drug,https://identifiers.org/iuphar.ligand:2547,MARGATOXIN,MARGATOXIN,NA,NA
-hgnc:6291,gene,NA,NA,NA,NA,NA
-rxcui:3226,drug,https://identifiers.org/rxcui:3226,DEQUALINIUM,DEQUALINIUM,NA,NA
+hgnc:17264,gene,NA,NA,NA,NA,NA
+hgnc:6600,gene,NA,NA,NA,NA,NA
+rxcui:56946,drug,https://identifiers.org/rxcui:56946,PACLITAXEL,PACLITAXEL,NA,NA
 hgnc:9179,gene,NA,NA,NA,NA,NA
 chembl:CHEMBL457091,drug,https://identifiers.org/chembl:CHEMBL457091,KASANOSIN B,KASANOSIN B,NA,NA
 chembl:CHEMBL458178,drug,https://identifiers.org/chembl:CHEMBL458178,KASANOSIN A,KASANOSIN A,NA,NA
@@ -1380,17 +1641,21 @@ rxcui:1546380,drug,https://identifiers.org/rxcui:1546380,4-HYDROXYBUTYRIC ACID,4
 iuphar.ligand:11197,drug,https://identifiers.org/iuphar.ligand:11197,COMPOUND 2 [PMID: 31932225],COMPOUND 2 [PMID: 31932225],NA,NA
 hgnc:7461,gene,NA,NA,NA,NA,NA
 hgnc:6235,gene,NA,NA,NA,NA,NA
-ncit:C72585,drug,https://identifiers.org/ncit:C72585,TEDISAMIL,TEDISAMIL,NA,NA
-ncit:C80997,drug,https://identifiers.org/ncit:C80997,NERISPIRDINE,NERISPIRDINE,NA,NA
-rxcui:50676,drug,https://identifiers.org/rxcui:50676,GUANIDINE HYDROCHLORIDE,GUANIDINE HYDROCHLORIDE,NA,NA
-rxcui:2106337,drug,https://identifiers.org/rxcui:2106337,AMIFAMPRIDINE PHOSPHATE,AMIFAMPRIDINE PHOSPHATE,NA,NA
-rxcui:897018,drug,https://identifiers.org/rxcui:897018,DALFAMPRIDINE,DALFAMPRIDINE,NA,NA
-rxcui:2106338,drug,https://identifiers.org/rxcui:2106338,AMIFAMPRIDINE,AMIFAMPRIDINE,NA,NA
 hgnc:5033,gene,NA,NA,NA,NA,NA
 iuphar.ligand:11529,drug,https://identifiers.org/iuphar.ligand:11529,STM2457,STM2457,NA,NA
 iuphar.ligand:12894,drug,https://identifiers.org/iuphar.ligand:12894,STC-15,STC-15,NA,NA
 iuphar.ligand:13110,drug,https://identifiers.org/iuphar.ligand:13110,WD6305,WD6305,NA,NA
 iuphar.ligand:13111,drug,https://identifiers.org/iuphar.ligand:13111,UZH2,UZH2,NA,NA
+hgnc:1476,gene,NA,NA,NA,NA,NA
+iuphar.ligand:11643,drug,https://identifiers.org/iuphar.ligand:11643,CALPEPTIN,CALPEPTIN,NA,NA
+rxcui:358258,drug,https://identifiers.org/rxcui:358258,BORTEZOMIB,BORTEZOMIB,NA,NA
+iuphar.ligand:11701,drug,https://identifiers.org/iuphar.ligand:11701,UAWJ9-36-3,UAWJ9-36-3,NA,NA
+iuphar.ligand:10883,drug,https://identifiers.org/iuphar.ligand:10883,GC-376,GC-376,NA,NA
+hgnc:10258,gene,NA,NA,NA,NA,NA
+drugbank:DB07080,drug,https://identifiers.org/drugbank:DB07080,TO-901317,TO-901317,NA,NA
+rxcui:2556,drug,https://identifiers.org/rxcui:2556,CITALOPRAM,CITALOPRAM,NA,NA
+hgnc:3418,gene,NA,NA,NA,NA,NA
+ncit:C1120,drug,https://identifiers.org/ncit:C1120,HALOFUGINONE,HALOFUGINONE,NA,NA
 hgnc:7154,gene,NA,NA,NA,NA,NA
 drugbank:DB15356,drug,https://identifiers.org/drugbank:DB15356,SLV-334,SLV-334,NA,NA
 rxcui:16738,drug,https://identifiers.org/rxcui:16738,RACECADOTRIL,RACECADOTRIL,NA,NA
@@ -1410,14 +1675,17 @@ rxcui:3327,drug,https://identifiers.org/rxcui:3327,DIAZOXIDE,DIAZOXIDE,NA,NA
 rxcui:29008,drug,https://identifiers.org/rxcui:29008,LYCOPENE,LYCOPENE,NA,NA
 rxcui:632,drug,https://identifiers.org/rxcui:632,MITOMYCIN,MITOMYCIN,NA,NA
 chemidplus:72-54-8,drug,https://identifiers.org/chemidplus:72-54-8,TDE,TDE,NA,NA
-rxcui:6835,drug,https://identifiers.org/rxcui:6835,METHIMAZOLE,METHIMAZOLE,NA,NA
 ncit:C823,drug,https://identifiers.org/ncit:C823,SAPONIN,SAPONIN,NA,NA
 rxcui:161,drug,https://identifiers.org/rxcui:161,ACETAMINOPHEN,ACETAMINOPHEN,NA,NA
 ncit:C29072,drug,https://identifiers.org/ncit:C29072,GINKGO,GINKGO,NA,NA
 rxcui:83395,drug,https://identifiers.org/rxcui:83395,SAQUINAVIR,SAQUINAVIR,NA,NA
 ncit:C29711,drug,https://identifiers.org/ncit:C29711,ANTI-DIABETIC AGENT,ANTI-DIABETIC AGENT,NA,NA
-ncit:C79911,drug,https://identifiers.org/ncit:C79911,FADROZOLE,FADROZOLE,NA,NA
 rxcui:9997,drug,https://identifiers.org/rxcui:9997,SPIRONOLACTONE,SPIRONOLACTONE,NA,NA
+hgnc:977,gene,NA,NA,NA,NA,NA
+iuphar.ligand:566,drug,https://identifiers.org/iuphar.ligand:566,ZN2+,ZN2+,NA,NA
+iuphar.ligand:2346,drug,https://identifiers.org/iuphar.ligand:2346,H+,H+,NA,NA
+iuphar.ligand:4164,drug,https://identifiers.org/iuphar.ligand:4164,CU2+,CU2+,NA,NA
+iuphar.ligand:12563,drug,https://identifiers.org/iuphar.ligand:12563,TTFB,TTFB,NA,NA
 hgnc:9870,gene,NA,NA,NA,NA,NA
 hgnc:11588,gene,NA,NA,NA,NA,NA
 hgnc:3033,gene,NA,NA,NA,NA,NA
@@ -1456,7 +1724,6 @@ iuphar.ligand:1994,drug,https://identifiers.org/iuphar.ligand:1994,RELAXIN,RELAX
 ncit:C166623,drug,https://identifiers.org/ncit:C166623,AMILOMOTIDE,AMILOMOTIDE,NA,NA
 iuphar.ligand:1992,drug,https://identifiers.org/iuphar.ligand:1992,RELAXIN,RELAXIN,NA,NA
 iuphar.ligand:11898,drug,https://identifiers.org/iuphar.ligand:11898,COMPOUND 54,COMPOUND 54,NA,NA
-rxcui:5833,drug,https://identifiers.org/rxcui:5833,INOSITOL,INOSITOL,NA,NA
 iuphar.ligand:1993,drug,https://identifiers.org/iuphar.ligand:1993,RELAXIN,RELAXIN,NA,NA
 iuphar.ligand:12202,drug,https://identifiers.org/iuphar.ligand:12202,LECANEMAB,LECANEMAB,NA,NA
 rxcui:236594,drug,https://identifiers.org/rxcui:236594,AMPHOTERICIN B LIPOSOMAL,AMPHOTERICIN B LIPOSOMAL,NA,NA
@@ -1485,8 +1752,12 @@ ncit:C175196,drug,https://identifiers.org/ncit:C175196,PRADEMAGENE ZAMIKERACEL,P
 rxcui:2687966,drug,https://identifiers.org/rxcui:2687966,DONANEMAB,DONANEMAB,NA,NA
 ncit:C97941,drug,https://identifiers.org/ncit:C97941,PONEZUMAB,PONEZUMAB,NA,NA
 chembl:CHEMBL2108328,drug,https://identifiers.org/chembl:CHEMBL2108328,AMILOMOTIDE,AMILOMOTIDE,NA,NA
+hgnc:756,gene,NA,NA,NA,NA,NA
+iuphar.ligand:2356,drug,https://identifiers.org/iuphar.ligand:2356,CS+,CS+,NA,NA
+iuphar.ligand:2344,drug,https://identifiers.org/iuphar.ligand:2344,BA2+,BA2+,NA,NA
+hgnc:8756,gene,NA,NA,NA,NA,NA
+rxcui:68244,drug,https://identifiers.org/rxcui:68244,LAMIVUDINE,LAMIVUDINE,NA,NA
 hgnc:10586,gene,NA,NA,NA,NA,NA
-rxcui:39998,drug,https://identifiers.org/rxcui:39998,ZONISAMIDE,ZONISAMIDE,NA,NA
 hgnc:12405,gene,NA,NA,NA,NA,NA
 rxcui:2671939,drug,https://identifiers.org/rxcui:2671939,EPLONTERSEN,EPLONTERSEN,NA,NA
 rxcui:2099289,drug,https://identifiers.org/rxcui:2099289,INOTERSEN,INOTERSEN,NA,NA
@@ -1498,6 +1769,8 @@ chembl:CHEMBL17347,drug,https://identifiers.org/chembl:CHEMBL17347,ETHYL CAFFEAT
 rxcui:1545063,drug,https://identifiers.org/rxcui:1545063,TAFAMIDIS,TAFAMIDIS,NA,NA
 rxcui:2604578,drug,https://identifiers.org/rxcui:2604578,VUTRISIRAN,VUTRISIRAN,NA,NA
 ncit:C170791,drug,https://identifiers.org/ncit:C170791,ACORAMIDIS,ACORAMIDIS,NA,NA
+hgnc:2073,gene,NA,NA,NA,NA,NA
+rxcui:1922436,drug,https://identifiers.org/rxcui:1922436,CERLIPONASE ALFA,CERLIPONASE ALFA,NA,NA
 hgnc:6218,gene,NA,NA,NA,NA,NA
 rxcui:27340,drug,https://identifiers.org/rxcui:27340,DESFLURANE,DESFLURANE,NA,NA
 rxcui:36453,drug,https://identifiers.org/rxcui:36453,SEVOFLURANE,SEVOFLURANE,NA,NA
@@ -1515,7 +1788,6 @@ iuphar.ligand:2291,drug,https://identifiers.org/iuphar.ligand:2291,PICROTOXININ,
 iuphar.ligand:4290,drug,https://identifiers.org/iuphar.ligand:4290,PREGNENOLONE SULPHATE,PREGNENOLONE SULPHATE,NA,NA
 iuphar.ligand:1862,drug,https://identifiers.org/iuphar.ligand:1862,GINKGOLIDE B,GINKGOLIDE B,NA,NA
 rxcui:27392,drug,https://identifiers.org/rxcui:27392,TROPISETRON,TROPISETRON,NA,NA
-iuphar.ligand:566,drug,https://identifiers.org/iuphar.ligand:566,ZN2+,ZN2+,NA,NA
 hgnc:3432,gene,NA,NA,NA,NA,NA
 rxcui:480167,drug,https://identifiers.org/rxcui:480167,LAPATINIB,LAPATINIB,NA,NA
 iuphar.ligand:8064,drug,https://identifiers.org/iuphar.ligand:8064,BIX02188,BIX02188,NA,NA
@@ -1568,6 +1840,13 @@ iuphar.ligand:4918,drug,https://identifiers.org/iuphar.ligand:4918,EPIREGULIN,EP
 rxcui:337525,drug,https://identifiers.org/rxcui:337525,ERLOTINIB,ERLOTINIB,NA,NA
 ncit:C116729,drug,https://identifiers.org/ncit:C116729,ILORASERTIB,ILORASERTIB,NA,NA
 ncit:C71717,drug,https://identifiers.org/ncit:C71717,ALISERTIB,ALISERTIB,NA,NA
+hgnc:13818,gene,NA,NA,NA,NA,NA
+rxcui:1808,drug,https://identifiers.org/rxcui:1808,BUMETANIDE,BUMETANIDE,NA,NA
+hgnc:3951,gene,NA,NA,NA,NA,NA
+iuphar.ligand:10967,drug,https://identifiers.org/iuphar.ligand:10967,POSTSTATIN,POSTSTATIN,NA,NA
+iuphar.ligand:8564,drug,https://identifiers.org/iuphar.ligand:8564,ARI-3531,ARI-3531,NA,NA
+iuphar.ligand:6565,drug,https://identifiers.org/iuphar.ligand:6565,S 17092,S 17092,NA,NA
+rxcui:105694,drug,https://identifiers.org/rxcui:105694,EPOETIN ALFA,EPOETIN ALFA,NA,NA
 hgnc:9437,gene,NA,NA,NA,NA,NA
 ncit:C77178,drug,https://identifiers.org/ncit:C77178,BACILLUS CALMETTE-GUERIN ANTIGEN,BACILLUS CALMETTE-GUERIN ANTIGEN,NA,NA
 iuphar.ligand:4994,drug,https://identifiers.org/iuphar.ligand:4994,IL-3,IL-3,NA,NA
@@ -1593,7 +1872,6 @@ chembl:CHEMBL580819,drug,https://identifiers.org/chembl:CHEMBL580819,CHEMBL:CHEM
 chembl:CHEMBL515505,drug,https://identifiers.org/chembl:CHEMBL515505,CHEMBL:CHEMBL515505,CHEMBL:CHEMBL515505,NA,NA
 chembl:CHEMBL589715,drug,https://identifiers.org/chembl:CHEMBL589715,CHEMBL:CHEMBL589715,CHEMBL:CHEMBL589715,NA,NA
 chembl:CHEMBL86464,drug,https://identifiers.org/chembl:CHEMBL86464,CHEMBL:CHEMBL86464,CHEMBL:CHEMBL86464,NA,NA
-drugbank:DB07080,drug,https://identifiers.org/drugbank:DB07080,TO-901317,TO-901317,NA,NA
 chembl:CHEMBL551842,drug,https://identifiers.org/chembl:CHEMBL551842,LOBARIC ACID,LOBARIC ACID,NA,NA
 chembl:CHEMBL589694,drug,https://identifiers.org/chembl:CHEMBL589694,CHEMBL:CHEMBL589694,CHEMBL:CHEMBL589694,NA,NA
 chembl:CHEMBL116548,drug,https://identifiers.org/chembl:CHEMBL116548,CHEMBL:CHEMBL116548,CHEMBL:CHEMBL116548,NA,NA
@@ -1724,6 +2002,64 @@ chembl:CHEMBL599098,drug,https://identifiers.org/chembl:CHEMBL599098,CHEMBL:CHEM
 rxcui:266565,drug,https://identifiers.org/rxcui:266565,NELFINAVIR MESYLATE,NELFINAVIR MESYLATE,NA,NA
 chembl:CHEMBL1902074,drug,https://identifiers.org/chembl:CHEMBL1902074,CHEMBL:CHEMBL1902074,CHEMBL:CHEMBL1902074,NA,NA
 chembl:CHEMBL461193,drug,https://identifiers.org/chembl:CHEMBL461193,CHEMBL:CHEMBL461193,CHEMBL:CHEMBL461193,NA,NA
+hgnc:3013,gene,NA,NA,NA,NA,NA
+iuphar.ligand:10597,drug,https://identifiers.org/iuphar.ligand:10597,BAY-985,BAY-985,NA,NA
+iuphar.ligand:7879,drug,https://identifiers.org/iuphar.ligand:7879,BMS-690514,BMS-690514,NA,NA
+ncit:C71759,drug,https://identifiers.org/ncit:C71759,LINIFANIB,LINIFANIB,NA,NA
+rxcui:1535457,drug,https://identifiers.org/rxcui:1535457,CERITINIB,CERITINIB,NA,NA
+rxcui:1919083,drug,https://identifiers.org/rxcui:1919083,MIDOSTAURIN,MIDOSTAURIN,NA,NA
+ncit:C48404,drug,https://identifiers.org/ncit:C48404,TANDUTINIB,TANDUTINIB,NA,NA
+iuphar.ligand:9905,drug,https://identifiers.org/iuphar.ligand:9905,COMPOUND 8I [PMID: 22765894],COMPOUND 8I [PMID: 22765894],NA,NA
+ncit:C143162,drug,https://identifiers.org/ncit:C143162,ONVANSERTIB,ONVANSERTIB,NA,NA
+iuphar.ligand:10574,drug,https://identifiers.org/iuphar.ligand:10574,"COMPOUND 1 [CRUZ-L&OACUTE;PEZ ET AL., 2019]","COMPOUND 1 [CRUZ-L&OACUTE;PEZ ET AL., 2019]",NA,NA
+iuphar.ligand:12089,drug,https://identifiers.org/iuphar.ligand:12089,RUSERONTINIB,RUSERONTINIB,NA,NA
+iuphar.ligand:13215,drug,https://identifiers.org/iuphar.ligand:13215,NUVISERTIB,NUVISERTIB,NA,NA
+drugbank:DB15343,drug,https://identifiers.org/drugbank:DB15343,TUSPETINIB,TUSPETINIB,NA,NA
+ncit:C101519,drug,https://identifiers.org/ncit:C101519,EDICOTINIB,EDICOTINIB,NA,NA
+iuphar.ligand:7885,drug,https://identifiers.org/iuphar.ligand:7885,ENMD-2076,ENMD-2076,NA,NA
+ncit:C169804,drug,https://identifiers.org/ncit:C169804,BELIZATINIB,BELIZATINIB,NA,NA
+iuphar.ligand:7744,drug,https://identifiers.org/iuphar.ligand:7744,RGB-286638,RGB-286638,NA,NA
+drugbank:DB15191,drug,https://identifiers.org/drugbank:DB15191,MAX-40279,MAX-40279,NA,NA
+iuphar.ligand:5973,drug,https://identifiers.org/iuphar.ligand:5973,G&OUML; 6976,G&OUML; 6976,NA,NA
+iuphar.ligand:5661,drug,https://identifiers.org/iuphar.ligand:5661,AST-487,AST-487,NA,NA
+iuphar.ligand:8106,drug,https://identifiers.org/iuphar.ligand:8106,URMC-099,URMC-099,NA,NA
+iuphar.ligand:5691,drug,https://identifiers.org/iuphar.ligand:5691,KW-2449,KW-2449,NA,NA
+iuphar.ligand:13116,drug,https://identifiers.org/iuphar.ligand:13116,LWY713,LWY713,NA,NA
+iuphar.ligand:5970,drug,https://identifiers.org/iuphar.ligand:5970,FLT-3 INHIBITOR,FLT-3 INHIBITOR,NA,NA
+iuphar.ligand:9600,drug,https://identifiers.org/iuphar.ligand:9600,MIVAVOTINIB,MIVAVOTINIB,NA,NA
+iuphar.ligand:9095,drug,https://identifiers.org/iuphar.ligand:9095,ZOTIRACICLIB,ZOTIRACICLIB,NA,NA
+iuphar.ligand:12932,drug,https://identifiers.org/iuphar.ligand:12932,COMPOUND 25AP [PMID: 37796543],COMPOUND 25AP [PMID: 37796543],NA,NA
+iuphar.ligand:7969,drug,https://identifiers.org/iuphar.ligand:7969,AKN-028,AKN-028,NA,NA
+iuphar.ligand:5972,drug,https://identifiers.org/iuphar.ligand:5972,FLT-3 INHIBITOR III,FLT-3 INHIBITOR III,NA,NA
+iuphar.ligand:10549,drug,https://identifiers.org/iuphar.ligand:10549,COMPOUND 18E [PMID: 31670517],COMPOUND 18E [PMID: 31670517],NA,NA
+iuphar.ligand:8784,drug,https://identifiers.org/iuphar.ligand:8784,SGI-1776,SGI-1776,NA,NA
+iuphar.ligand:8108,drug,https://identifiers.org/iuphar.ligand:8108,DENFIVONTINIB,DENFIVONTINIB,NA,NA
+iuphar.ligand:8095,drug,https://identifiers.org/iuphar.ligand:8095,AC710,AC710,NA,NA
+iuphar.ligand:11134,drug,https://identifiers.org/iuphar.ligand:11134,TTT-3002,TTT-3002,NA,NA
+iuphar.ligand:5982,drug,https://identifiers.org/iuphar.ligand:5982,GTP-14564,GTP-14564,NA,NA
+iuphar.ligand:9937,drug,https://identifiers.org/iuphar.ligand:9937,COMPOUND 7D [PMID: 29672049],COMPOUND 7D [PMID: 29672049],NA,NA
+iuphar.ligand:10131,drug,https://identifiers.org/iuphar.ligand:10131,UNC4203,UNC4203,NA,NA
+iuphar.ligand:9712,drug,https://identifiers.org/iuphar.ligand:9712,COMPOUND 5E [PMID: 28580438],COMPOUND 5E [PMID: 28580438],NA,NA
+iuphar.ligand:4932,drug,https://identifiers.org/iuphar.ligand:4932,FMS-RELATED TYROSINE KINASE 3 LIGAND,FMS-RELATED TYROSINE KINASE 3 LIGAND,NA,NA
+drugbank:DB18120,drug,https://identifiers.org/drugbank:DB18120,EP-0042,EP-0042,NA,NA
+rxcui:2643048,drug,https://identifiers.org/rxcui:2643048,QUIZARTINIB,QUIZARTINIB,NA,NA
+iuphar.ligand:8214,drug,https://identifiers.org/iuphar.ligand:8214,COMPOUND 14K [PMID: 21982499],COMPOUND 14K [PMID: 21982499],NA,NA
+rxcui:2183102,drug,https://identifiers.org/rxcui:2183102,PEXIDARTINIB,PEXIDARTINIB,NA,NA
+iuphar.ligand:9366,drug,https://identifiers.org/iuphar.ligand:9366,MELK-TI,MELK-TI,NA,NA
+ncit:C76199,drug,https://identifiers.org/ncit:C76199,DOVITINIB,DOVITINIB,NA,NA
+iuphar.ligand:9921,drug,https://identifiers.org/iuphar.ligand:9921,TAFETINIB,TAFETINIB,NA,NA
+iuphar.ligand:13302,drug,https://identifiers.org/iuphar.ligand:13302,UNC8969,UNC8969,NA,NA
+ncit:C117734,drug,https://identifiers.org/ncit:C117734,SITRAVATINIB,SITRAVATINIB,NA,NA
+iuphar.ligand:5971,drug,https://identifiers.org/iuphar.ligand:5971,FLT-3 INHIBITOR II,FLT-3 INHIBITOR II,NA,NA
+rxcui:1202,drug,https://identifiers.org/rxcui:1202,ATENOLOL,ATENOLOL,NA,NA
+rxcui:2105806,drug,https://identifiers.org/rxcui:2105806,GILTERITINIB,GILTERITINIB,NA,NA
+ncit:C64639,drug,https://identifiers.org/ncit:C64639,CRENOLANIB,CRENOLANIB,NA,NA
+iuphar.ligand:7962,drug,https://identifiers.org/iuphar.ligand:7962,MK-2461,MK-2461,NA,NA
+iuphar.ligand:11565,drug,https://identifiers.org/iuphar.ligand:11565,COMPOUND 13AC [PMID: 33256400],COMPOUND 13AC [PMID: 33256400],NA,NA
+iuphar.ligand:12911,drug,https://identifiers.org/iuphar.ligand:12911,COMPOUND 34F [PMID: 37535845],COMPOUND 34F [PMID: 37535845],NA,NA
+iuphar.ligand:5689,drug,https://identifiers.org/iuphar.ligand:5689,JNJ-28312141,JNJ-28312141,NA,NA
+iuphar.ligand:8175,drug,https://identifiers.org/iuphar.ligand:8175,COMPOUND 8H [PMID: 22765894],COMPOUND 8H [PMID: 22765894],NA,NA
+rxcui:2595243,drug,https://identifiers.org/rxcui:2595243,PACRITINIB,PACRITINIB,NA,NA
 hgnc:11535,gene,NA,NA,NA,NA,NA
 hgnc:870,gene,NA,NA,NA,NA,NA
 iuphar.ligand:9583,drug,https://identifiers.org/iuphar.ligand:9583,PSORA-4,PSORA-4,NA,NA
@@ -1749,16 +2085,13 @@ chembl:CHEMBL3545401,drug,https://identifiers.org/chembl:CHEMBL3545401,X-82,X-82
 drugbank:DB05014,drug,https://identifiers.org/drugbank:DB05014,XL999,XL999,NA,NA
 rxcui:225852,drug,https://identifiers.org/rxcui:225852,LEUCOVORIN CALCIUM,LEUCOVORIN CALCIUM,NA,NA
 rxcui:805452,drug,https://identifiers.org/rxcui:805452,ROMIPLOSTIM,ROMIPLOSTIM,NA,NA
-iuphar.ligand:7962,drug,https://identifiers.org/iuphar.ligand:7962,MK-2461,MK-2461,NA,NA
 ncit:C138997,drug,https://identifiers.org/ncit:C138997,CATEQUENTINIB,CATEQUENTINIB,NA,NA
 iuphar.ligand:7881,drug,https://identifiers.org/iuphar.ligand:7881,CP-547632,CP-547632,NA,NA
-ncit:C64639,drug,https://identifiers.org/ncit:C64639,CRENOLANIB,CRENOLANIB,NA,NA
 chembl:CHEMBL403989,drug,https://identifiers.org/chembl:CHEMBL403989,TG100-801,TG100-801,NA,NA
 rxcui:153329,drug,https://identifiers.org/rxcui:153329,IRINOTECAN HYDROCHLORIDE,IRINOTECAN HYDROCHLORIDE,NA,NA
 drugbank:DB13093,drug,https://identifiers.org/drugbank:DB13093,TAK-593,TAK-593,NA,NA
 rxcui:1145944,drug,https://identifiers.org/rxcui:1145944,TOCERANIB PHOSPHATE,TOCERANIB PHOSPHATE,NA,NA
 chembl:CHEMBL5314391,drug,https://identifiers.org/chembl:CHEMBL5314391,XL-999,XL-999,NA,NA
-iuphar.ligand:5661,drug,https://identifiers.org/iuphar.ligand:5661,AST-487,AST-487,NA,NA
 ncit:C97512,drug,https://identifiers.org/ncit:C97512,FAMITINIB,FAMITINIB,NA,NA
 chembl:CHEMBL3545427,drug,https://identifiers.org/chembl:CHEMBL3545427,CM-082,CM-082,NA,NA
 rxcui:1603296,drug,https://identifiers.org/rxcui:1603296,LENVATINIB,LENVATINIB,NA,NA
@@ -1767,8 +2100,6 @@ chembl:CHEMBL546797,drug,https://identifiers.org/chembl:CHEMBL546797,CHEMBL:CHEM
 chembl:CHEMBL4596972,drug,https://identifiers.org/chembl:CHEMBL4596972,PUQUITINIB MESYLATE DIHYDRATE,PUQUITINIB MESYLATE DIHYDRATE,NA,NA
 ncit:C76770,drug,https://identifiers.org/ncit:C76770,DORAMAPIMOD,DORAMAPIMOD,NA,NA
 rxcui:1364347,drug,https://identifiers.org/rxcui:1364347,PONATINIB,PONATINIB,NA,NA
-rxcui:2643048,drug,https://identifiers.org/rxcui:2643048,QUIZARTINIB,QUIZARTINIB,NA,NA
-rxcui:1919083,drug,https://identifiers.org/rxcui:1919083,MIDOSTAURIN,MIDOSTAURIN,NA,NA
 ncit:C71750,drug,https://identifiers.org/ncit:C71750,AMUVATINIB,AMUVATINIB,NA,NA
 wikidata:Q29006632,drug,https://identifiers.org/wikidata:Q29006632,VARGATEF,VARGATEF,NA,NA
 ncit:C62435,drug,https://identifiers.org/ncit:C62435,DOVITINIB LACTATE,DOVITINIB LACTATE,NA,NA
@@ -1783,25 +2114,21 @@ ncit:C2411,drug,https://identifiers.org/ncit:C2411,CEP-2563 DIHYDROCHLORIDE,CEP-
 ncit:C1868,drug,https://identifiers.org/ncit:C1868,VATALANIB,VATALANIB,NA,NA
 rxcui:1592736,drug,https://identifiers.org/rxcui:1592736,NINTEDANIB ESYLATE,NINTEDANIB ESYLATE,NA,NA
 chembl:CHEMBL1201733,drug,https://identifiers.org/chembl:CHEMBL1201733,PAZOPANIB HYDROCHLORIDE,PAZOPANIB HYDROCHLORIDE,NA,NA
-ncit:C48404,drug,https://identifiers.org/ncit:C48404,TANDUTINIB,TANDUTINIB,NA,NA
-ncit:C71759,drug,https://identifiers.org/ncit:C71759,LINIFANIB,LINIFANIB,NA,NA
 rxcui:662281,drug,https://identifiers.org/rxcui:662281,NILOTINIB,NILOTINIB,NA,NA
 chembl:CHEMBL3545402,drug,https://identifiers.org/chembl:CHEMBL3545402,XL-820,XL-820,NA,NA
 ncit:C80630,drug,https://identifiers.org/ncit:C80630,SOTRASTAURIN,SOTRASTAURIN,NA,NA
-ncit:C76199,drug,https://identifiers.org/ncit:C76199,DOVITINIB,DOVITINIB,NA,NA
 ncit:C175203,drug,https://identifiers.org/ncit:C175203,SERALUTINIB,SERALUTINIB,NA,NA
 rxcui:10735,drug,https://identifiers.org/rxcui:10735,TRAPIDIL,TRAPIDIL,NA,NA
 chembl:CHEMBL2109544,drug,https://identifiers.org/chembl:CHEMBL2109544,CDP-860,CDP-860,NA,NA
 hgnc:3413,gene,NA,NA,NA,NA,NA
 hgnc:3098,gene,NA,NA,NA,NA,NA
+hgnc:19082,gene,NA,NA,NA,NA,NA
 hgnc:12407,gene,NA,NA,NA,NA,NA
-rxcui:56946,drug,https://identifiers.org/rxcui:56946,PACLITAXEL,PACLITAXEL,NA,NA
 ncit:C106119,drug,https://identifiers.org/ncit:C106119,SOFITUZUMAB VEDOTIN,SOFITUZUMAB VEDOTIN,NA,NA
 ncit:C95888,drug,https://identifiers.org/ncit:C95888,PLOCABULIN,PLOCABULIN,NA,NA
 chembl:CHEMBL1242194,drug,https://identifiers.org/chembl:CHEMBL1242194,CYCLOSTREPTIN,CYCLOSTREPTIN,NA,NA
 chembl:CHEMBL2036119,drug,https://identifiers.org/chembl:CHEMBL2036119,CHEMBL:CHEMBL2036119,CHEMBL:CHEMBL2036119,NA,NA
 chembl:CHEMBL2036124,drug,https://identifiers.org/chembl:CHEMBL2036124,CHEMBL:CHEMBL2036124,CHEMBL:CHEMBL2036124,NA,NA
-rxcui:2683,drug,https://identifiers.org/rxcui:2683,COLCHICINE,COLCHICINE,NA,NA
 ncit:C61564,drug,https://identifiers.org/ncit:C61564,VINFLUNINE,VINFLUNINE,NA,NA
 ncit:C121212,drug,https://identifiers.org/ncit:C121212,APRUTUMAB IXADOTIN,APRUTUMAB IXADOTIN,NA,NA
 chembl:CHEMBL2109574,drug,https://identifiers.org/chembl:CHEMBL2109574,ASG-5ME,ASG-5ME,NA,NA
@@ -1886,6 +2213,31 @@ iuphar.ligand:3979,drug,https://identifiers.org/iuphar.ligand:3979,[3H]CYTISINE,
 hgnc:2711,gene,NA,NA,NA,NA,NA
 ncit:C96286,drug,https://identifiers.org/ncit:C96286,ILOMASTAT,ILOMASTAT,NA,NA
 iuphar.ligand:8629,drug,https://identifiers.org/iuphar.ligand:8629,SL422,SL422,NA,NA
+hgnc:1394,gene,NA,NA,NA,NA,NA
+rxcui:1101333,drug,https://identifiers.org/rxcui:1101333,GABAPENTIN ENACARBIL,GABAPENTIN ENACARBIL,NA,NA
+rxcui:187832,drug,https://identifiers.org/rxcui:187832,PREGABALIN,PREGABALIN,NA,NA
+ncit:C190345,drug,https://identifiers.org/ncit:C190345,APINOCALTAMIDE,APINOCALTAMIDE,NA,NA
+rxcui:8196,drug,https://identifiers.org/rxcui:8196,PHLOROGLUCINOL,PHLOROGLUCINOL,NA,NA
+rxcui:235839,drug,https://identifiers.org/rxcui:235839,TERODILINE HYDROCHLORIDE,TERODILINE HYDROCHLORIDE,NA,NA
+rxcui:10827,drug,https://identifiers.org/rxcui:10827,TRIMETHADIONE,TRIMETHADIONE,NA,NA
+ncit:C152466,drug,https://identifiers.org/ncit:C152466,SULOCTIDIL,SULOCTIDIL,NA,NA
+rxcui:4459,drug,https://identifiers.org/rxcui:4459,FLUNARIZINE,FLUNARIZINE,NA,NA
+rxcui:7974,drug,https://identifiers.org/rxcui:7974,PENFLURIDOL,PENFLURIDOL,NA,NA
+rxcui:33309,drug,https://identifiers.org/rxcui:33309,PHENSUXIMIDE,PHENSUXIMIDE,NA,NA
+rxcui:32894,drug,https://identifiers.org/rxcui:32894,PARAMETHADIONE,PARAMETHADIONE,NA,NA
+rxcui:235752,drug,https://identifiers.org/rxcui:235752,BEPRIDIL HYDROCHLORIDE,BEPRIDIL HYDROCHLORIDE,NA,NA
+rxcui:47858,drug,https://identifiers.org/rxcui:47858,METHSUXIMIDE,METHSUXIMIDE,NA,NA
+drugbank:DB06669,drug,https://identifiers.org/drugbank:DB06669,ARVERAPAMIL,ARVERAPAMIL,NA,NA
+ncit:C169790,drug,https://identifiers.org/ncit:C169790,ATAGABALIN,ATAGABALIN,NA,NA
+ncit:C174710,drug,https://identifiers.org/ncit:C174710,SUVECALTAMIDE,SUVECALTAMIDE,NA,NA
+ncit:C83785,drug,https://identifiers.org/ncit:C83785,IMAGABALIN,IMAGABALIN,NA,NA
+iuphar.ligand:3297,drug,https://identifiers.org/iuphar.ligand:3297,[3H]NGD941,[3H]NGD941,NA,NA
+rxcui:25480,drug,https://identifiers.org/rxcui:25480,GABAPENTIN,GABAPENTIN,NA,NA
+hgnc:7714,gene,NA,NA,NA,NA,NA
+hgnc:5261,gene,NA,NA,NA,NA,NA
+rxcui:68147,drug,https://identifiers.org/rxcui:68147,CETRORELIX,CETRORELIX,NA,NA
+chembl:CHEMBL4297934,drug,https://identifiers.org/chembl:CHEMBL4297934,DIAPEP-277,DIAPEP-277,NA,NA
+rxcui:1297766,drug,https://identifiers.org/rxcui:1297766,ATORVASTATIN CALCIUM TRIHYDRATE,ATORVASTATIN CALCIUM TRIHYDRATE,NA,NA
 hgnc:3436,gene,NA,NA,NA,NA,NA
 iuphar.ligand:12909,drug,https://identifiers.org/iuphar.ligand:12909,IACS-52825,IACS-52825,NA,NA
 iuphar.ligand:9988,drug,https://identifiers.org/iuphar.ligand:9988,"COMPOUND 16D [TAO ET AL., 2009]","COMPOUND 16D [TAO ET AL., 2009]",NA,NA
@@ -1900,7 +2252,6 @@ hgnc:11571,gene,NA,NA,NA,NA,NA
 rxcui:19295,drug,https://identifiers.org/rxcui:19295,BIFONAZOLE,BIFONAZOLE,NA,NA
 chembl:CHEMBL74852,drug,https://identifiers.org/chembl:CHEMBL74852,CHEMBL:CHEMBL74852,CHEMBL:CHEMBL74852,NA,NA
 chembl:CHEMBL1545737,drug,https://identifiers.org/chembl:CHEMBL1545737,CHEMBL:CHEMBL1545737,CHEMBL:CHEMBL1545737,NA,NA
-rxcui:3143,drug,https://identifiers.org/rxcui:3143,PRASTERONE,PRASTERONE,NA,NA
 iuphar.ligand:733,drug,https://identifiers.org/iuphar.ligand:733,WIN55212-2,WIN55212-2,NA,NA
 chembl:CHEMBL1449007,drug,https://identifiers.org/chembl:CHEMBL1449007,2-(2'-METHOXYPHENYL)-1H-INDOLE,2-(2'-METHOXYPHENYL)-1H-INDOLE,NA,NA
 rxcui:142442,drug,https://identifiers.org/rxcui:142442,NAPROXEN SODIUM,NAPROXEN SODIUM,NA,NA
@@ -1980,6 +2331,10 @@ iuphar.ligand:6535,drug,https://identifiers.org/iuphar.ligand:6535,COMPOUND (R)-
 iuphar.ligand:10746,drug,https://identifiers.org/iuphar.ligand:10746,VBY-825,VBY-825,NA,NA
 hgnc:7419,gene,NA,NA,NA,NA,NA
 rxcui:6674,drug,https://identifiers.org/rxcui:6674,MECHLORETHAMINE,MECHLORETHAMINE,NA,NA
+hgnc:2678,gene,NA,NA,NA,NA,NA
+iuphar.ligand:6562,drug,https://identifiers.org/iuphar.ligand:6562,COMPOUND 22 [PMID: 19899765],COMPOUND 22 [PMID: 19899765],NA,NA
+iuphar.ligand:8617,drug,https://identifiers.org/iuphar.ligand:8617,PD159790,PD159790,NA,NA
+iuphar.ligand:6507,drug,https://identifiers.org/iuphar.ligand:6507,KC-12615,KC-12615,NA,NA
 hgnc:11782,gene,NA,NA,NA,NA,NA
 rxcui:10763,drug,https://identifiers.org/rxcui:10763,TRIAMTERENE,TRIAMTERENE,NA,NA
 rxcui:753340,drug,https://identifiers.org/rxcui:753340,SAPROPTERIN,SAPROPTERIN,NA,NA
@@ -1990,13 +2345,21 @@ rxcui:8156,drug,https://identifiers.org/rxcui:8156,PHENYLALANINE,PHENYLALANINE,N
 rxcui:10962,drug,https://identifiers.org/rxcui:10962,TYROSINE,TYROSINE,NA,NA
 ncit:C1657,drug,https://identifiers.org/ncit:C1657,OPIATE,OPIATE,NA,NA
 rxcui:218337,drug,https://identifiers.org/rxcui:218337,METHADONE HYDROCHLORIDE,METHADONE HYDROCHLORIDE,NA,NA
-rxcui:105694,drug,https://identifiers.org/rxcui:105694,EPOETIN ALFA,EPOETIN ALFA,NA,NA
 rxcui:4508,drug,https://identifiers.org/rxcui:4508,FLUTAMIDE,FLUTAMIDE,NA,NA
 ncit:C584,drug,https://identifiers.org/ncit:C584,RECOMBINANT INTERFERON,RECOMBINANT INTERFERON,NA,NA
 ncit:C481,drug,https://identifiers.org/ncit:C481,ANTIESTROGEN,ANTIESTROGEN,NA,NA
+hgnc:7708,gene,NA,NA,NA,NA,NA
+hgnc:888,gene,NA,NA,NA,NA,NA
+iuphar.ligand:11478,drug,https://identifiers.org/iuphar.ligand:11478,RY785,RY785,NA,NA
+drugbank:DB03095,drug,https://identifiers.org/drugbank:DB03095,TETRAMETHYLAMMONIUM,TETRAMETHYLAMMONIUM,NA,NA
+iuphar.ligand:7760,drug,https://identifiers.org/iuphar.ligand:7760,GXTX-1E,GXTX-1E,NA,NA
+iuphar.ligand:7759,drug,https://identifiers.org/iuphar.ligand:7759,RY796,RY796,NA,NA
+rxcui:9071,drug,https://identifiers.org/rxcui:9071,QUININE,QUININE,NA,NA
+hgnc:11179,gene,NA,NA,NA,NA,NA
+rxcui:10395,drug,https://identifiers.org/rxcui:10395,TETRACYCLINE,TETRACYCLINE,NA,NA
+rxcui:2634995,drug,https://identifiers.org/rxcui:2634995,TOFERSEN,TOFERSEN,NA,NA
 hgnc:2433,gene,NA,NA,NA,NA,NA
 ncit:C123831,drug,https://identifiers.org/ncit:C123831,CABIRALIZUMAB,CABIRALIZUMAB,NA,NA
-rxcui:2183102,drug,https://identifiers.org/rxcui:2183102,PEXIDARTINIB,PEXIDARTINIB,NA,NA
 ncit:C125548,drug,https://identifiers.org/ncit:C125548,EMACTUZUMAB,EMACTUZUMAB,NA,NA
 iuphar.ligand:9105,drug,https://identifiers.org/iuphar.ligand:9105,PLX5622,PLX5622,NA,NA
 chembl:CHEMBL2109323,drug,https://identifiers.org/chembl:CHEMBL2109323,IMC-CS4,IMC-CS4,NA,NA
@@ -2008,7 +2371,6 @@ iuphar.ligand:5685,drug,https://identifiers.org/iuphar.ligand:5685,GW-2580,GW-25
 rxcui:2183103,drug,https://identifiers.org/rxcui:2183103,PEXIDARTINIB HYDROCHLORIDE,PEXIDARTINIB HYDROCHLORIDE,NA,NA
 rxcui:2691526,drug,https://identifiers.org/rxcui:2691526,AXATILIMAB,AXATILIMAB,NA,NA
 drugbank:DB04014,drug,https://identifiers.org/drugbank:DB04014,ALSTERPAULLONE,ALSTERPAULLONE,NA,NA
-iuphar.ligand:7885,drug,https://identifiers.org/iuphar.ligand:7885,ENMD-2076,ENMD-2076,NA,NA
 chembl:CHEMBL2035185,drug,https://identifiers.org/chembl:CHEMBL2035185,CT-1578,CT-1578,NA,NA
 iuphar.ligand:9693,drug,https://identifiers.org/iuphar.ligand:9693,BAY 61-3606,BAY 61-3606,NA,NA
 ncit:C74072,drug,https://identifiers.org/ncit:C74072,DACTOLISIB,DACTOLISIB,NA,NA
@@ -2017,7 +2379,6 @@ chembl:CHEMBL2109512,drug,https://identifiers.org/chembl:CHEMBL2109512,MCS-110,M
 chembl:CHEMBL3545381,drug,https://identifiers.org/chembl:CHEMBL3545381,PLX-7486,PLX-7486,NA,NA
 chembl:CHEMBL365617,drug,https://identifiers.org/chembl:CHEMBL365617,CHEMBL:CHEMBL365617,CHEMBL:CHEMBL365617,NA,NA
 chembl:CHEMBL514499,drug,https://identifiers.org/chembl:CHEMBL514499,GW843682X,GW843682X,NA,NA
-ncit:C101519,drug,https://identifiers.org/ncit:C101519,EDICOTINIB,EDICOTINIB,NA,NA
 ncit:C776,drug,https://identifiers.org/ncit:C776,PROGESTIN,PROGESTIN,NA,NA
 drugbank:DB16838,drug,https://identifiers.org/drugbank:DB16838,BLZ-945,BLZ-945,NA,NA
 chembl:CHEMBL2109513,drug,https://identifiers.org/chembl:CHEMBL2109513,PD-360324,PD-360324,NA,NA

@@ -833,11 +833,8 @@ def run_monarch(input_number='104300'):
 
 def run_monarch_symptom(input_symptom, date, disease_folder):
     base_path = os.getcwd()
-<<<<<<< HEAD
+    
     folder_path = os.path.join(base_path) #'drugapp', 'data', disease_folder)
-=======
-    folder_path = os.path.join(base_path, )# 'drugapp', 'data', disease_folder)
->>>>>>> 6c7d80776fdcc54cd34da8d6e6f98affd13a59f9
     if not os.path.exists(folder_path):
         raise FileNotFoundError(f"Folder {folder_path} does not exist")
     os.chdir(folder_path)

@@ -166,24 +166,11 @@ def rdf_to_vec(nodes_file_str, drug_sim_str, rdf_graph, semantic_group='gene'):
     #    e for e in entities if isinstance(e, str) and e.strip() != "" and e.lower() not in {"nan", "none"}
     #]
 
-<<<<<<< HEAD
     #if len(entities) == 0:
     #    raise ValueError(f"No valid {semantic_group} URIs found in {nodes_file_str}")
 
     # Initialize the transformer
     transformer = RDF2VecTransformer(
-=======
-    with open(os.path.join(os.getcwd(), 'extracted_entities.csv'), 'w') as f:
-        for e in entities:
-            f.write(f"{e},\n")
-    
-    if len(entities) == 0:
-        raise ValueError(f"No valid {semantic_group} URIs found in {nodes_file_str}")
-
-    # Initialize the transformer
-    transformer = RDF2VecTransformer(
-        Word2Vec(),
->>>>>>> 6c7d80776fdcc54cd34da8d6e6f98affd13a59f9
         walkers=[RandomWalker(max_depth=4, max_walks=10, n_jobs=2, random_state=22)],
         verbose=1,
     )
@@ -197,7 +184,6 @@ def rdf_to_vec(nodes_file_str, drug_sim_str, rdf_graph, semantic_group='gene'):
             f.write(f"{e.name},\n")
     
     # 🔹 NEW STEP: filter out entities not in the RDF graph (isolated URIs)
-<<<<<<< HEAD
     valid_entities = list(set(entities))
     print(f"{len(valid_entities)} entities after filtering disconnected ones (from {len(entities)})")
 
@@ -225,36 +211,6 @@ def rdf_to_vec(nodes_file_str, drug_sim_str, rdf_graph, semantic_group='gene'):
     #    print(f"Retrying with {len(connected_entities)} connected entities out of {len(valid_entities)}.")
     #    embeddings, literals = transformer.fit_transform(kg, connected_entities)
     #    valid_entities = connected_entities
-=======
-    # valid_entities = entities
-    # print(f"{len(valid_entities)} entities after filtering disconnected ones (from {len(entities)})")
-
-    # if len(valid_entities) == 0:
-    #     raise ValueError(f"No valid {semantic_group} URIs remain after filtering disconnected ones.")
-
-    # 🔹 NEW: defensive retry to catch internal PyRDF2Vec indexing issues
-    # try:
-    valid_entities = list(set(entities))
-    print(f"[rdf2vec.py] [ref_to_vec] unique entities: {len(valid_entities)}")
-    embeddings, literals = transformer.fit_transform(kg, valid_entities)
-    # except IndexError as e:
-    #     print(e)
-    #     print("⚠️ PyRDF2Vec walk alignment issue detected; attempting recovery...")
-    #     # Second attempt: filter entities that have at least one triple in the RDF
-    #     from rdflib import Graph, URIRef
-    #     rdf_g = Graph()
-    #     rdf_g.parse(rdf_graph, format="turtle")
-
-    #     connected_entities = []
-    #     for e in valid_entities:
-    #         uri = URIRef(e)
-    #         if (uri, None, None) in rdf_g or (None, None, uri) in rdf_g:
-    #             connected_entities.append(e)
-
-    #     print(f"Retrying with {len(connected_entities)} connected entities out of {len(valid_entities)}.")
-    #     embeddings, literals = transformer.fit_transform(kg, connected_entities)
-    #     valid_entities = connected_entities
->>>>>>> 6c7d80776fdcc54cd34da8d6e6f98affd13a59f9
 
     #disconnected = len(valid_entities) - len(connected_entities)
     #print(f"Removed {disconnected} disconnected entities (no triples in RDF).")
@@ -288,12 +244,21 @@ def fuse_embeddings(gene_embedding_dict, drug_embedding_dict, drug_edges_file_st
 
     # Create a gene-drug interaction dataframe
     gene_drug_df_total = pd.DataFrame(columns=['gene', 'drug', 'fused_embedding', 'class'])
-    
+ 
+    print(f"DGIdb object IDs: {dgidb_edges_df['object_id'].unique()}")
+    print(f"Graph nodes IDs sample: {graph_nodes_df['id'].head().tolist()}")
+    print(f"Genes of interest: {genes_of_interest}")
+    print(f"DGIdb object IDs prefixes: {[id.split(':')[0] for id in dgidb_edges_df['object_id'].unique()]}")
+    dgidb_edges_df['object_id'] = dgidb_edges_df['object_id'].str.lower()
     array_drugs_len = len(array_drugs)
     for gene in array_genes:
         gene_emb = gene_embedding_dict[gene]
         gene_iri = gene
-        gene_id = graph_nodes_df.loc[graph_nodes_df['uri'] == gene_iri, 'id'].iloc[0]
+        #gene_id = graph_nodes_df.loc[graph_nodes_df['uri'] == gene_iri, 'id'].iloc[0]
+        #gene_id = graph_nodes_df.loc[graph_nodes_df['uri'] == gene_iri, 'id'].iloc[0].replace('HGNC:', 'hgnc:')
+        #gene_id = graph_nodes_df.loc[graph_nodes_df['uri'] == gene_iri, 'id'].iloc[0].replace('https://identifiers.org/', '').replace('HGNC:', 'hgnc:')
+        gene_id = graph_nodes_df.loc[graph_nodes_df['uri'] == gene_iri, 'id'].iloc[0].lower()
+        print(f"Gene ID from Monarch: {gene_id}")
         fused_emb = np.multiply(gene_emb, drugs_emb)  # Hadamard operation
         gene_drug_df = pd.DataFrame({'fused_embedding': fused_emb.tolist()})
         gene_drug_df.insert(loc=0, column='drug', value=array_drugs)
@@ -391,11 +356,11 @@ def ml_prediction(train_df, predict_df, date):
     X = pd.DataFrame.from_dict(dict(zip(emb_col.index, emb_col.values))).T
     X = X.astype(float)
     
-    # y is the labels, map to integers (0 for unknown, 1+ for known)
+    # y is the labels, map to integers (0 for unknown, 1+ for known), handle NaN
     y = train_df['class'].copy()
     class_mapping = {str(val): idx + 1 for idx, val in enumerate(train_df['class'].unique()) if str(val) != '0'}
     class_mapping['0'] = 0  # Unknown class is 0
-    y = y.map(class_mapping).astype(int)
+    y = y.map(class_mapping).fillna(0).astype(int)  # Fill NaN with 0 (unknown)
 
     unique_classes = np.unique(y)
     if len(unique_classes) == 1:
@@ -426,9 +391,9 @@ def ml_prediction(train_df, predict_df, date):
     # Find the best hyperparameters using repeated stratified k-fold and randomized search
     rskf = RepeatedStratifiedKFold(n_splits=10, n_repeats=5, random_state=123)
     randomized_search = RandomizedSearchCV(xgb_model_hyp, param_distributions=parameters,
-                                          scoring='f1_weighted', n_iter=20, n_jobs=-1,
-                                          error_score='raise', cv=rskf.split(X, y), verbose=3,
-                                          refit=True)
+                                            scoring='f1_weighted', n_iter=20, n_jobs=-1,
+                                            error_score='raise', cv=rskf.split(X, y), verbose=0,
+                                            refit=True)
     
     # Compute sample weights
     weight = class_weight.compute_sample_weight('balanced', y)
@@ -508,7 +473,7 @@ def drug_list_rank(symptom_user_input, disease_name, interaction_predictions_df,
     # create columns of tuples
     groupedby_sorted_unstacked[['gene', 'interaction', 'score']] = pd.DataFrame(groupedby_sorted_unstacked[0].tolist(), index=groupedby_sorted_unstacked.index)
     # drop tuple columns
-    groupedby_sorted_unstacked = groupedby_sorted_unstacked.drop(0, 1)
+    groupedby_sorted_unstacked = groupedby_sorted_unstacked.drop(0, axis=1)
 
     # create list of tuples for the multi-index
     groupedby_sorted_unstacked['druggene'] = list(zip(groupedby_sorted_unstacked.drug, groupedby_sorted_unstacked.gene))
@@ -564,14 +529,9 @@ def rdf2vec_general(symptom_user_input, date, disease_name_date):
     today = datetime.date.today()
 
     # Base path for this disease
-<<<<<<< HEAD
     #base_path = f'./drugapp/data/{disease_name_date}/monarch'
     base_path = os.path.join(os.getcwd(), 'monarch')
     
-=======
-    print(f'[rdf2vec.py] [rdf2vec_general] os.getcwd(): ${os.getcwd()}')
-    base_path = os.path.join(os.getcwd(), 'monarch')# f'./drugapp/data/{disease_name_date}/monarch'
->>>>>>> 6c7d80776fdcc54cd34da8d6e6f98affd13a59f9
     
     monarch_edges_dis_file = '{}/monarch_edges_disease_v{}.csv'.format(base_path, date) 
     monarch_edges_symp_file = '{}/monarch_edges_symptom_v{}.csv'.format(base_path, today)    
@@ -632,9 +592,13 @@ def rdf2vec_general(symptom_user_input, date, disease_name_date):
     # delete the files not needed anymore (everything except the original disease graph)
     # these extra files take up a lot of space
     os.chdir('./drugapp/data/{}'.format(disease_name_date)) # go into the disease folder
+    print(f"Current directory: {os.getcwd()}")
     os.remove('./monarch/monarch_edges_symptom_v{}.csv'.format(today))
     os.remove('./monarch/monarch_nodes_symptom_v{}.csv'.format(today))
-    os.remove('./monarch/monarch_orthopeno_network_symptom_v{}.csv'.format(today))
+    file_path = './monarch/monarch_orthopeno_network_symptom_v{}.csv'.format(today)
+    print(f"Attempting to remove: {file_path}, exists: {os.path.exists(file_path)}")
+    os.remove(file_path)
+    #os.remove('./monarch/monarch_orthopeno_network_symptom_v{}.csv'.format(today))
     os.remove('./DGIdb/DGIdb_edges_v{}.csv'.format(today))
     os.remove('./DGIdb/DGIdb_nodes_v{}.csv'.format(today))
     os.remove('./DGIdb/DGIdb_network_v{}.csv'.format(today))

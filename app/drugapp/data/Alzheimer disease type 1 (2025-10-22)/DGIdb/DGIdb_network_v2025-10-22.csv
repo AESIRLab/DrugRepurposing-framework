@@ -106,7 +106,84 @@ hgnc:3061,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxc
 hgnc:3061,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:12249,"COMPOUND 6LI [CHAN ET AL., 2022]",https://identifiers.org/iuphar.ligand:12249,drug,[],['GuideToPharmacology'],1.631368704965172
 hgnc:3061,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:11791,BIIB091,https://identifiers.org/iuphar.ligand:11791,drug,[],['GuideToPharmacology'],2.175158273286897
 hgnc:3061,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:59763,STAVUDINE,https://identifiers.org/rxcui:59763,drug,[15134538],['NCI'],1.003919203055491
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6345,COMPOUND 23C [PMID: 17929793],https://identifiers.org/iuphar.ligand:6345,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6362,COMPOUND 9N [PMID: 23084894],https://identifiers.org/iuphar.ligand:6362,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6338,COMPOUND 23H [PMID: 17929793],https://identifiers.org/iuphar.ligand:6338,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:1376,AIDA,https://identifiers.org/iuphar.ligand:1376,drug,[],['GuideToPharmacology'],0.5437895683217243
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6354,A-794278,https://identifiers.org/iuphar.ligand:6354,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:10009,VU0483605,https://identifiers.org/iuphar.ligand:10009,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6358,COMPOUND 22 [PMID: 17276684],https://identifiers.org/iuphar.ligand:6358,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6213,[18F]FITM,https://identifiers.org/iuphar.ligand:6213,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6357,COMPOUND 12E [PMID: 22266036],https://identifiers.org/iuphar.ligand:6357,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:1391,[3H]R214127,https://identifiers.org/iuphar.ligand:1391,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:1382,CPCCOET,https://identifiers.org/iuphar.ligand:1382,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:3953,A-841720,https://identifiers.org/iuphar.ligand:3953,drug,[],"['TTD', 'GuideToPharmacology']",2.175158273286897
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:1389,YM298198,https://identifiers.org/iuphar.ligand:1389,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6341,CFMTI,https://identifiers.org/iuphar.ligand:6341,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6212,[11C]MMTP,https://identifiers.org/iuphar.ligand:6212,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:3346,LY456236,https://identifiers.org/iuphar.ligand:3346,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:3347,LY456066,https://identifiers.org/iuphar.ligand:3347,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6363,FTIDC,https://identifiers.org/iuphar.ligand:6363,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6346,COMPOUND 23E [PMID: 17929793],https://identifiers.org/iuphar.ligand:6346,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,rxcui:25916,GLUTAMIC ACID,https://identifiers.org/rxcui:25916,drug,[],['GuideToPharmacology'],0.1087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:1886,CAFFEINE,https://identifiers.org/rxcui:1886,drug,[12814357],['NCI'],0.05878806144018641
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6337,VU0469650,https://identifiers.org/iuphar.ligand:6337,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6343,COMPOUND 11C [PMID: 17929793],https://identifiers.org/iuphar.ligand:6343,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6355,A-850002,https://identifiers.org/iuphar.ligand:6355,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6215,COMPOUND 11S [PMID: 19433355],https://identifiers.org/iuphar.ligand:6215,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:4678,GANCICLOVIR,https://identifiers.org/rxcui:4678,drug,"[9822771, 8979807, 8532171, 15212418, 14552898, 1362358, 12623213, 12421605, 11181420, 10530812]",['NCI'],1.495421312884741
+hgnc:4593,NA,NA,gene,RO:0002408,['antibody'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:9290,ELEZANUMAB,https://identifiers.org/iuphar.ligand:9290,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6210,COMPOUND 27 [PMID: 20346665],https://identifiers.org/iuphar.ligand:6210,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6209,COMPOUND 24 [PMID: 20346665],https://identifiers.org/iuphar.ligand:6209,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:1385,JNJ16259685,https://identifiers.org/iuphar.ligand:1385,drug,[],['GuideToPharmacology'],0.2718947841608621
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6214,COMPOUND 11Q [PMID: 19433355],https://identifiers.org/iuphar.ligand:6214,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C265,ANTIDEPRESSANT AGENT,https://identifiers.org/ncit:C265,drug,[10817534],['NCI'],0.04182996679397879
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6474,CIS-10 [PMID: 15771457],https://identifiers.org/iuphar.ligand:6474,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:1416,PHCCC,https://identifiers.org/iuphar.ligand:1416,drug,[],['GuideToPharmacology'],0.5437895683217243
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6211,A-794282,https://identifiers.org/iuphar.ligand:6211,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:32926,PAREGORIC,https://identifiers.org/rxcui:32926,drug,[12110611],['NCI'],0.04728604941928038
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6340,CFMMC,https://identifiers.org/iuphar.ligand:6340,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6335,MK-5435,https://identifiers.org/iuphar.ligand:6335,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6365,COMPOUND 10I [PMID: 23084894],https://identifiers.org/iuphar.ligand:6365,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:1374,(S)-4C3HPG,https://identifiers.org/iuphar.ligand:1374,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6356,COMPOUND 9A [PMID: 22266036],https://identifiers.org/iuphar.ligand:6356,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,chembl:CHEMBL16117,PHILANTHOTOXIN 343,https://identifiers.org/chembl:CHEMBL16117,drug,[20873775],['DTC'],0.725052757762299
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6334,[18F]MK-1312,https://identifiers.org/iuphar.ligand:6334,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:1378,LY341495,https://identifiers.org/iuphar.ligand:1378,drug,[],['GuideToPharmacology'],0.1553684480919212
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6342,COMPOUND 2F [PMID: 17532216],https://identifiers.org/iuphar.ligand:6342,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6348,COMPOUND 23I [PMID: 17929793],https://identifiers.org/iuphar.ligand:6348,drug,[],['GuideToPharmacology'],1.087579136643448
+hgnc:4593,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:5833,INOSITOL,https://identifiers.org/rxcui:5833,drug,[15140199],['NCI'],0.1450105515524598
+hgnc:4593,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:1379,LY367385,https://identifiers.org/iuphar.ligand:1379,drug,[],['GuideToPharmacology'],0.5437895683217243
+hgnc:8157,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C170052,IGMESINE,https://identifiers.org/ncit:C170052,drug,[],['TTD'],1.04407597117771
+hgnc:8157,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,rxcui:104973,PENTAZOCINE HYDROCHLORIDE,https://identifiers.org/rxcui:104973,drug,[],['ChEMBL'],2.088151942355421
+hgnc:8157,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,drugbank:DB05422,OPC-14523,https://identifiers.org/drugbank:DB05422,drug,[],"['TdgClinicalTrial', 'TTD']",1.04407597117771
+hgnc:8157,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:6683,[3H]PENTAZOCINE,https://identifiers.org/iuphar.ligand:6683,drug,[22853801],"['GuideToPharmacology', 'DTC']",6.264455827066264
+hgnc:8157,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,rxcui:283547,CARBETAPENTANE CITRATE,https://identifiers.org/rxcui:283547,drug,[],['ChEMBL'],0.3480253237259035
+hgnc:8157,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:82018,FENFLURAMINE HYDROCHLORIDE,https://identifiers.org/rxcui:82018,drug,[],['ChEMBL'],0.6960506474518071
+hgnc:8157,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:7243,NALTREXONE,https://identifiers.org/rxcui:7243,drug,[],['TdgClinicalTrial'],0.1228324671973777
+hgnc:8157,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:6680,BD-1047,https://identifiers.org/iuphar.ligand:6680,drug,[],['GuideToPharmacology'],2.088151942355421
+hgnc:8157,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:26420,HALOPERIDOL DECANOATE,https://identifiers.org/rxcui:26420,drug,[22055714],['DTC'],0.05495136690409003
+hgnc:8157,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:12125,BD-1063,https://identifiers.org/iuphar.ligand:12125,drug,[],['GuideToPharmacology'],2.088151942355421
+hgnc:8157,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,ncit:C171846,BLARCAMESINE,https://identifiers.org/ncit:C171846,drug,[],"['TdgClinicalTrial', 'TTD', 'GuideToPharmacology']",2.088151942355421
+hgnc:8157,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:6678,PRE-084,https://identifiers.org/iuphar.ligand:6678,drug,[],['GuideToPharmacology'],1.04407597117771
+hgnc:8157,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:11343,EST64454,https://identifiers.org/iuphar.ligand:11343,drug,[],['GuideToPharmacology'],2.088151942355421
+hgnc:8157,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C152218,RIMCAZOLE,https://identifiers.org/ncit:C152218,drug,[],['TdgClinicalTrial'],0.3480253237259035
+hgnc:8157,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:10431,E-52862,https://identifiers.org/iuphar.ligand:10431,drug,[],['GuideToPharmacology'],2.088151942355421
+hgnc:8157,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:6679,NE-100,https://identifiers.org/iuphar.ligand:6679,drug,[],['GuideToPharmacology'],2.088151942355421
+hgnc:8157,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:8001,PENTAZOCINE,https://identifiers.org/rxcui:8001,drug,[],['GuideToPharmacology'],0.2983074203364887
+hgnc:8157,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:6676,(RS)-PPCC,https://identifiers.org/iuphar.ligand:6676,drug,[],['GuideToPharmacology'],2.088151942355421
+hgnc:8157,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:6677,(+)-SKF 10.047,https://identifiers.org/iuphar.ligand:6677,drug,[],['GuideToPharmacology'],2.088151942355421
+hgnc:8157,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,rxcui:102490,DEXTROMETHORPHAN HYDROBROMIDE,https://identifiers.org/rxcui:102490,drug,[],['ChEMBL'],1.04407597117771
+hgnc:8157,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,rxcui:203196,PENTAZOCINE LACTATE,https://identifiers.org/rxcui:203196,drug,[],['ChEMBL'],2.088151942355421
+hgnc:8157,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:42355,FLUVOXAMINE,https://identifiers.org/rxcui:42355,drug,[],['GuideToPharmacology'],0.1606270724888786
+hgnc:8157,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:12777,EST73502,https://identifiers.org/iuphar.ligand:12777,drug,[],['GuideToPharmacology'],2.088151942355421
+hgnc:8157,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,rxcui:236146,DEXTROMETHORPHAN POLISTIREX,https://identifiers.org/rxcui:236146,drug,[],"['TTD', 'GuideToPharmacology', 'TEND', 'ChEMBL', 'TdgClinicalTrial']",0.6525474819860693
+hgnc:8157,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C83642,CUTAMESINE,https://identifiers.org/ncit:C83642,drug,[],['TTD'],2.088151942355421
 hgnc:9449,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,drugbank:DB07348,BREFELDIN A,https://identifiers.org/drugbank:DB07348,drug,[],['DTC'],7.457685508412219
+hgnc:1493,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:3248,DESLANOSIDE,https://identifiers.org/rxcui:3248,drug,[],['GuideToPharmacology'],1.305094963972138
+hgnc:1493,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:132871,ACETYLDIGITOXIN,https://identifiers.org/rxcui:132871,drug,[],['GuideToPharmacology'],1.450105515524598
+hgnc:1493,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:3407,DIGOXIN,https://identifiers.org/rxcui:3407,drug,[],['GuideToPharmacology'],0.3838514599918053
+hgnc:1493,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:3403,DIGITOXIN,https://identifiers.org/rxcui:3403,drug,[],['GuideToPharmacology'],0.6868920863011254
 hgnc:1361,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C70650,TOSEDOSTAT,https://identifiers.org/ncit:C70650,drug,[],['ChEMBL'],2.610189927944276
 hgnc:11049,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,chembl:CHEMBL4297407,ALTROPANE I-123,https://identifiers.org/chembl:CHEMBL4297407,drug,[],['TTD'],0.9491599737979187
 hgnc:11049,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:203204,BUPROPION HYDROCHLORIDE,https://identifiers.org/rxcui:203204,drug,[],"['TdgClinicalTrial', 'ChEMBL', 'TEND']",0.167498818905515
@@ -163,6 +240,15 @@ hgnc:11049,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO
 hgnc:11049,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:2653,COCAINE,https://identifiers.org/rxcui:2653,drug,[23340505],"['TTD', 'TdgClinicalTrial', 'TEND', 'PharmGKB']",0.3650615283838149
 hgnc:11049,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:262302,NOMIFENSINE MALEATE,https://identifiers.org/rxcui:262302,drug,[],['ChEMBL'],0.1898319947595837
 hgnc:11049,NA,NA,gene,RO:0011002,['other/unknown'],http://purl.obolibrary.org/obo/RO_0011002,rxcui:3287,DEXTROAMPHETAMINE SULFATE,https://identifiers.org/rxcui:3287,drug,"[12624535, 20091113]","['NCI', 'ChEMBL', 'TEND', 'PharmGKB', 'TdgClinicalTrial']",0.3496905166623911
+hgnc:6180,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:4344,XESTOSPONGIN C,https://identifiers.org/iuphar.ligand:4344,drug,[],['GuideToPharmacology'],5.800422062098392
+hgnc:6180,NA,NA,gene,RO:0002406,['activator'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:4124,ADENOPHOSTIN A,https://identifiers.org/iuphar.ligand:4124,drug,[],['GuideToPharmacology'],2.900211031049196
+hgnc:6180,NA,NA,gene,RO:0002406,['activator'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:707,CA2+,https://identifiers.org/iuphar.ligand:707,drug,[],['GuideToPharmacology'],0.1450105515524598
+hgnc:6180,NA,NA,gene,RO:0002406,['activator'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:4222,IP3,https://identifiers.org/iuphar.ligand:4222,drug,[],['GuideToPharmacology'],1.933474020699464
+hgnc:6180,NA,NA,gene,RO:0002406,['activator'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:4223,"INOSITOL 2,4,5-TRISPHOSPHATE",https://identifiers.org/iuphar.ligand:4223,drug,[],['GuideToPharmacology'],2.900211031049196
+hgnc:6180,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:2459,DECAVANADATE,https://identifiers.org/iuphar.ligand:2459,drug,[],['GuideToPharmacology'],1.160084412419678
+hgnc:6180,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:1886,CAFFEINE,https://identifiers.org/rxcui:1886,drug,[],['GuideToPharmacology'],0.1567681638404971
+hgnc:6180,NA,NA,gene,RO:0002406,['activator'],http://purl.obolibrary.org/obo/RO_0002406,rxcui:318,ADENOSINE TRIPHOSPHATE,https://identifiers.org/rxcui:318,drug,[],['GuideToPharmacology'],0.3412012977704937
+hgnc:6180,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:2387,PIP2,https://identifiers.org/iuphar.ligand:2387,drug,[],['GuideToPharmacology'],0.725052757762299
 hgnc:4177,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:20791,CHLORHEXIDINE GLUCONATE,https://identifiers.org/rxcui:20791,drug,[],['DTC'],0.07850195272012861
 hgnc:4177,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,chembl:CHEMBL579837,CHEMBL:CHEMBL579837,https://identifiers.org/chembl:CHEMBL579837,drug,[],['DTC'],0.2485895169470739
 hgnc:4177,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C65503,EBSELEN,https://identifiers.org/ncit:C65503,drug,[],['DTC'],0.04261534576235554
@@ -202,9 +288,79 @@ hgnc:2202,NA,NA,gene,RO:0002406,['activator'],http://purl.obolibrary.org/obo/RO_
 hgnc:2202,NA,NA,gene,RO:0002408,['cleavage'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:29998,OCRIPLASMIN,https://identifiers.org/rxcui:29998,drug,[],['ChEMBL'],0.3434460431505627
 hgnc:2202,NA,NA,gene,RO:0002408,['cleavage'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:898492,COLLAGENASE CLOSTRIDIUM HISTOLYTICUM,https://identifiers.org/rxcui:898492,drug,[],['ChEMBL'],0.4661053442757637
 hgnc:2202,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:5233,NKY80,https://identifiers.org/iuphar.ligand:5233,drug,[],['GuideToPharmacology'],6.525474819860691
+hgnc:11114,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:8229,IOX2,https://identifiers.org/iuphar.ligand:8229,drug,[],['GuideToPharmacology'],2.900211031049196
+hgnc:11114,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:7027,GSK-J1,https://identifiers.org/iuphar.ligand:7027,drug,[],['GuideToPharmacology'],1.740126618629517
+hgnc:11114,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:141704,EVEROLIMUS,https://identifiers.org/rxcui:141704,drug,[],['CIViC'],0.2559009733278702
+hgnc:11114,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:7026,PBIT,https://identifiers.org/iuphar.ligand:7026,drug,[],['GuideToPharmacology'],2.900211031049196
+hgnc:11114,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:357977,SUNITINIB,https://identifiers.org/rxcui:357977,drug,[],['CIViC'],0.1812631894405747
+hgnc:11114,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:8979,GSK-J4,https://identifiers.org/iuphar.ligand:8979,drug,[],['GuideToPharmacology'],2.175158273286897
 hgnc:4193,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,wikidata:Q7246687,PROSAVIN,https://identifiers.org/wikidata:Q7246687,drug,[],['TTD'],5.800422062098392
 hgnc:4193,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:1372539,GUANINE,https://identifiers.org/rxcui:1372539,drug,[],['TTD'],17.40126618629517
 hgnc:4193,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:13514,NEORAUFLAVANE,https://identifiers.org/iuphar.ligand:13514,drug,[],['GuideToPharmacology'],17.40126618629517
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:10391,TETRACAINE,https://identifiers.org/rxcui:10391,drug,[],['ChEMBL'],0.0741531229529624
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:33253,PHENACEMIDE,https://identifiers.org/rxcui:33253,drug,[],"['TdgClinicalTrial', 'ChEMBL', 'TEND']",0.2224593688588872
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:35623,RILUZOLE,https://identifiers.org/rxcui:35623,drug,[],['ChEMBL'],0.03546453706446028
+hgnc:10585,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:1922448,SAFINAMIDE,https://identifiers.org/rxcui:1922448,drug,[],['TdgClinicalTrial'],0.05437895683217243
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:71227,PHENYTOIN SODIUM,https://identifiers.org/rxcui:71227,drug,[],"['TdgClinicalTrial', 'TEND', 'ChEMBL']",0.05826316803447045
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:203185,MEPIVACAINE HYDROCHLORIDE,https://identifiers.org/rxcui:203185,drug,[],['ChEMBL'],0.05098027203016165
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:20859,CHLOROPROCAINE,https://identifiers.org/rxcui:20859,drug,[],['ChEMBL'],0.0627449501909682
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:1482501,ESLICARBAZEPINE ACETATE,https://identifiers.org/rxcui:1482501,drug,[],['ChEMBL'],0.0741531229529624
+hgnc:10585,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:4492,FLUOROURACIL,https://identifiers.org/rxcui:4492,drug,[23752739],['PharmGKB'],0.01406352331866528
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:142440,LIDOCAINE HYDROCHLORIDE,https://identifiers.org/rxcui:142440,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:4135,ETHOSUXIMIDE,https://identifiers.org/rxcui:4135,drug,"[28753467, 25155934, 23859570, 21747585]",['PharmGKB'],0.8156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:72236,FOSPHENYTOIN,https://identifiers.org/rxcui:72236,drug,[],['ChEMBL'],0.0627449501909682
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:203178,DISOPYRAMIDE PHOSPHATE,https://identifiers.org/rxcui:203178,drug,[],['ChEMBL'],0.0741531229529624
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:69036,RUFINAMIDE,https://identifiers.org/rxcui:69036,drug,[],['ChEMBL'],0.06797369604021554
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C65960,IRAMPANEL,https://identifiers.org/ncit:C65960,drug,[],['ChEMBL'],0.05826316803447046
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:38404,TOPIRAMATE,https://identifiers.org/rxcui:38404,drug,[],"['ChEMBL', 'TEND', 'TdgClinicalTrial']",0.05561484221472181
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:9069,QUINIDINE SULFATE,https://identifiers.org/rxcui:9069,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:227221,ETIDOCAINE HYDROCHLORIDE,https://identifiers.org/rxcui:227221,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C65911,INDECAINIDE HYDROCHLORIDE,https://identifiers.org/ncit:C65911,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:91188,DYCLONINE HYDROCHLORIDE,https://identifiers.org/rxcui:91188,drug,[],['ChEMBL'],0.05098027203016165
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:41875,QUINIDINE POLYGALACTURONATE,https://identifiers.org/rxcui:41875,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:39998,ZONISAMIDE,https://identifiers.org/rxcui:39998,drug,[],"['TEND', 'TdgClinicalTrial', 'ChEMBL']",0.09788212229791035
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:6387,LIDOCAINE,https://identifiers.org/rxcui:6387,drug,[],['ChEMBL'],0.04798143249897567
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:81985,COCAINE HYDROCHLORIDE,https://identifiers.org/rxcui:81985,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:7440,NITRAZEPAM,https://identifiers.org/rxcui:7440,drug,[],"['TEND', 'TdgClinicalTrial']",0.0776842240459606
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,chembl:CHEMBL2107771,RALFINAMIDE,https://identifiers.org/chembl:CHEMBL2107771,drug,[],['ChEMBL'],0.04078421762412932
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:1546032,HEXYLCAINE HYDROCHLORIDE,https://identifiers.org/rxcui:1546032,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:7716,ORPHENADRINE CITRATE,https://identifiers.org/rxcui:7716,drug,[],['ChEMBL'],0.0388421120229803
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:8686,PRILOCAINE,https://identifiers.org/rxcui:8686,drug,[],['ChEMBL'],0.0741531229529624
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:281189,ENCAINIDE HYDROCHLORIDE,https://identifiers.org/rxcui:281189,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:35220,QUINIDINE GLUCONATE,https://identifiers.org/rxcui:35220,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:21241,CLOBAZAM,https://identifiers.org/rxcui:21241,drug,"[28753467, 25155934, 23859570, 21747585]",['PharmGKB'],0.185382807382406
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C47761,TOCAINIDE HYDROCHLORIDE,https://identifiers.org/ncit:C47761,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:8691,PRIMIDONE,https://identifiers.org/rxcui:8691,drug,[],['ChEMBL'],0.02330526721378818
+hgnc:10585,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C264,ANTICONVULSANT AGENT,https://identifiers.org/ncit:C264,drug,[24342961],['PharmGKB'],0.1087579136643448
+hgnc:10585,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C78845,TETRODOTOXIN,https://identifiers.org/ncit:C78845,drug,[],['TdgClinicalTrial'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,chembl:CHEMBL1200443,MERETHOXYLLINE PROCAINE,https://identifiers.org/chembl:CHEMBL1200443,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:203135,PROPAFENONE HYDROCHLORIDE,https://identifiers.org/rxcui:203135,drug,[],['ChEMBL'],0.05826316803447046
+hgnc:10585,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:2265690,CENOBAMATE,https://identifiers.org/rxcui:2265690,drug,[],['ChEMBL'],0.02913158401723523
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:623400,LACOSAMIDE,https://identifiers.org/rxcui:623400,drug,[],['ChEMBL'],0.0627449501909682
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:736680,DRONEDARONE HYDROCHLORIDE,https://identifiers.org/rxcui:736680,drug,[],['ChEMBL'],0.05098027203016165
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:32624,OXCARBAZEPINE,https://identifiers.org/rxcui:32624,drug,[],['ChEMBL'],0.04531579736014369
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:2002,CARBAMAZEPINE,https://identifiers.org/rxcui:2002,drug,[],['ChEMBL'],0.01664661943842013
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C80997,NERISPIRDINE,https://identifiers.org/ncit:C80997,drug,[],['ChEMBL'],0.01631368704965172
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:203197,PHENAZOPYRIDINE HYDROCHLORIDE,https://identifiers.org/rxcui:203197,drug,[],['ChEMBL'],0.05098027203016165
+hgnc:10585,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:114477,LEVETIRACETAM,https://identifiers.org/rxcui:114477,drug,"[28753467, 25155934, 23859570, 21747585]",['PharmGKB'],0.5826316803447046
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C174804,EVENAMIDE,https://identifiers.org/ncit:C174804,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C66493,PROPOXYCAINE HYDROCHLORIDE,https://identifiers.org/ncit:C66493,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:1482502,ESLICARBAZEPINE,https://identifiers.org/rxcui:1482502,drug,[],['ChEMBL'],0.0741531229529624
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:28439,LAMOTRIGINE,https://identifiers.org/rxcui:28439,drug,"[28753467, 25155934, 23859570, 21747585, 21453355]","['ChEMBL', 'PharmGKB']",0.2595359303353683
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:227778,PROPARACAINE HYDROCHLORIDE,https://identifiers.org/rxcui:227778,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:155056,PROCAINAMIDE HYDROCHLORIDE,https://identifiers.org/rxcui:155056,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:236539,ROPIVACAINE HYDROCHLORIDE,https://identifiers.org/rxcui:236539,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:221126,MORICIZINE HYDROCHLORIDE,https://identifiers.org/rxcui:221126,drug,[],['ChEMBL'],0.06797369604021554
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:2117,ARTICAINE HYDROCHLORIDE,https://identifiers.org/rxcui:2117,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:106558,PROCAINE HYDROCHLORIDE,https://identifiers.org/rxcui:106558,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:202723,ORPHENADRINE HYDROCHLORIDE,https://identifiers.org/rxcui:202723,drug,[],['ChEMBL'],0.04293075539382034
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:4136,ETHOTOIN,https://identifiers.org/rxcui:4136,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:142138,MEXILETINE HYDROCHLORIDE,https://identifiers.org/rxcui:142138,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:6757,MEPHENYTOIN,https://identifiers.org/rxcui:6757,drug,[],['ChEMBL'],0.06797369604021554
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,chembl:CHEMBL3545209,NKTR-171,https://identifiers.org/chembl:CHEMBL3545209,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:22906,DICHLOROBENZYL ALCOHOL,https://identifiers.org/rxcui:22906,drug,[],['ChEMBL'],0.08156843524825864
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:235398,BENOXINATE HYDROCHLORIDE,https://identifiers.org/rxcui:235398,drug,[],['ChEMBL'],0.0741531229529624
+hgnc:10585,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:2557,PRILOCAINE HYDROCHLORIDE,https://identifiers.org/rxcui:2557,drug,[],['ChEMBL'],0.0741531229529624
 hgnc:7462,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:235743,METFORMIN HYDROCHLORIDE,https://identifiers.org/rxcui:235743,drug,[],['ChEMBL'],0.3107368961838425
 hgnc:7462,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,drugbank:DB13062,ME-344,https://identifiers.org/drugbank:DB13062,drug,[],['ChEMBL'],0.3412012977704936
 hgnc:7462,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,chembl:CHEMBL3545135,NV-128,https://identifiers.org/chembl:CHEMBL3545135,drug,[],['ChEMBL'],0.3480253237259035
@@ -215,6 +371,23 @@ hgnc:4982,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_
 hgnc:4982,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:12020,WNT-C59,https://identifiers.org/iuphar.ligand:12020,drug,[],['GuideToPharmacology'],8.700633093147589
 hgnc:4982,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:11166,GNF-6231,https://identifiers.org/iuphar.ligand:11166,drug,[],['GuideToPharmacology'],8.700633093147589
 hgnc:7421,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:140587,CELECOXIB,https://identifiers.org/rxcui:140587,drug,[18498150],['DTC'],1.558322345041359
+hgnc:3438,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:9964,NIK SMI1,https://identifiers.org/iuphar.ligand:9964,drug,[],['GuideToPharmacology'],1.186449967247398
+hgnc:3438,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:12186,AMG28,https://identifiers.org/iuphar.ligand:12186,drug,[],['GuideToPharmacology'],0.5273110965543993
+hgnc:3438,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:10947,NIK INHIBITOR 12F,https://identifiers.org/iuphar.ligand:10947,drug,[],['GuideToPharmacology'],0.6779714098556563
+hgnc:3438,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:4492,FLUOROURACIL,https://identifiers.org/rxcui:4492,drug,[],['CIViC'],0.04091206783611718
+hgnc:3438,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:8174,COMPOUND 31 [PMID: 23374866],https://identifiers.org/iuphar.ligand:8174,drug,[],['GuideToPharmacology'],4.745799868989594
+hgnc:3438,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:9965,"COMPOUND 3A [PIPIONNE ET AL, 2018]",https://identifiers.org/iuphar.ligand:9965,drug,[],['GuideToPharmacology'],4.745799868989594
+hgnc:3438,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:236146,DEXTROMETHORPHAN POLISTIREX,https://identifiers.org/rxcui:236146,drug,[9974119],['NCI'],0.5932249836236992
+hgnc:3438,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:2448,H2O2,https://identifiers.org/iuphar.ligand:2448,drug,[12606941],['NCI'],0.3650615283838149
+hgnc:3438,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:3008,CYCLOSPORINE,https://identifiers.org/rxcui:3008,drug,[9278484],['NCI'],0.1090988475629791
+hgnc:3438,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:11595,COMPOUND 18 [PMID: 34212719],https://identifiers.org/iuphar.ligand:11595,drug,[],['GuideToPharmacology'],4.745799868989594
+hgnc:3438,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:2555,CISPLATIN,https://identifiers.org/rxcui:2555,drug,[],['CGI'],0.03228435285026934
+hgnc:6783,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,chembl:CHEMBL3545317,REFANEZUMAB,https://identifiers.org/chembl:CHEMBL3545317,drug,[],['TTD'],17.40126618629517
+hgnc:6783,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C152172,REFANEZUMAB,https://identifiers.org/ncit:C152172,drug,[],['ChEMBL'],17.40126618629517
+hgnc:6783,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,chembl:CHEMBL2109573,GSK-249320,https://identifiers.org/chembl:CHEMBL2109573,drug,[],['ChEMBL'],17.40126618629517
+hgnc:7711,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,chembl:CHEMBL3545135,NV-128,https://identifiers.org/chembl:CHEMBL3545135,drug,[],['ChEMBL'],0.3480253237259035
+hgnc:7711,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:235743,METFORMIN HYDROCHLORIDE,https://identifiers.org/rxcui:235743,drug,[],['ChEMBL'],0.3107368961838425
+hgnc:7711,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,drugbank:DB13062,ME-344,https://identifiers.org/drugbank:DB13062,drug,[],['ChEMBL'],0.3412012977704936
 hgnc:7897,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,drugbank:DB04705,25-HYDROXYCHOLESTEROL,https://identifiers.org/drugbank:DB04705,drug,[23830695],['DTC'],0.7733896082797856
 hgnc:7897,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,chembl:CHEMBL502774,CHEMBL:CHEMBL502774,https://identifiers.org/chembl:CHEMBL502774,drug,[],['DTC'],0.0483368505174866
 hgnc:7897,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,chembl:CHEMBL1390650,CHEMBL:CHEMBL1390650,https://identifiers.org/chembl:CHEMBL1390650,drug,[],['DTC'],0.1288982680466309
@@ -379,6 +552,8 @@ hgnc:2295,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxc
 hgnc:2295,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C28952,TETRANDRINE,https://identifiers.org/ncit:C28952,drug,[10682587],['NCI'],1.288982680466309
 hgnc:9039,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:7418,NIFLUMIC ACID,https://identifiers.org/rxcui:7418,drug,[],['TEND'],2.007838406110982
 hgnc:9039,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:4179,ETOPOSIDE,https://identifiers.org/rxcui:4179,drug,[],['PharmGKB'],0.450032746197289
+hgnc:23166,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:203123,ENALAPRIL MALEATE,https://identifiers.org/rxcui:203123,drug,[32397904],['PharmGKB'],5.495136690409003
+hgnc:3670,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:8138,COMPOUND 2C [PMID: 24900538],https://identifiers.org/iuphar.ligand:8138,drug,[],['GuideToPharmacology'],5.220379855888553
 hgnc:7683,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,chembl:CHEMBL3545135,NV-128,https://identifiers.org/chembl:CHEMBL3545135,drug,[],['ChEMBL'],0.3480253237259035
 hgnc:7683,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:235743,METFORMIN HYDROCHLORIDE,https://identifiers.org/rxcui:235743,drug,[],['ChEMBL'],0.3107368961838425
 hgnc:7683,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,drugbank:DB13062,ME-344,https://identifiers.org/drugbank:DB13062,drug,[],['ChEMBL'],0.3412012977704936
@@ -847,6 +1022,8 @@ hgnc:8800,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxc
 hgnc:8800,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:1242999,AXITINIB,https://identifiers.org/rxcui:1242999,drug,[],['CancerCommons'],0.4971790338941478
 hgnc:8800,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C170304,PEGPLERANIB SODIUM,https://identifiers.org/ncit:C170304,drug,[],"['ChEMBL', 'TTD']",3.480253237259035
 hgnc:8800,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:115238,BECAPLERMIN,https://identifiers.org/rxcui:115238,drug,[],['TTD'],3.480253237259035
+hgnc:15832,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:1491625,METRELEPTIN,https://identifiers.org/rxcui:1491625,drug,[],['PharmGKB'],10.4407597117771
+hgnc:30074,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,drugbank:DB06656,TAS-106,https://identifiers.org/drugbank:DB06656,drug,[],['ChEMBL'],17.40126618629517
 hgnc:8022,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:103,MERCAPTOPURINE,https://identifiers.org/rxcui:103,drug,"[33124053, 15990089]","['CIViC', 'PharmGKB']",0.9280675299357427
 hgnc:8022,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:10485,THIOGUANINE,https://identifiers.org/rxcui:10485,drug,[],['CIViC'],0.3163866579326396
 hgnc:8022,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:120608,PEGINTERFERON ALFA-2A,https://identifiers.org/rxcui:120608,drug,[28453396],['PharmGKB'],0.7200523939156624
@@ -856,10 +1033,91 @@ hgnc:2548,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,nci
 hgnc:12799,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C1941,RECOMBINANT TUMOR NECROSIS FACTOR FAMILY PROTEIN,https://identifiers.org/ncit:C1941,drug,[11058590],['NCI'],2.320168824839357
 hgnc:12799,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:495881,SORAFENIB,https://identifiers.org/rxcui:495881,drug,[35484400],['PharmGKB'],0.3026307162833944
 hgnc:12799,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:12574,GEMCITABINE,https://identifiers.org/rxcui:12574,drug,[22142827],['PharmGKB'],0.378288395354243
+hgnc:20278,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:73178,ILOPERIDONE,https://identifiers.org/rxcui:73178,drug,[18521091],['PharmGKB'],4.971790338941479
+hgnc:469,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:11073,S‐Y048,https://identifiers.org/iuphar.ligand:11073,drug,[],['GuideToPharmacology'],4.745799868989594
+hgnc:469,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:3392,5-OXO-C20:3,https://identifiers.org/iuphar.ligand:3392,drug,[],['GuideToPharmacology'],4.745799868989594
+hgnc:469,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:2483,5S-HPETE,https://identifiers.org/iuphar.ligand:2483,drug,[],['GuideToPharmacology'],4.745799868989594
+hgnc:469,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:6173,GUE1654,https://identifiers.org/iuphar.ligand:6173,drug,[],['GuideToPharmacology'],4.745799868989594
+hgnc:469,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:6164,5-OXO-ODE,https://identifiers.org/iuphar.ligand:6164,drug,[],['GuideToPharmacology'],4.745799868989594
+hgnc:469,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:6169,5-OXO-20-HETE,https://identifiers.org/iuphar.ligand:6169,drug,[],['GuideToPharmacology'],4.745799868989594
+hgnc:469,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:3390,5S-HETE,https://identifiers.org/iuphar.ligand:3390,drug,[],['GuideToPharmacology'],2.372899934494797
+hgnc:469,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:6171,5-OXO-12-HETE,https://identifiers.org/iuphar.ligand:6171,drug,[],['GuideToPharmacology'],4.745799868989594
+hgnc:469,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:6174,5-(6-CHLORO-2-HEXYL-1H-INDOL-1-YL)-5-OXO-VALERIC ACID,https://identifiers.org/iuphar.ligand:6174,drug,[],['GuideToPharmacology'],4.745799868989594
+hgnc:469,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:3391,5-OXO-ETE,https://identifiers.org/iuphar.ligand:3391,drug,[],['GuideToPharmacology'],1.581933289663198
+hgnc:469,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:6167,5-OXO-15-HETE,https://identifiers.org/iuphar.ligand:6167,drug,[],['GuideToPharmacology'],4.745799868989594
+hgnc:2719,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:42954,VITAMIN B6,https://identifiers.org/rxcui:42954,drug,[],['TTD'],1.740126618629517
+hgnc:2719,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,wikidata:Q7246687,PROSAVIN,https://identifiers.org/wikidata:Q7246687,drug,[],['TTD'],3.480253237259035
+hgnc:2719,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:1374,BENSERAZIDE,https://identifiers.org/rxcui:1374,drug,[],"['ChEMBL', 'TTD']",2.983074203364888
+hgnc:2719,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:1545982,CARBIDOPA ANHYDROUS,https://identifiers.org/rxcui:1545982,drug,[],"['PharmGKB', 'ChEMBL', 'TTD', 'TEND', 'TdgClinicalTrial']",5.220379855888553
+hgnc:2719,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:35302,SIROLIMUS,https://identifiers.org/rxcui:35302,drug,[16126007],['NCI'],0.3600261969578312
+hgnc:245,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:5848,3-HYDROXY CAPRIC ACID,https://identifiers.org/iuphar.ligand:5848,drug,[],['GuideToPharmacology'],2.610189927944276
+hgnc:245,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:5850,3-HYDROXYLAURIC ACID,https://identifiers.org/iuphar.ligand:5850,drug,[],['GuideToPharmacology'],2.610189927944276
+hgnc:245,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:11213,DL-175,https://identifiers.org/iuphar.ligand:11213,drug,[],['GuideToPharmacology'],2.610189927944276
+hgnc:245,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:11212,"6-NONYLPYRIDINE-2,4-DIOL",https://identifiers.org/iuphar.ligand:11212,drug,[],['GuideToPharmacology'],2.610189927944276
+hgnc:245,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:11211,ZQ-16,https://identifiers.org/iuphar.ligand:11211,drug,[],['GuideToPharmacology'],2.610189927944276
+hgnc:245,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:13103,OX04529,https://identifiers.org/iuphar.ligand:13103,drug,[],['GuideToPharmacology'],2.610189927944276
+hgnc:245,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:5846,6-N-OCTYLAMINOURACIL,https://identifiers.org/iuphar.ligand:5846,drug,[],['GuideToPharmacology'],2.610189927944276
+hgnc:245,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:9871,PSB-17365,https://identifiers.org/iuphar.ligand:9871,drug,[],['GuideToPharmacology'],2.610189927944276
+hgnc:245,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,ncit:C152801,UNDECANOIC ACID,https://identifiers.org/ncit:C152801,drug,[],['GuideToPharmacology'],2.610189927944276
+hgnc:245,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:5847,2-HYDROXY CAPRIC ACID,https://identifiers.org/iuphar.ligand:5847,drug,[],['GuideToPharmacology'],2.610189927944276
+hgnc:245,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:10043,SETOGEPRAM,https://identifiers.org/iuphar.ligand:10043,drug,[],['GuideToPharmacology'],1.305094963972138
+hgnc:245,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:5534,LAURIC ACID,https://identifiers.org/iuphar.ligand:5534,drug,[],['GuideToPharmacology'],2.610189927944276
+hgnc:245,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:10717,PSB-1584,https://identifiers.org/iuphar.ligand:10717,drug,[],['GuideToPharmacology'],2.610189927944276
+hgnc:245,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:5849,2-HYDROXYLAURIC ACID,https://identifiers.org/iuphar.ligand:5849,drug,[],['GuideToPharmacology'],2.610189927944276
+hgnc:245,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:5532,DECANOIC ACID,https://identifiers.org/iuphar.ligand:5532,drug,[],['GuideToPharmacology'],2.610189927944276
+hgnc:245,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:11209,EMBELIN,https://identifiers.org/iuphar.ligand:11209,drug,[],['GuideToPharmacology'],0.1740126618629517
+hgnc:245,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:12819,PBI-4547,https://identifiers.org/iuphar.ligand:12819,drug,[],['GuideToPharmacology'],2.610189927944276
+hgnc:245,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:11208,DIM,https://identifiers.org/iuphar.ligand:11208,drug,[],['GuideToPharmacology'],2.610189927944276
+hgnc:245,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:11210,PSB-16434,https://identifiers.org/iuphar.ligand:11210,drug,[],['GuideToPharmacology'],2.610189927944276
+hgnc:245,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:10171,GLPG1205,https://identifiers.org/iuphar.ligand:10171,drug,[],['GuideToPharmacology'],2.610189927944276
+hgnc:4576,NA,NA,gene,RO:0002408,['antibody'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:9098,CAROTUXIMAB,https://identifiers.org/iuphar.ligand:9098,drug,[],['GuideToPharmacology'],26.10189927944276
+hgnc:4576,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:35636,RISPERIDONE,https://identifiers.org/rxcui:35636,drug,[26905411],['PharmGKB'],0.7791611725206796
 hgnc:17194,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C171889,FLURPIRIDAZ F-18,https://identifiers.org/ncit:C171889,drug,[],['TTD'],13.05094963972138
 hgnc:17194,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:235743,METFORMIN HYDROCHLORIDE,https://identifiers.org/rxcui:235743,drug,[],['ChEMBL'],0.2330526721378818
 hgnc:17194,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,chembl:CHEMBL3545135,NV-128,https://identifiers.org/chembl:CHEMBL3545135,drug,[],['ChEMBL'],0.2610189927944276
 hgnc:17194,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,drugbank:DB13062,ME-344,https://identifiers.org/drugbank:DB13062,drug,[],['ChEMBL'],0.2559009733278702
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C575,IMMUNOTOXIN,https://identifiers.org/ncit:C575,drug,[17267125],['NCI'],0.3107368961838424
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:9945,SORBITOL,https://identifiers.org/rxcui:9945,drug,[11968061],['NCI'],0.8286317231569132
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:6448,LITHIUM,https://identifiers.org/rxcui:6448,drug,[15056276],['NCI'],0.0591879802254938
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C29554,GP-120 ANTIGEN,https://identifiers.org/ncit:C29554,drug,[8381971],['NCI'],0.191222705343903
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C1967,TYROSINE KINASE INHIBITOR,https://identifiers.org/ncit:C1967,drug,"[11401334, 10629745]",['NCI'],0.1434170290079273
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:66925,PROCARBAZINE HYDROCHLORIDE,https://identifiers.org/rxcui:66925,drug,[8806841],['NCI'],1.242947584735369
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C79911,FADROZOLE,https://identifiers.org/ncit:C79911,drug,[15390121],['NCI'],0.3107368961838424
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C419,DEMECOLCINE,https://identifiers.org/ncit:C419,drug,[3886082],['NCI'],0.4143158615784566
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:25696,GENISTEIN,https://identifiers.org/rxcui:25696,drug,[10629745],['NCI'],0.04286026154259895
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:7417,NIFEDIPINE,https://identifiers.org/rxcui:7417,drug,"[7615340, 7600665, 10222112]",['NCI'],0.08878197033824071
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:1191,ASPIRIN,https://identifiers.org/rxcui:1191,drug,[17194886],['NCI'],0.02793140639854763
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:259319,PIOGLITAZONE HYDROCHLORIDE,https://identifiers.org/rxcui:259319,drug,[15649489],['NCI'],0.1462291276159258
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:6711,MELATONIN,https://identifiers.org/rxcui:6711,drug,[10877823],['NCI'],0.08572052308519791
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:1311380,INTERLEUKIN-11,https://identifiers.org/rxcui:1311380,drug,[10737606],['NCI'],0.2485895169470739
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:1151,ASCORBIC ACID,https://identifiers.org/rxcui:1151,drug,"[2072096, 16608072]",['NCI'],0.1434170290079273
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:1886,CAFFEINE,https://identifiers.org/rxcui:1886,drug,[15260132],['NCI'],0.06718635593164161
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:227239,MASOPROCOL,https://identifiers.org/rxcui:227239,drug,[10374337],['NCI'],0.05289138658448382
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:33199,PERMETHRIN,https://identifiers.org/rxcui:33199,drug,[14555407],['NCI'],0.4971790338941479
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:6054,ISOPROTERENOL,https://identifiers.org/rxcui:6054,drug,[8381971],['NCI'],0.0776842240459606
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:8727,PROGESTERONE,https://identifiers.org/rxcui:8727,drug,[9370212],['NCI'],0.04213381643170745
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:10402,DRONABINOL,https://identifiers.org/rxcui:10402,drug,[10965147],['NCI'],0.1462291276159258
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C2337,SODIUM BUTYRATE,https://identifiers.org/ncit:C2337,drug,[11270553],['NCI'],0.1775639406764814
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:6383,LUTEINIZING HORMONE,https://identifiers.org/rxcui:6383,drug,[12169773],['NCI'],2.485895169470739
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:1992,CAPSAICIN,https://identifiers.org/rxcui:1992,drug,[15076747],['NCI'],0.1462291276159258
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:3287,DEXTROAMPHETAMINE SULFATE,https://identifiers.org/rxcui:3287,drug,"[7569352, 15044042]",['NCI'],0.1962548818003215
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C783,PROTEASE INHIBITOR,https://identifiers.org/ncit:C783,drug,[9720974],['NCI'],0.1242947584735369
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:3143,PRASTERONE,https://identifiers.org/rxcui:3143,drug,[14973190],['NCI'],0.1381052871928188
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:2683,COLCHICINE,https://identifiers.org/rxcui:2683,drug,"[15307907, 10211779]",['NCI'],0.07170851450396365
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C2347,FREUND'S ADJUVANT,https://identifiers.org/ncit:C2347,drug,[3298318],['NCI'],0.2071579307892283
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:5499,HYDROGEN PEROXIDE,https://identifiers.org/rxcui:5499,drug,[11328753],['NCI'],0.1242947584735369
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:9642,TCDD,https://identifiers.org/iuphar.ligand:9642,drug,[11340647],['NCI'],0.09943580677882957
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:8013,PENTOXIFYLLINE,https://identifiers.org/rxcui:8013,drug,[12898537],['NCI'],0.07102557627059257
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C1291,ANTISENSE OLIGONUCLEOTIDES,https://identifiers.org/ncit:C1291,drug,"[8455207, 15755557, 15668227]",['NCI'],0.1506603133012569
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:2448,H2O2,https://identifiers.org/iuphar.ligand:2448,drug,[9402560],['NCI'],0.09561135267195153
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C645,METHYLNITROSOUREA,https://identifiers.org/ncit:C645,drug,[9825942],['NCI'],0.2762105743856377
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:82084,PROPRANOLOL HYDROCHLORIDE,https://identifiers.org/rxcui:82084,drug,[15328477],['NCI'],0.1035789653946141
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C1890,ADENOVIRUS VECTOR,https://identifiers.org/ncit:C1890,drug,[10718511],['NCI'],0.1775639406764814
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:7426,NIMODIPINE,https://identifiers.org/rxcui:7426,drug,[9192289],['NCI'],0.130836587866881
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C1426,RECOMBINANT HEREGULIN,https://identifiers.org/ncit:C1426,drug,"[8604045, 16788833]",['NCI'],0.5326918220294443
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:6835,METHIMAZOLE,https://identifiers.org/rxcui:6835,drug,[10375702],['NCI'],0.1183759604509876
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:3554,DISULFIRAM,https://identifiers.org/rxcui:3554,drug,[1992564],['NCI'],0.05781151556908696
+hgnc:4235,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C1237,STAUROSPORINE,https://identifiers.org/ncit:C1237,drug,[1720762],['NCI'],0.08878197033824071
 hgnc:12666,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,drugbank:DB16874,CB-5083,https://identifiers.org/drugbank:DB16874,drug,[26104798],['TTD'],34.80253237259035
 hgnc:12666,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:2643210,AMENTOFLAVONE,https://identifiers.org/rxcui:2643210,drug,[],['DTC'],2.175158273286897
 hgnc:12666,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:5293,HEXACHLOROPHENE,https://identifiers.org/rxcui:5293,drug,[],['DTC'],0.4244211264950043
@@ -927,6 +1185,8 @@ hgnc:4367,NA,NA,gene,RO:0002408,['antibody'],http://purl.obolibrary.org/obo/RO_0
 hgnc:4367,NA,NA,gene,RO:0002408,['antibody'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:11518,DOSTARLIMAB,https://identifiers.org/iuphar.ligand:11518,drug,[],['GuideToPharmacology'],3.070811679934443
 hgnc:4367,NA,NA,gene,RO:0002408,['antibody'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:1547545,PEMBROLIZUMAB,https://identifiers.org/rxcui:1547545,drug,[],['GuideToPharmacology'],0.09305489939195281
 hgnc:589,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:327361,ADALIMUMAB,https://identifiers.org/rxcui:327361,drug,[27096233],['PharmGKB'],3.163866579326396
+hgnc:16266,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:6809,METFORMIN,https://identifiers.org/rxcui:6809,drug,[],['PharmGKB'],1.273263379485012
+hgnc:12525,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:1191,ASPIRIN,https://identifiers.org/rxcui:1191,drug,[8014943],['NCI'],1.173119068739
 hgnc:9508,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C96305,AVAGACESTAT,https://identifiers.org/ncit:C96305,drug,[],"['ChEMBL', 'TdgClinicalTrial']",1.003919203055491
 hgnc:9508,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,drugbank:DB11870,RG-4733,https://identifiers.org/drugbank:DB11870,drug,[],['ChEMBL'],0.6692794687036606
 hgnc:9508,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C866,TETRADECANOYLPHORBOL ACETATE,https://identifiers.org/ncit:C866,drug,[10632899],['NCI'],0.1745946440096506
@@ -1018,6 +1278,7 @@ hgnc:61,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002
 hgnc:8983,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:2169285,ALPELISIB,https://identifiers.org/rxcui:2169285,drug,[],['TTD'],1.450105515524598
 hgnc:9476,NA,NA,gene,RO:0002408,['antibody'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:11759,GALEGENIMAB,https://identifiers.org/iuphar.ligand:11759,drug,[],['GuideToPharmacology'],26.10189927944276
 hgnc:9476,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:5499,HYDROGEN PEROXIDE,https://identifiers.org/rxcui:5499,drug,[10517331],['NCI'],2.610189927944276
+hgnc:8514,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:84857,ANASTROZOLE,https://identifiers.org/rxcui:84857,drug,[34048027],['PharmGKB'],8.031353624443929
 hgnc:7883,NA,NA,gene,RO:0011002,['other/unknown'],http://purl.obolibrary.org/obo/RO_0011002,ncit:C82367,ENOTICUMAB,https://identifiers.org/ncit:C82367,drug,[],['MyCancerGenome'],2.088151942355421
 hgnc:7883,NA,NA,gene,RO:0011002,['other/unknown'],http://purl.obolibrary.org/obo/RO_0011002,rxcui:2670631,NIROGACESTAT,https://identifiers.org/rxcui:2670631,drug,[],['MyCancerGenome'],0.745768550841222
 hgnc:7883,NA,NA,gene,RO:0011002,['other/unknown'],http://purl.obolibrary.org/obo/RO_0011002,ncit:C49175,NOTCH SIGNALING PATHWAY INHIBITOR MK0752,https://identifiers.org/ncit:C49175,drug,[],['MyCancerGenome'],1.04407597117771
@@ -1205,6 +1466,17 @@ hgnc:7981,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_00
 hgnc:7981,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:9860,VIDOFLUDIMUS,https://identifiers.org/iuphar.ligand:9860,drug,[],['GuideToPharmacology'],6.525474819860691
 hgnc:7981,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:12997,COMPOUND 111 [PMID: 37918435],https://identifiers.org/iuphar.ligand:12997,drug,[],['GuideToPharmacology'],4.350316546573794
 hgnc:7981,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:12998,COMPOUND 108 [PMID: 37918435],https://identifiers.org/iuphar.ligand:12998,drug,[],['GuideToPharmacology'],13.05094963972138
+hgnc:4283,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:4278,OCTANOL,https://identifiers.org/iuphar.ligand:4278,drug,[],['GuideToPharmacology'],0.6214737923676849
+hgnc:4283,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:4453,FLUFENAMIC ACID,https://identifiers.org/rxcui:4453,drug,[],['GuideToPharmacology'],0.3434460431505627
+hgnc:4283,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C63669,CARBENOXOLONE,https://identifiers.org/ncit:C63669,drug,[],['GuideToPharmacology'],0.5437895683217243
+hgnc:4283,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:707,CA2+,https://identifiers.org/iuphar.ligand:707,drug,[],['GuideToPharmacology'],0.3262737409930346
+hgnc:6222,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:2106338,AMIFAMPRIDINE,https://identifiers.org/rxcui:2106338,drug,[],['ChEMBL'],0.1775639406764813
+hgnc:6222,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C80997,NERISPIRDINE,https://identifiers.org/ncit:C80997,drug,[],['ChEMBL'],0.1491537101682443
+hgnc:6222,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C72585,TEDISAMIL,https://identifiers.org/ncit:C72585,drug,[],['ChEMBL'],0.1864421377103054
+hgnc:6222,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:11170,VERAPAMIL,https://identifiers.org/rxcui:11170,drug,[18604993],['NCI'],0.3314526892627653
+hgnc:6222,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:897018,DALFAMPRIDINE,https://identifiers.org/rxcui:897018,drug,[],['ChEMBL'],0.1553684480919212
+hgnc:6222,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:2106337,AMIFAMPRIDINE PHOSPHATE,https://identifiers.org/rxcui:2106337,drug,[],['ChEMBL'],0.181894768497859
+hgnc:6222,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:50676,GUANIDINE HYDROCHLORIDE,https://identifiers.org/rxcui:50676,drug,[],['ChEMBL'],0.181894768497859
 hgnc:2475,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,drugbank:DB04098,BALANOL,https://identifiers.org/drugbank:DB04098,drug,[],['GuideToPharmacology'],1.338558937407321
 hgnc:2475,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:3407,DIGOXIN,https://identifiers.org/rxcui:3407,drug,[17698593],['NCI'],1.023603893311481
 hgnc:2475,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:9344,RIBAVIRIN,https://identifiers.org/rxcui:9344,drug,[18637076],['NCI'],0.9158561150681672
@@ -1217,6 +1489,10 @@ hgnc:9352,NA,NA,gene,RO:0011002,['binder'],http://purl.obolibrary.org/obo/RO_001
 hgnc:9352,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,drugbank:DB17798,AVP-21D9,https://identifiers.org/drugbank:DB17798,drug,[],['ChEMBL'],8.700633093147589
 hgnc:9352,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,drugbank:DB05945,MDX-1303,https://identifiers.org/drugbank:DB05945,drug,[],['ChEMBL'],8.700633093147589
 hgnc:23595,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:194000,CAPECITABINE,https://identifiers.org/rxcui:194000,drug,[28715540],['PharmGKB'],2.047207786622961
+hgnc:1527,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:10379,TESTOSTERONE,https://identifiers.org/rxcui:10379,drug,[11389065],['NCI'],0.6692794687036606
+hgnc:1527,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C83692,EPERISONE,https://identifiers.org/ncit:C83692,drug,[],['TTD'],13.05094963972138
+hgnc:1527,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:10639,TOLPERISONE,https://identifiers.org/rxcui:10639,drug,[],['TTD'],4.350316546573794
+hgnc:1527,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:1310469,DEHYDRATED ALCOHOL,https://identifiers.org/rxcui:1310469,drug,[15845868],['NCI'],0.3304037883473767
 hgnc:7422,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:2557372,PEGCETACOPLAN,https://identifiers.org/rxcui:2557372,drug,[],['TTD'],13.05094963972138
 hgnc:7422,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:9219,AL-78898A,https://identifiers.org/iuphar.ligand:9219,drug,[19025129],['TTD'],26.10189927944276
 hgnc:3148,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:9524,SULFASALAZINE,https://identifiers.org/rxcui:9524,drug,[15269287],['NCI'],0.5437895683217243
@@ -1251,11 +1527,15 @@ hgnc:713,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,chem
 hgnc:713,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:3247,DESIPRAMINE,https://identifiers.org/rxcui:3247,drug,[],['DTC'],0.05577328905863838
 hgnc:713,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,drugbank:DB00466,PICROTOXIN,https://identifiers.org/drugbank:DB00466,drug,[],['GuideToPharmacology'],0.09457209883856076
 hgnc:713,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C1195,PICEATANNOL,https://identifiers.org/ncit:C1195,drug,[],['DTC'],0.1035789653946141
+hgnc:8820,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C571,ANTISERUM,https://identifiers.org/ncit:C571,drug,"[2918080, 2571622]",['NCI'],2.237305652523665
+hgnc:8820,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:32926,PAREGORIC,https://identifiers.org/rxcui:32926,drug,[705020],['NCI'],1.134865186062729
 hgnc:2482,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C152226,RIPASUDIL,https://identifiers.org/ncit:C152226,drug,[],['GuideToPharmacology'],2.610189927944276
 hgnc:2482,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:5196,GSK690693,https://identifiers.org/iuphar.ligand:5196,drug,[],['GuideToPharmacology'],0.8156843524825864
 hgnc:2482,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,drugbank:DB07995,H-89,https://identifiers.org/drugbank:DB07995,drug,[],['GuideToPharmacology'],4.350316546573794
 hgnc:2482,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:13089,APLITHIANINE A,https://identifiers.org/iuphar.ligand:13089,drug,[],['GuideToPharmacology'],2.610189927944276
 hgnc:4601,NA,NA,gene,RO:0002408,['antibody'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:9124,ANTI-ILT7 ANTIBODY,https://identifiers.org/iuphar.ligand:9124,drug,[],['GuideToPharmacology'],52.20379855888553
+hgnc:11237,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:10432,THALIDOMIDE,https://identifiers.org/rxcui:10432,drug,[20038957],['PharmGKB'],1.410913474564473
+hgnc:11237,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:1299922,DOCETAXEL ANHYDROUS,https://identifiers.org/rxcui:1299922,drug,[20038957],['PharmGKB'],0.6289614284203076
 hgnc:2976,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:5657,IFOSFAMIDE,https://identifiers.org/rxcui:5657,drug,[],"['TdgClinicalTrial', 'TEND']",0.1657263446313826
 hgnc:2976,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:2955,CURCUMIN,https://identifiers.org/rxcui:2955,drug,[19112019],"['DTC', 'TTD']",0.05273110965543993
 hgnc:2976,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,chembl:CHEMBL179512,DEMETHOXYCURCUMIN,https://identifiers.org/chembl:CHEMBL179512,drug,[19112019],['DTC'],0.3866948041398928
@@ -1310,7 +1590,9 @@ hgnc:869,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_000
 hgnc:869,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C548,THERAPEUTIC HORMONE,https://identifiers.org/ncit:C548,drug,[10567439],['NCI'],0.2636555482771996
 hgnc:869,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:1311280,PLATINUM,https://identifiers.org/rxcui:1311280,drug,"[15213293, 14676106]",['NCI'],0.8700633093147588
 hgnc:869,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:40048,CARBOPLATIN,https://identifiers.org/rxcui:40048,drug,[14676106],['NCI'],0.1348935363278696
-hgnc:6291,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:3226,DEQUALINIUM,https://identifiers.org/rxcui:3226,drug,[],['TTD'],3.262737409930345
+hgnc:17264,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,drugbank:DB06656,TAS-106,https://identifiers.org/drugbank:DB06656,drug,[],['ChEMBL'],17.40126618629517
+hgnc:6600,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:40048,CARBOPLATIN,https://identifiers.org/rxcui:40048,drug,[36988399],['PharmGKB'],0.6070209134754132
+hgnc:6600,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:56946,PACLITAXEL,https://identifiers.org/rxcui:56946,drug,[36988399],['PharmGKB'],0.4745799868989594
 hgnc:9179,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,chembl:CHEMBL457091,KASANOSIN B,https://identifiers.org/chembl:CHEMBL457091,drug,[18308572],['DTC'],34.80253237259035
 hgnc:9179,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,chembl:CHEMBL458178,KASANOSIN A,https://identifiers.org/chembl:CHEMBL458178,drug,[18308572],['DTC'],34.80253237259035
 hgnc:9179,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:11118,VALPROIC ACID,https://identifiers.org/rxcui:11118,drug,[],['FDA'],0.3052853716893891
@@ -1497,6 +1779,15 @@ hgnc:5033,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_
 hgnc:5033,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:12894,STC-15,https://identifiers.org/iuphar.ligand:12894,drug,[],['GuideToPharmacology'],10.4407597117771
 hgnc:5033,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:13110,WD6305,https://identifiers.org/iuphar.ligand:13110,drug,[],['GuideToPharmacology'],10.4407597117771
 hgnc:5033,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:13111,UZH2,https://identifiers.org/iuphar.ligand:13111,drug,[],['GuideToPharmacology'],10.4407597117771
+hgnc:1476,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:11643,CALPEPTIN,https://identifiers.org/iuphar.ligand:11643,drug,[],['GuideToPharmacology'],4.350316546573794
+hgnc:1476,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:358258,BORTEZOMIB,https://identifiers.org/rxcui:358258,drug,[20875739],['DTC'],0.3070811679934443
+hgnc:1476,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:11701,UAWJ9-36-3,https://identifiers.org/iuphar.ligand:11701,drug,[],['GuideToPharmacology'],4.350316546573794
+hgnc:1476,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:10883,GC-376,https://identifiers.org/iuphar.ligand:10883,drug,[],['GuideToPharmacology'],4.350316546573794
+hgnc:10258,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,drugbank:DB07080,TO-901317,https://identifiers.org/drugbank:DB07080,drug,[],['DTC'],0.8156843524825864
+hgnc:10258,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:75917,INTERFERON BETA-1A,https://identifiers.org/rxcui:75917,drug,[31649263],['PharmGKB'],1.740126618629517
+hgnc:10258,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:2556,CITALOPRAM,https://identifiers.org/rxcui:2556,drug,[19846067],['PharmGKB'],0.745768550841222
+hgnc:10258,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:6711,MELATONIN,https://identifiers.org/rxcui:6711,drug,"[8702678, 12595746]",['NCI'],1.350098238591867
+hgnc:3418,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C1120,HALOFUGINONE,https://identifiers.org/ncit:C1120,drug,[],"['TTD', 'TdgClinicalTrial']",17.40126618629517
 hgnc:7154,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,drugbank:DB15356,SLV-334,https://identifiers.org/drugbank:DB15356,drug,[],['TTD'],2.372899934494797
 hgnc:7154,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:16738,RACECADOTRIL,https://identifiers.org/rxcui:16738,drug,[],['ChEMBL'],4.745799868989594
 hgnc:7154,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:7896,PL37,https://identifiers.org/iuphar.ligand:7896,drug,[],"['TTD', 'TdgClinicalTrial']",4.745799868989594
@@ -1523,6 +1814,12 @@ hgnc:2652,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxc
 hgnc:2652,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C29711,ANTI-DIABETIC AGENT,https://identifiers.org/ncit:C29711,drug,[15207658],['NCI'],6.960506474518071
 hgnc:2652,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C79911,FADROZOLE,https://identifiers.org/ncit:C79911,drug,[14720586],['NCI'],0.8700633093147588
 hgnc:2652,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:9997,SPIRONOLACTONE,https://identifiers.org/rxcui:9997,drug,[976190],['NCI'],0.4350316546573794
+hgnc:977,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:707,CA2+,https://identifiers.org/iuphar.ligand:707,drug,[],['GuideToPharmacology'],0.2175158273286897
+hgnc:977,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:566,ZN2+,https://identifiers.org/iuphar.ligand:566,drug,[],['GuideToPharmacology'],0.3954833224157995
+hgnc:977,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:2346,H+,https://identifiers.org/iuphar.ligand:2346,drug,[],['GuideToPharmacology'],0.6692794687036607
+hgnc:977,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:4164,CU2+,https://identifiers.org/iuphar.ligand:4164,drug,[],['GuideToPharmacology'],1.740126618629517
+hgnc:977,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:10869,TROPICAMIDE,https://identifiers.org/rxcui:10869,drug,[],['GuideToPharmacology'],0.790966644831599
+hgnc:977,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:12563,TTFB,https://identifiers.org/iuphar.ligand:12563,drug,[],['GuideToPharmacology'],8.700633093147589
 hgnc:9870,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:2555,CISPLATIN,https://identifiers.org/rxcui:2555,drug,[27150640],['PharmGKB'],0.7102557627059256
 hgnc:11588,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:4179,ETOPOSIDE,https://identifiers.org/rxcui:4179,drug,[1646402],['NCI'],0.6000436615963853
 hgnc:11588,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C548,THERAPEUTIC HORMONE,https://identifiers.org/ncit:C548,drug,[7848271],['NCI'],0.790966644831599
@@ -1599,6 +1896,10 @@ hgnc:620,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit
 hgnc:620,NA,NA,gene,RO:0002408,['negative modulator'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:2687966,DONANEMAB,https://identifiers.org/rxcui:2687966,drug,[],['ChEMBL'],0.790966644831599
 hgnc:620,NA,NA,gene,RO:0011002,['binder'],http://purl.obolibrary.org/obo/RO_0011002,ncit:C97941,PONEZUMAB,https://identifiers.org/ncit:C97941,drug,[],"['TTD', 'TdgClinicalTrial', 'ChEMBL']",2.372899934494797
 hgnc:620,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,chembl:CHEMBL2108328,AMILOMOTIDE,https://identifiers.org/chembl:CHEMBL2108328,drug,[],['TTD'],0.790966644831599
+hgnc:756,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:897018,DALFAMPRIDINE,https://identifiers.org/rxcui:897018,drug,[],['GuideToPharmacology'],0.3625263788811495
+hgnc:756,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:2356,CS+,https://identifiers.org/iuphar.ligand:2356,drug,[],['GuideToPharmacology'],2.175158273286897
+hgnc:756,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:2344,BA2+,https://identifiers.org/iuphar.ligand:2344,drug,[],['GuideToPharmacology'],1.740126618629517
+hgnc:8756,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:68244,LAMIVUDINE,https://identifiers.org/rxcui:68244,drug,[],['PharmGKB'],2.175158273286897
 hgnc:10586,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:39998,ZONISAMIDE,https://identifiers.org/rxcui:39998,drug,[],['TdgClinicalTrial'],2.088151942355421
 hgnc:12405,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:2671939,EPLONTERSEN,https://identifiers.org/rxcui:2671939,drug,[],['PharmGKB'],4.350316546573794
 hgnc:12405,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:2099289,INOTERSEN,https://identifiers.org/rxcui:2099289,drug,[],"['TTD', 'PharmGKB', 'FDA', 'ChEMBL']",17.40126618629517
@@ -1612,6 +1913,7 @@ hgnc:12405,NA,NA,gene,RO:0002408,"['inhibitor', 'modulator']",http://purl.obolib
 hgnc:12405,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:227239,MASOPROCOL,https://identifiers.org/rxcui:227239,drug,[25314129],['DTC'],0.1851198530456934
 hgnc:12405,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:2604578,VUTRISIRAN,https://identifiers.org/rxcui:2604578,drug,[],['PharmGKB'],4.350316546573794
 hgnc:12405,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,ncit:C170791,ACORAMIDIS,https://identifiers.org/ncit:C170791,drug,[],['ChEMBL'],4.350316546573794
+hgnc:2073,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:1922436,CERLIPONASE ALFA,https://identifiers.org/rxcui:1922436,drug,[],"['PharmGKB', 'TTD', 'FDA']",156.6113956766566
 hgnc:6218,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:27340,DESFLURANE,https://identifiers.org/rxcui:27340,drug,[],"['TdgClinicalTrial', 'TEND']",0.2485895169470739
 hgnc:6218,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:36453,SEVOFLURANE,https://identifiers.org/rxcui:36453,drug,[],"['TEND', 'TdgClinicalTrial']",0.2015590677949248
 hgnc:6218,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:3920,ENFLURANE,https://identifiers.org/rxcui:3920,drug,[],"['TdgClinicalTrial', 'TEND']",0.2405705002713618
@@ -1694,6 +1996,12 @@ hgnc:3432,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,iup
 hgnc:3432,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:337525,ERLOTINIB,https://identifiers.org/rxcui:337525,drug,[],"['PharmGKB', 'DTC']",0.03214519615694922
 hgnc:3432,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C116729,ILORASERTIB,https://identifiers.org/ncit:C116729,drug,[],['DTC'],0.007759185279263604
 hgnc:3432,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C71717,ALISERTIB,https://identifiers.org/ncit:C71717,drug,[],['DTC'],0.01875136442488704
+hgnc:13818,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:1808,BUMETANIDE,https://identifiers.org/rxcui:1808,drug,[],"['TEND', 'TdgClinicalTrial']",5.800422062098392
+hgnc:3951,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:10967,POSTSTATIN,https://identifiers.org/iuphar.ligand:10967,drug,[],['GuideToPharmacology'],3.480253237259035
+hgnc:3951,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:8564,ARI-3531,https://identifiers.org/iuphar.ligand:8564,drug,[],['GuideToPharmacology'],10.4407597117771
+hgnc:3951,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:2555,CISPLATIN,https://identifiers.org/rxcui:2555,drug,[12928720],['NCI'],0.1420511525411851
+hgnc:3951,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:6565,S 17092,https://identifiers.org/iuphar.ligand:6565,drug,[],['GuideToPharmacology'],10.4407597117771
+hgnc:3951,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:105694,EPOETIN ALFA,https://identifiers.org/rxcui:105694,drug,[16269021],['NCI'],0.6141623359868886
 hgnc:9437,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C77178,BACILLUS CALMETTE-GUERIN ANTIGEN,https://identifiers.org/ncit:C77178,drug,[16301626],['NCI'],2.175158273286897
 hgnc:9437,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:4994,IL-3,https://identifiers.org/iuphar.ligand:4994,drug,[7519779],['NCI'],2.900211031049196
 hgnc:9437,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C809,RICIN,https://identifiers.org/ncit:C809,drug,[18599499],['NCI'],13.05094963972138
@@ -1945,6 +2253,75 @@ hgnc:10555,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ch
 hgnc:10555,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,chembl:CHEMBL17201,CHEMBL:CHEMBL17201,https://identifiers.org/chembl:CHEMBL17201,drug,[],['DTC'],0.03019305873851101
 hgnc:10555,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:155137,SERTRALINE HYDROCHLORIDE,https://identifiers.org/rxcui:155137,drug,[],['DTC'],0.01056757055847885
 hgnc:10555,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C550,HYCANTHONE,https://identifiers.org/ncit:C550,drug,[],['DTC'],0.01112375848260931
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:10597,BAY-985,https://identifiers.org/iuphar.ligand:10597,drug,[],['GuideToPharmacology'],0.1513153581416972
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:4907,DORSOMORPHIN,https://identifiers.org/iuphar.ligand:4907,drug,[],['GuideToPharmacology'],0.09457209883856076
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:7879,BMS-690514,https://identifiers.org/iuphar.ligand:7879,drug,[],['GuideToPharmacology'],0.1891441976771215
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C71759,LINIFANIB,https://identifiers.org/ncit:C71759,drug,[],['GuideToPharmacology'],0.009457209883856075
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:1535457,CERITINIB,https://identifiers.org/rxcui:1535457,drug,[],['GuideToPharmacology'],0.04450451710049918
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:1919083,MIDOSTAURIN,https://identifiers.org/rxcui:1919083,drug,[],['GuideToPharmacology'],0.02161647973452817
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C48404,TANDUTINIB,https://identifiers.org/ncit:C48404,drug,[],['GuideToPharmacology'],0.05404119933632043
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:9905,COMPOUND 8I [PMID: 22765894],https://identifiers.org/iuphar.ligand:9905,drug,[],['GuideToPharmacology'],0.06304806589237383
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C95729,MERESTINIB,https://identifiers.org/ncit:C95729,drug,[],['GuideToPharmacology'],0.0756576790708486
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C143162,ONVANSERTIB,https://identifiers.org/ncit:C143162,drug,[],['GuideToPharmacology'],0.1260961317847476
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:10574,"COMPOUND 1 [CRUZ-L&OACUTE;PEZ ET AL., 2019]",https://identifiers.org/iuphar.ligand:10574,drug,[],['GuideToPharmacology'],0.378288395354243
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:12089,RUSERONTINIB,https://identifiers.org/iuphar.ligand:12089,drug,[],['GuideToPharmacology'],0.756576790708486
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:13215,NUVISERTIB,https://identifiers.org/iuphar.ligand:13215,drug,[],['GuideToPharmacology'],0.1891441976771215
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,drugbank:DB15343,TUSPETINIB,https://identifiers.org/drugbank:DB15343,drug,[],['GuideToPharmacology'],0.756576790708486
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C101519,EDICOTINIB,https://identifiers.org/ncit:C101519,drug,[],['GuideToPharmacology'],0.1891441976771215
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:7885,ENMD-2076,https://identifiers.org/iuphar.ligand:7885,drug,[],['GuideToPharmacology'],0.02440570292608019
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C80867,CEDIRANIB,https://identifiers.org/ncit:C80867,drug,[],['GuideToPharmacology'],0.0135102998340801
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C169804,BELIZATINIB,https://identifiers.org/ncit:C169804,drug,[],['GuideToPharmacology'],0.0756576790708486
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:8138,COMPOUND 2C [PMID: 24900538],https://identifiers.org/iuphar.ligand:8138,drug,[],['GuideToPharmacology'],0.0756576790708486
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:7744,RGB-286638,https://identifiers.org/iuphar.ligand:7744,drug,[],['GuideToPharmacology'],0.03981983108992031
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,drugbank:DB15191,MAX-40279,https://identifiers.org/drugbank:DB15191,drug,[],['GuideToPharmacology'],0.1891441976771215
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:5973,G&OUML; 6976,https://identifiers.org/iuphar.ligand:5973,drug,[],['GuideToPharmacology'],0.1891441976771215
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:5661,AST-487,https://identifiers.org/iuphar.ligand:5661,drug,[],['GuideToPharmacology'],0.01845309245630453
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:12249,"COMPOUND 6LI [CHAN ET AL., 2022]",https://identifiers.org/iuphar.ligand:12249,drug,[],['GuideToPharmacology'],0.1891441976771215
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:8106,URMC-099,https://identifiers.org/iuphar.ligand:8106,drug,[],['GuideToPharmacology'],0.08406408785649844
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C48402,LESTAURTINIB,https://identifiers.org/ncit:C48402,drug,[],['GuideToPharmacology'],0.06304806589237383
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:5691,KW-2449,https://identifiers.org/iuphar.ligand:5691,drug,[],['GuideToPharmacology'],0.09457209883856076
+hgnc:3013,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:13116,LWY713,https://identifiers.org/iuphar.ligand:13116,drug,[],['GuideToPharmacology'],0.756576790708486
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:5970,FLT-3 INHIBITOR,https://identifiers.org/iuphar.ligand:5970,drug,[],['GuideToPharmacology'],0.378288395354243
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:9600,MIVAVOTINIB,https://identifiers.org/iuphar.ligand:9600,drug,[],['GuideToPharmacology'],0.1513153581416972
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:9095,ZOTIRACICLIB,https://identifiers.org/iuphar.ligand:9095,drug,[],['GuideToPharmacology'],0.06304806589237383
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:12932,COMPOUND 25AP [PMID: 37796543],https://identifiers.org/iuphar.ligand:12932,drug,[],['GuideToPharmacology'],0.08406408785649844
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:7969,AKN-028,https://identifiers.org/iuphar.ligand:7969,drug,[],['GuideToPharmacology'],0.378288395354243
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:5972,FLT-3 INHIBITOR III,https://identifiers.org/iuphar.ligand:5972,drug,[],['GuideToPharmacology'],0.756576790708486
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:10549,COMPOUND 18E [PMID: 31670517],https://identifiers.org/iuphar.ligand:10549,drug,[],['GuideToPharmacology'],0.1891441976771215
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:8784,SGI-1776,https://identifiers.org/iuphar.ligand:8784,drug,[],['GuideToPharmacology'],0.1513153581416972
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:8108,DENFIVONTINIB,https://identifiers.org/iuphar.ligand:8108,drug,[],['GuideToPharmacology'],0.378288395354243
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:8095,AC710,https://identifiers.org/iuphar.ligand:8095,drug,[],['GuideToPharmacology'],0.1513153581416972
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:11134,TTT-3002,https://identifiers.org/iuphar.ligand:11134,drug,[],['GuideToPharmacology'],0.378288395354243
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:5982,GTP-14564,https://identifiers.org/iuphar.ligand:5982,drug,[],['GuideToPharmacology'],0.1513153581416972
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:9937,COMPOUND 7D [PMID: 29672049],https://identifiers.org/iuphar.ligand:9937,drug,[],['GuideToPharmacology'],0.756576790708486
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:10131,UNC4203,https://identifiers.org/iuphar.ligand:10131,drug,[],['GuideToPharmacology'],0.1891441976771215
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:9712,COMPOUND 5E [PMID: 28580438],https://identifiers.org/iuphar.ligand:9712,drug,[],['GuideToPharmacology'],0.2521922635694953
+hgnc:3013,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:4932,FMS-RELATED TYROSINE KINASE 3 LIGAND,https://identifiers.org/iuphar.ligand:4932,drug,[],['GuideToPharmacology'],0.756576790708486
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,drugbank:DB18120,EP-0042,https://identifiers.org/drugbank:DB18120,drug,[],['GuideToPharmacology'],0.2521922635694953
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:2643048,QUIZARTINIB,https://identifiers.org/rxcui:2643048,drug,[],['GuideToPharmacology'],0.03981983108992031
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:8214,COMPOUND 14K [PMID: 21982499],https://identifiers.org/iuphar.ligand:8214,drug,[],['GuideToPharmacology'],0.1513153581416972
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:357977,SUNITINIB,https://identifiers.org/rxcui:357977,drug,[],['GuideToPharmacology'],0.01576201647309345
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:2183102,PEXIDARTINIB,https://identifiers.org/rxcui:2183102,drug,[],['GuideToPharmacology'],0.05404119933632043
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:9366,MELK-TI,https://identifiers.org/iuphar.ligand:9366,drug,[],['GuideToPharmacology'],0.1891441976771215
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C76199,DOVITINIB,https://identifiers.org/ncit:C76199,drug,[],['GuideToPharmacology'],0.007490859313945406
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:9921,TAFETINIB,https://identifiers.org/iuphar.ligand:9921,drug,[],['GuideToPharmacology'],0.1513153581416972
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:13302,UNC8969,https://identifiers.org/iuphar.ligand:13302,drug,[],['GuideToPharmacology'],0.1891441976771215
+hgnc:3013,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:42736,DEXRAZOXANE,https://identifiers.org/rxcui:42736,drug,[7902252],['NCI'],0.3026307162833944
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C117734,SITRAVATINIB,https://identifiers.org/ncit:C117734,drug,[],['GuideToPharmacology'],0.04728604941928038
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:5971,FLT-3 INHIBITOR II,https://identifiers.org/iuphar.ligand:5971,drug,[],['GuideToPharmacology'],0.378288395354243
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:495881,SORAFENIB,https://identifiers.org/rxcui:495881,drug,[],['GuideToPharmacology'],0.0065789286148564
+hgnc:3013,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:1202,ATENOLOL,https://identifiers.org/rxcui:1202,drug,[28217400],['PharmGKB'],0.04203204392824922
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:2105806,GILTERITINIB,https://identifiers.org/rxcui:2105806,drug,[],['GuideToPharmacology'],0.04203204392824922
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:9381,PF-562271,https://identifiers.org/iuphar.ligand:9381,drug,[],['GuideToPharmacology'],0.007005340654708204
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C64639,CRENOLANIB,https://identifiers.org/ncit:C64639,drug,[],['GuideToPharmacology'],0.05043845271389907
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:7962,MK-2461,https://identifiers.org/iuphar.ligand:7962,drug,[],['GuideToPharmacology'],0.03152403294618691
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C116729,ILORASERTIB,https://identifiers.org/ncit:C116729,drug,[],['GuideToPharmacology'],0.006522213713004189
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:11565,COMPOUND 13AC [PMID: 33256400],https://identifiers.org/iuphar.ligand:11565,drug,[],['GuideToPharmacology'],0.1513153581416972
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:12911,COMPOUND 34F [PMID: 37535845],https://identifiers.org/iuphar.ligand:12911,drug,[],['GuideToPharmacology'],0.756576790708486
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:5689,JNJ-28312141,https://identifiers.org/iuphar.ligand:5689,drug,[],['GuideToPharmacology'],0.1513153581416972
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:8175,COMPOUND 8H [PMID: 22765894],https://identifiers.org/iuphar.ligand:8175,drug,[],['GuideToPharmacology'],0.068779708246226
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:2595243,PACRITINIB,https://identifiers.org/rxcui:2595243,drug,[],['GuideToPharmacology'],0.09457209883856076
+hgnc:3013,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:10361,RG-1530,https://identifiers.org/iuphar.ligand:10361,drug,[],['GuideToPharmacology'],0.008048689262856235
 hgnc:11535,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:142433,DOXORUBICIN HYDROCHLORIDE,https://identifiers.org/rxcui:142433,drug,[10070062],['NCI'],0.7054567372822369
 hgnc:870,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:32592,OXALIPLATIN,https://identifiers.org/rxcui:32592,drug,[15213293],['NCI'],0.2289640287670418
 hgnc:870,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:214468,DAUNORUBICIN LIPOSOMAL,https://identifiers.org/rxcui:214468,drug,[],['PharmGKB'],0.04780567633597576
@@ -2045,6 +2422,8 @@ hgnc:3413,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxc
 hgnc:3413,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:221153,QUETIAPINE FUMARATE,https://identifiers.org/rxcui:221153,drug,[27092952],['PharmGKB'],0.4143158615784565
 hgnc:3413,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:26420,HALOPERIDOL DECANOATE,https://identifiers.org/rxcui:26420,drug,[27092952],['PharmGKB'],0.1962548818003215
 hgnc:3098,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:26420,HALOPERIDOL DECANOATE,https://identifiers.org/rxcui:26420,drug,[27023437],['PharmGKB'],1.37378417260225
+hgnc:19082,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:115698,ZIPRASIDONE,https://identifiers.org/rxcui:115698,drug,[22920393],['PharmGKB'],1.683993501899533
+hgnc:19082,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:6851,METHOTREXATE,https://identifiers.org/rxcui:6851,drug,[19176441],['PharmGKB'],0.4745799868989594
 hgnc:12407,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:56946,PACLITAXEL,https://identifiers.org/rxcui:56946,drug,"[23631389, 17887662, 22595423, 25369367, 24457094, 23725535, 24953821, 23313639, 25768699, 19758808, 23387901]","['DTC', 'ChEMBL']",0.07433180517694545
 hgnc:12407,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C106119,SOFITUZUMAB VEDOTIN,https://identifiers.org/ncit:C106119,drug,[],['ChEMBL'],0.03931008927626922
 hgnc:12407,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C95888,PLOCABULIN,https://identifiers.org/ncit:C95888,drug,[],['ChEMBL'],0.04193076189468717
@@ -2137,6 +2516,36 @@ hgnc:777,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_000
 hgnc:777,NA,NA,gene,RO:0002406,['agonist'],http://purl.obolibrary.org/obo/RO_0002406,iuphar.ligand:3979,[3H]CYTISINE,https://identifiers.org/iuphar.ligand:3979,drug,[],['GuideToPharmacology'],2.900211031049196
 hgnc:2711,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C96286,ILOMASTAT,https://identifiers.org/ncit:C96286,drug,[],['GuideToPharmacology'],1.04407597117771
 hgnc:2711,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:8629,SL422,https://identifiers.org/iuphar.ligand:8629,drug,[],['GuideToPharmacology'],4.350316546573794
+hgnc:1394,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,rxcui:1101333,GABAPENTIN ENACARBIL,https://identifiers.org/rxcui:1101333,drug,[],['ChEMBL'],0.08056141752914434
+hgnc:1394,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,rxcui:187832,PREGABALIN,https://identifiers.org/rxcui:187832,drug,[],['ChEMBL'],0.08365993358795759
+hgnc:1394,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C190345,APINOCALTAMIDE,https://identifiers.org/ncit:C190345,drug,[],['ChEMBL'],0.725052757762299
+hgnc:1394,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:8196,PHLOROGLUCINOL,https://identifiers.org/rxcui:8196,drug,[],['ChEMBL'],0.08365993358795759
+hgnc:1394,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:235839,TERODILINE HYDROCHLORIDE,https://identifiers.org/rxcui:235839,drug,[],['ChEMBL'],0.07016639591248056
+hgnc:1394,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:11170,VERAPAMIL,https://identifiers.org/rxcui:11170,drug,[],"['TEND', 'TTD']",0.0966737010349732
+hgnc:1394,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:10827,TRIMETHADIONE,https://identifiers.org/rxcui:10827,drug,[],"['TdgClinicalTrial', 'TEND', 'TTD', 'ChEMBL']",2.175158273286897
+hgnc:1394,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:4135,ETHOSUXIMIDE,https://identifiers.org/rxcui:4135,drug,[],"['TEND', 'TTD', 'TdgClinicalTrial', 'ChEMBL']",1.740126618629517
+hgnc:1394,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C152466,SULOCTIDIL,https://identifiers.org/ncit:C152466,drug,[],['ChEMBL'],0.08365993358795759
+hgnc:1394,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:4459,FLUNARIZINE,https://identifiers.org/rxcui:4459,drug,[],"['TdgClinicalTrial', 'TEND']",0.3954833224157995
+hgnc:1394,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:7974,PENFLURIDOL,https://identifiers.org/rxcui:7974,drug,[],['TTD'],0.725052757762299
+hgnc:1394,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:33309,PHENSUXIMIDE,https://identifiers.org/rxcui:33309,drug,[],['ChEMBL'],0.725052757762299
+hgnc:1394,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:32894,PARAMETHADIONE,https://identifiers.org/rxcui:32894,drug,[],"['TTD', 'ChEMBL']",1.450105515524598
+hgnc:1394,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:235752,BEPRIDIL HYDROCHLORIDE,https://identifiers.org/rxcui:235752,drug,[],['ChEMBL'],0.08365993358795759
+hgnc:1394,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:47858,METHSUXIMIDE,https://identifiers.org/rxcui:47858,drug,[],"['TTD', 'ChEMBL']",1.450105515524598
+hgnc:1394,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:83214,MIBEFRADIL DIHYDROCHLORIDE,https://identifiers.org/rxcui:83214,drug,[],['ChEMBL'],0.3107368961838425
+hgnc:1394,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,drugbank:DB06669,ARVERAPAMIL,https://identifiers.org/drugbank:DB06669,drug,[],['TdgClinicalTrial'],0.2175158273286897
+hgnc:1394,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,ncit:C169790,ATAGABALIN,https://identifiers.org/ncit:C169790,drug,[],['ChEMBL'],0.08365993358795759
+hgnc:1394,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,ncit:C174710,SUVECALTAMIDE,https://identifiers.org/ncit:C174710,drug,[],['ChEMBL'],0.4350316546573794
+hgnc:1394,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:39998,ZONISAMIDE,https://identifiers.org/rxcui:39998,drug,[],"['TEND', 'TdgClinicalTrial']",0.1740126618629517
+hgnc:1394,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,ncit:C83785,IMAGABALIN,https://identifiers.org/ncit:C83785,drug,[],['ChEMBL'],0.08365993358795759
+hgnc:1394,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:140587,CELECOXIB,https://identifiers.org/rxcui:140587,drug,[22336956],['PharmGKB'],0.06493009771005663
+hgnc:1394,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,iuphar.ligand:3297,[3H]NGD941,https://identifiers.org/iuphar.ligand:3297,drug,[],['TTD'],1.087579136643448
+hgnc:1394,NA,NA,gene,RO:0011002,['modulator'],http://purl.obolibrary.org/obo/RO_0011002,rxcui:25480,GABAPENTIN,https://identifiers.org/rxcui:25480,drug,[],['ChEMBL'],0.05437895683217243
+hgnc:7714,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,drugbank:DB13062,ME-344,https://identifiers.org/drugbank:DB13062,drug,[],['ChEMBL'],0.3412012977704936
+hgnc:7714,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:235743,METFORMIN HYDROCHLORIDE,https://identifiers.org/rxcui:235743,drug,[],['ChEMBL'],0.3107368961838425
+hgnc:7714,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,chembl:CHEMBL3545135,NV-128,https://identifiers.org/chembl:CHEMBL3545135,drug,[],['ChEMBL'],0.3480253237259035
+hgnc:5261,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:68147,CETRORELIX,https://identifiers.org/rxcui:68147,drug,[9805247],['NCI'],11.60084412419678
+hgnc:5261,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,chembl:CHEMBL4297934,DIAPEP-277,https://identifiers.org/chembl:CHEMBL4297934,drug,[],['TTD'],17.40126618629517
+hgnc:5261,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:1297766,ATORVASTATIN CALCIUM TRIHYDRATE,https://identifiers.org/rxcui:1297766,drug,[15678257],['NCI'],0.6327733158652792
 hgnc:3436,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:2555,CISPLATIN,https://identifiers.org/rxcui:2555,drug,[],['CGI'],0.04439098516912035
 hgnc:3436,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:12909,IACS-52825,https://identifiers.org/iuphar.ligand:12909,drug,[],['GuideToPharmacology'],6.525474819860691
 hgnc:3436,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:9988,"COMPOUND 16D [TAO ET AL., 2009]",https://identifiers.org/iuphar.ligand:9988,drug,[],['GuideToPharmacology'],6.525474819860691
@@ -2263,6 +2672,10 @@ hgnc:2531,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_
 hgnc:7419,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:6674,MECHLORETHAMINE,https://identifiers.org/rxcui:6674,drug,[15451306],['NCI'],3.163866579326396
 hgnc:7419,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:24395,ESTRADIOL VALERATE,https://identifiers.org/rxcui:24395,drug,[17223066],['NCI'],0.7404794121827736
 hgnc:7419,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:6375,LEVODOPA,https://identifiers.org/rxcui:6375,drug,[8987798],['NCI'],0.966737010349732
+hgnc:2678,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C73039,DAGLUTRIL,https://identifiers.org/ncit:C73039,drug,[],['GuideToPharmacology'],3.262737409930345
+hgnc:2678,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:6562,COMPOUND 22 [PMID: 19899765],https://identifiers.org/iuphar.ligand:6562,drug,[],['GuideToPharmacology'],13.05094963972138
+hgnc:2678,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:8617,PD159790,https://identifiers.org/iuphar.ligand:8617,drug,[],['GuideToPharmacology'],13.05094963972138
+hgnc:2678,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:6507,KC-12615,https://identifiers.org/iuphar.ligand:6507,drug,[],['GuideToPharmacology'],6.525474819860691
 hgnc:11782,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:10763,TRIAMTERENE,https://identifiers.org/rxcui:10763,drug,[6149469],['NCI'],0.2762105743856377
 hgnc:11782,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:753340,SAPROPTERIN,https://identifiers.org/rxcui:753340,drug,[],"['TEND', 'TdgClinicalTrial', 'TTD']",1.491537101682443
 hgnc:11782,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:14448,3-IODOBENZYLGUANIDINE,https://identifiers.org/rxcui:14448,drug,[7576974],['NCI'],2.485895169470739
@@ -2284,6 +2697,19 @@ hgnc:11782,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,nc
 hgnc:11782,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:266604,METYROSINE,https://identifiers.org/rxcui:266604,drug,[],"['ChEMBL', 'TTD', 'PharmGKB', 'TEND', 'TdgClinicalTrial']",0.9561135267195154
 hgnc:11782,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C481,ANTIESTROGEN,https://identifiers.org/ncit:C481,drug,[11223814],['NCI'],0.3314526892627653
 hgnc:11782,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:203188,METHYLPHENIDATE HYDROCHLORIDE,https://identifiers.org/rxcui:203188,drug,[26810137],['PharmGKB'],0.1080823986726408
+hgnc:7708,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,drugbank:DB13062,ME-344,https://identifiers.org/drugbank:DB13062,drug,[],['ChEMBL'],0.3412012977704936
+hgnc:7708,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,chembl:CHEMBL3545135,NV-128,https://identifiers.org/chembl:CHEMBL3545135,drug,[],['ChEMBL'],0.3480253237259035
+hgnc:7708,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:235743,METFORMIN HYDROCHLORIDE,https://identifiers.org/rxcui:235743,drug,[],['ChEMBL'],0.3107368961838425
+hgnc:888,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:11478,RY785,https://identifiers.org/iuphar.ligand:11478,drug,[],['GuideToPharmacology'],4.350316546573794
+hgnc:888,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,drugbank:DB03095,TETRAMETHYLAMMONIUM,https://identifiers.org/drugbank:DB03095,drug,[],['GuideToPharmacology'],0.483368505174866
+hgnc:888,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:7760,GXTX-1E,https://identifiers.org/iuphar.ligand:7760,drug,[],['GuideToPharmacology'],4.350316546573794
+hgnc:888,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,iuphar.ligand:7759,RY796,https://identifiers.org/iuphar.ligand:7759,drug,[],['GuideToPharmacology'],4.350316546573794
+hgnc:888,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:897018,DALFAMPRIDINE,https://identifiers.org/rxcui:897018,drug,[],['GuideToPharmacology'],0.1812631894405747
+hgnc:888,NA,NA,gene,RO:0002408,['blocker'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:9071,QUININE,https://identifiers.org/rxcui:9071,drug,[],['GuideToPharmacology'],0.6692794687036607
+hgnc:11179,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:10395,TETRACYCLINE,https://identifiers.org/rxcui:10395,drug,[],['DTC'],0.725052757762299
+hgnc:11179,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:1545992,DOXYCYCLINE ANHYDROUS,https://identifiers.org/rxcui:1545992,drug,[],['DTC'],0.5674325930313645
+hgnc:11179,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:2634995,TOFERSEN,https://identifiers.org/rxcui:2634995,drug,[],"['PharmGKB', 'TdgClinicalTrial']",26.10189927944276
+hgnc:11179,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,rxcui:1545999,OXYTETRACYCLINE ANHYDROUS,https://identifiers.org/rxcui:1545999,drug,[],['DTC'],0.6525474819860692
 hgnc:2433,NA,NA,gene,RO:0011002,NA,http://purl.obolibrary.org/obo/RO_0011002,ncit:C80867,CEDIRANIB,https://identifiers.org/ncit:C80867,drug,[],['DTC'],0.01726316089910235
 hgnc:2433,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,ncit:C123831,CABIRALIZUMAB,https://identifiers.org/ncit:C123831,drug,[],"['TTD', 'ChEMBL']",0.9667370103497319
 hgnc:2433,NA,NA,gene,RO:0002408,['inhibitor'],http://purl.obolibrary.org/obo/RO_0002408,rxcui:2183102,PEXIDARTINIB,https://identifiers.org/rxcui:2183102,drug,[],"['MyCancerGenome', 'ChEMBL', 'CIViC', 'CancerCommons']",0.2762105743856377
